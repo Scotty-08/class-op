@@ -1,0 +1,4479 @@
+{
+  "academic_period": "2026 Fall Semester (08/24/2026-12/18/2026)",
+  "source": "Iowa State Workday \u2014 Find or Register for ISU Course Sections",
+  "read_only": true,
+  "courses": {
+    "CPRE 1850": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "TR | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0001",
+        "seats": 58,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "A",
+        "format": "Laboratory",
+        "days_times": "W | 12:05 PM - 2:00 PM",
+        "building": "COOVER",
+        "room": "1318",
+        "seats": 6,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "B",
+        "format": "Laboratory",
+        "days_times": "R | 1:10 PM - 3:05 PM",
+        "building": "COOVER",
+        "room": "2048",
+        "seats": 8,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "C",
+        "format": "Laboratory",
+        "days_times": "W | 9:55 AM - 11:50 AM",
+        "building": "COOVER",
+        "room": "2048",
+        "seats": 2,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "D",
+        "format": "Laboratory",
+        "days_times": "W | 4:25 PM - 6:20 PM",
+        "building": "COOVER",
+        "room": "2048",
+        "seats": 9,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "F",
+        "format": "Laboratory",
+        "days_times": "F | 9:55 AM - 11:50 AM",
+        "building": "COOVER",
+        "room": "1318",
+        "seats": 5,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "G",
+        "format": "Laboratory",
+        "days_times": "F | 12:05 PM - 2:00 PM",
+        "building": "COOVER",
+        "room": "1318",
+        "seats": 6,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "H",
+        "format": "Laboratory",
+        "days_times": "T | 12:05 PM - 2:00 PM",
+        "building": "COOVER",
+        "room": "2048",
+        "seats": 8,
+        "instructor": "Thomas Earl Daniels",
+        "instructors": [
+          "Thomas Earl Daniels"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "MATH 1650": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "COOVER",
+        "room": "2245",
+        "seats": 9,
+        "instructor": "Colby Lamb",
+        "instructors": [
+          "Colby Lamb"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "Lecture",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "MACKAY",
+        "room": "0117",
+        "seats": 2,
+        "instructor": "Heather A Bolles",
+        "instructors": [
+          "Heather A Bolles"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Lecture",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "KILDEE",
+        "room": "0125",
+        "seats": 71,
+        "instructor": "Paul John Barloon",
+        "instructors": [
+          "Paul John Barloon"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Lecture",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0001",
+        "seats": 35,
+        "instructor": "Timothy McNicholl",
+        "instructors": [
+          "Timothy McNicholl"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "05",
+        "format": "Lecture",
+        "days_times": "MWF | 3:20 PM - 4:10 PM",
+        "building": "CARVER",
+        "room": "0001",
+        "seats": 70,
+        "instructor": "Timothy McNicholl",
+        "instructors": [
+          "Timothy McNicholl"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "06",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "HOOVER",
+        "room": "2055",
+        "seats": 31,
+        "instructor": "Steve Butler",
+        "instructors": [
+          "Steve Butler"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "07",
+        "format": "Lecture",
+        "days_times": "MTF | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0018",
+        "seats": 2,
+        "instructor": "Colby Lamb",
+        "instructors": [
+          "Colby Lamb"
+        ],
+        "reserved_seats": 17
+      },
+      {
+        "section": "08",
+        "format": "Lecture",
+        "days_times": "MWF | 1:10 PM - 2:00 PM",
+        "building": "MOL-BIO",
+        "room": "1414",
+        "seats": 60,
+        "instructor": "Heather A Bolles",
+        "instructors": [
+          "Heather A Bolles"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "A",
+        "format": "In-Person",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "CARVER",
+        "room": "0184",
+        "seats": 2,
+        "instructor": "Alice Chen",
+        "instructors": [
+          "Alice Chen"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AA",
+        "format": "In-Person",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0184",
+        "seats": 0,
+        "instructor": "Mitch Johnson",
+        "instructors": [
+          "Mitch Johnson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AB",
+        "format": "In-Person",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0196",
+        "seats": 0,
+        "instructor": "Alice Chen",
+        "instructors": [
+          "Alice Chen"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AC",
+        "format": "In-Person",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0282",
+        "seats": 0,
+        "instructor": "Kaysie Rose",
+        "instructors": [
+          "Kaysie Rose"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AD",
+        "format": "In-Person",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0190",
+        "seats": 0,
+        "instructor": "Joshua Hughes-Kuruganti",
+        "instructors": [
+          "Joshua Hughes-Kuruganti"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AE",
+        "format": "In-Person",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0196",
+        "seats": 2,
+        "instructor": "Alice Chen",
+        "instructors": [
+          "Alice Chen"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AF",
+        "format": "In-Person",
+        "days_times": "R | 4:25 PM - 5:15 PM",
+        "building": "CARVER",
+        "room": "0190",
+        "seats": 5,
+        "instructor": "Dylan H Owens",
+        "instructors": [
+          "Dylan H Owens"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AG",
+        "format": "In-Person",
+        "days_times": "R | 4:25 PM - 5:15 PM",
+        "building": "CARVER",
+        "room": "0128",
+        "seats": 11,
+        "instructor": "Earl Muecke",
+        "instructors": [
+          "Earl Muecke"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AH",
+        "format": "In-Person",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0184",
+        "seats": 0,
+        "instructor": "Joshua Hughes-Kuruganti",
+        "instructors": [
+          "Joshua Hughes-Kuruganti"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AJ",
+        "format": "In-Person",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0190",
+        "seats": 1,
+        "instructor": "Zainab Kolo Yusuf",
+        "instructors": [
+          "Zainab Kolo Yusuf"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AK",
+        "format": "In-Person",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0190",
+        "seats": 0,
+        "instructor": "Zainab Kolo Yusuf",
+        "instructors": [
+          "Zainab Kolo Yusuf"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AL",
+        "format": "In-Person",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0174",
+        "seats": 0,
+        "instructor": "Dylan H Owens",
+        "instructors": [
+          "Dylan H Owens"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AM",
+        "format": "In-Person",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "CARVER",
+        "room": "0190",
+        "seats": 0,
+        "instructor": "Dylan H Owens",
+        "instructors": [
+          "Dylan H Owens"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AN",
+        "format": "In-Person",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "CARVER",
+        "room": "0196",
+        "seats": 4,
+        "instructor": "Martin Fofana",
+        "instructors": [
+          "Martin Fofana"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AP",
+        "format": "In-Person",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "MACKAY",
+        "room": "0135",
+        "seats": 5,
+        "instructor": "Alecia Williams",
+        "instructors": [
+          "Alecia Williams"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AQ",
+        "format": "In-Person",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0196",
+        "seats": 1,
+        "instructor": "Clayton Reese Higgins",
+        "instructors": [
+          "Clayton Reese Higgins"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AR",
+        "format": "In-Person",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0174",
+        "seats": 1,
+        "instructor": "Clayton Reese Higgins",
+        "instructors": [
+          "Clayton Reese Higgins"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AS",
+        "format": "In-Person",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0282",
+        "seats": 6,
+        "instructor": "Martin Fofana",
+        "instructors": [
+          "Martin Fofana"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AT",
+        "format": "In-Person",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0196",
+        "seats": 0,
+        "instructor": "Kaysie Rose",
+        "instructors": [
+          "Kaysie Rose"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AU",
+        "format": "In-Person",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0132",
+        "seats": 2,
+        "instructor": "Martin Fofana",
+        "instructors": [
+          "Martin Fofana"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AV",
+        "format": "In-Person",
+        "days_times": "R | 7:45 AM - 8:35 AM",
+        "building": "CARVER",
+        "room": "0128",
+        "seats": 6,
+        "instructor": "Scott Whalen Blair",
+        "instructors": [
+          "Scott Whalen Blair"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AW",
+        "format": "In-Person",
+        "days_times": "R | 7:45 AM - 8:35 AM",
+        "building": "CARVER",
+        "room": "0298",
+        "seats": 8,
+        "instructor": "Mitch Johnson",
+        "instructors": [
+          "Mitch Johnson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AX",
+        "format": "In-Person",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0008",
+        "seats": 0,
+        "instructor": "Ashka Dalal",
+        "instructors": [
+          "Ashka Dalal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AY",
+        "format": "In-Person",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0128",
+        "seats": 0,
+        "instructor": "Jake Huber",
+        "instructors": [
+          "Jake Huber"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BA",
+        "format": "In-Person",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0282",
+        "seats": 6,
+        "instructor": "Ashka Dalal",
+        "instructors": [
+          "Ashka Dalal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BB",
+        "format": "In-Person",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0298",
+        "seats": 2,
+        "instructor": "Alecia Williams",
+        "instructors": [
+          "Alecia Williams"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BC",
+        "format": "Discussion",
+        "days_times": "W | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0018",
+        "seats": 7,
+        "instructor": "Colby Lamb",
+        "instructors": [
+          "Colby Lamb"
+        ],
+        "reserved_seats": 12
+      },
+      {
+        "section": "C",
+        "format": "In-Person",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0008",
+        "seats": 2,
+        "instructor": "Alecia Williams",
+        "instructors": [
+          "Alecia Williams"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "D",
+        "format": "In-Person",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0018",
+        "seats": 7,
+        "instructor": "Ashka Dalal",
+        "instructors": [
+          "Ashka Dalal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "E",
+        "format": "In-Person",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0184",
+        "seats": 6,
+        "instructor": "Jake Huber",
+        "instructors": [
+          "Jake Huber"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "F",
+        "format": "In-Person",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0160",
+        "seats": 13,
+        "instructor": "Scott Whalen Blair",
+        "instructors": [
+          "Scott Whalen Blair"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "G",
+        "format": "In-Person",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0098",
+        "seats": 7,
+        "instructor": "Earl Muecke",
+        "instructors": [
+          "Earl Muecke"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "H",
+        "format": "In-Person",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0282",
+        "seats": 2,
+        "instructor": "Kaysie Rose",
+        "instructors": [
+          "Kaysie Rose"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "K",
+        "format": "In-Person",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "HOWE",
+        "room": "1304",
+        "seats": 10,
+        "instructor": "Mitch Johnson",
+        "instructors": [
+          "Mitch Johnson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "L",
+        "format": "In-Person",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0124",
+        "seats": 7,
+        "instructor": "Earl Muecke",
+        "instructors": [
+          "Earl Muecke"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "M",
+        "format": "In-Person",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0098",
+        "seats": 12,
+        "instructor": "Zainab Kolo Yusuf",
+        "instructors": [
+          "Zainab Kolo Yusuf"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "N",
+        "format": "In-Person",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "CARVER",
+        "room": "0298",
+        "seats": 0,
+        "instructor": "Zainab Kolo Yusuf",
+        "instructors": [
+          "Zainab Kolo Yusuf"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "P",
+        "format": "In-Person",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "CARVER",
+        "room": "0184",
+        "seats": 11,
+        "instructor": "Clayton Reese Higgins",
+        "instructors": [
+          "Clayton Reese Higgins"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "Q",
+        "format": "In-Person",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0098",
+        "seats": 0,
+        "instructor": "Kaysie Rose",
+        "instructors": [
+          "Kaysie Rose"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "R",
+        "format": "In-Person",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0018",
+        "seats": 0,
+        "instructor": "Jake Huber",
+        "instructors": [
+          "Jake Huber"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "T",
+        "format": "In-Person",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0098",
+        "seats": 32,
+        "instructor": "Floris Irakoze",
+        "instructors": [
+          "Floris Irakoze"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "U",
+        "format": "In-Person",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0282",
+        "seats": 0,
+        "instructor": "Scott Whalen Blair",
+        "instructors": [
+          "Scott Whalen Blair"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "CHEM 1670": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 2,
+        "instructor": "Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "Lecture",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 1,
+        "instructor": "Caleb Thompson; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Lecture",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 1,
+        "instructor": "Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Lecture",
+        "days_times": "MWF | 3:20 PM - 4:10 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 23,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 49
+      },
+      {
+        "section": "AA",
+        "format": "Discussion",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Tuqa Hamed Ahmad Ibrahim",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Tuqa Hamed Ahmad Ibrahim"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AB",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": -1,
+        "instructor": "Gregory Miller; Shalith Chamantha; Tuqa Hamed Ahmad Ibrahim",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Tuqa Hamed Ahmad Ibrahim"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AC",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "2109",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zulkifle Ikram",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zulkifle Ikram"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AD",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Tuqa Hamed Ahmad Ibrahim",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Tuqa Hamed Ahmad Ibrahim"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AE",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Gregory Miller; Michael Murphy; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Michael Murphy",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AF",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 0,
+        "instructor": "Gregory Miller; Laura Parsons; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Laura Parsons",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AG",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Gregory Miller; Sarah Jagnow; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Sarah Jagnow",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AH",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "0611",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zachary John Metott",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zachary John Metott"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AJ",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zachary John Metott",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zachary John Metott"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AK",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "0611",
+        "seats": 0,
+        "instructor": "Gregory Miller; Sarah Jagnow; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Sarah Jagnow",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AL",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zachary John Metott",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zachary John Metott"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AM",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1810",
+        "seats": 0,
+        "instructor": "Eunhye Choi; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Eunhye Choi",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AN",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 0,
+        "instructor": "Gregory Miller; Matthew Hehr; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Matthew Hehr",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AP",
+        "format": "Discussion",
+        "days_times": "T | 4:25 PM - 5:15 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 1,
+        "instructor": "Gregory Miller; Matthew Hehr; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Matthew Hehr",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BA",
+        "format": "Discussion",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BB",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Luke Beutel; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Luke Beutel",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BC",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Hasina Akhter; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Hasina Akhter",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BD",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Mahmudul Islam Rain; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Mahmudul Islam Rain",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BE",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "2109",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Luke Beutel; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Luke Beutel",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BF",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Hasina Akhter; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Hasina Akhter",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BG",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Luke Beutel; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Luke Beutel",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BH",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Hasina Akhter; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Hasina Akhter",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BJ",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1810",
+        "seats": 1,
+        "instructor": "Caleb Thompson; Md. Tuhinur Rahman Joy; Muhammad Asjad Afzal",
+        "instructors": [
+          "Caleb Thompson",
+          "Md. Tuhinur Rahman Joy",
+          "Muhammad Asjad Afzal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BK",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Mahmudul Islam Rain; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Mahmudul Islam Rain",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BL",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "2109",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Mahmudul Islam Rain; Md. Tuhinur Rahman Joy",
+        "instructors": [
+          "Caleb Thompson",
+          "Mahmudul Islam Rain",
+          "Md. Tuhinur Rahman Joy"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BM",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Md. Tuhinur Rahman Joy; Muhammad Asjad Afzal",
+        "instructors": [
+          "Caleb Thompson",
+          "Md. Tuhinur Rahman Joy",
+          "Muhammad Asjad Afzal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BN",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Caleb Thompson; Md. Tuhinur Rahman Joy; Muhammad Asjad Afzal",
+        "instructors": [
+          "Caleb Thompson",
+          "Md. Tuhinur Rahman Joy",
+          "Muhammad Asjad Afzal"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "C",
+        "format": "Discussion",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 1,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zulkifle Ikram",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zulkifle Ikram"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CA",
+        "format": "Discussion",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 1,
+        "instructor": "Andrew Robert Lamkins; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Andrew Robert Lamkins",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 1
+      },
+      {
+        "section": "CB",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "PEARSON",
+        "room": "2125",
+        "seats": 1,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zhenhao Liu",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zhenhao Liu"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CC",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Zulkifle Ikram",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Zulkifle Ikram"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CD",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 0,
+        "instructor": "Gregory Miller; Michael Murphy; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Michael Murphy",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CE",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Andrew Robert Lamkins; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Andrew Robert Lamkins",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CF",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "LAGOMAR",
+        "room": "1104",
+        "seats": 0,
+        "instructor": "Gregory Miller; Matthew Hehr; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Matthew Hehr",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CG",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Andrew Robert Lamkins; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Andrew Robert Lamkins",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CH",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Tanmoy Chakraborty",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Tanmoy Chakraborty"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CJ",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "COOVER",
+        "room": "1012",
+        "seats": 0,
+        "instructor": "Eunhye Choi; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Eunhye Choi",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CK",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Gregory Miller; Sarah Jagnow; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Sarah Jagnow",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CL",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Eunhye Choi; Gregory Miller; Shalith Chamantha",
+        "instructors": [
+          "Eunhye Choi",
+          "Gregory Miller",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CM",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "PHYSICS",
+        "room": "0056",
+        "seats": 0,
+        "instructor": "Gregory Miller; Laura Parsons; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Laura Parsons",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CN",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 0,
+        "instructor": "Gregory Miller; Shalith Chamantha; Tanmoy Chakraborty",
+        "instructors": [
+          "Gregory Miller",
+          "Shalith Chamantha",
+          "Tanmoy Chakraborty"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CP",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Gregory Miller; Michael Murphy; Shalith Chamantha",
+        "instructors": [
+          "Gregory Miller",
+          "Michael Murphy",
+          "Shalith Chamantha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DB",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "2109",
+        "seats": 2,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Prince Yaw Foh; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Prince Yaw Foh",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DC",
+        "format": "Discussion",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 5,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Sam Lee Leonard; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Sam Lee Leonard",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DD",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "MOL-BIO",
+        "room": "1420",
+        "seats": 3,
+        "instructor": "Kirti Arora; Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Kirti Arora",
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DE",
+        "format": "Discussion",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "PHYSICS",
+        "room": "0043",
+        "seats": 14,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Rebekah Taepke; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Rebekah Taepke",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DF",
+        "format": "Discussion",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 8,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Prince Yaw Foh; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Prince Yaw Foh",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DH",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 4,
+        "instructor": "Grace Adler; Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Grace Adler",
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DJ",
+        "format": "Discussion",
+        "days_times": "T | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 1,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Prince Yaw Foh; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Prince Yaw Foh",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DK",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "0611",
+        "seats": 2,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Rebekah Taepke; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Rebekah Taepke",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DL",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 5,
+        "instructor": "Grace Adler; Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Grace Adler",
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DM",
+        "format": "Discussion",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "2205",
+        "seats": 9,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Sam Lee Leonard; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Sam Lee Leonard",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DN",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "0312",
+        "seats": 7,
+        "instructor": "Kirti Arora; Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Kirti Arora",
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DP",
+        "format": "Discussion",
+        "days_times": "T | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "0611",
+        "seats": 2,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DQ",
+        "format": "Discussion",
+        "days_times": "T | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 4,
+        "instructor": "Grace Adler; Larissa Leilane Medeiros da Cunha; Seth G Dalberg",
+        "instructors": [
+          "Grace Adler",
+          "Larissa Leilane Medeiros da Cunha",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "DR",
+        "format": "Discussion",
+        "days_times": "T | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "0611",
+        "seats": 3,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Sam Lee Leonard; Seth G Dalberg",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Sam Lee Leonard",
+          "Seth G Dalberg"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "CHEM 1670L": [
+      {
+        "section": "01",
+        "format": "Laboratory",
+        "days_times": "M | 8:50 AM - 11:40 AM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 1,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "Laboratory",
+        "days_times": "M | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Luke Beutel; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Luke Beutel",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Laboratory",
+        "days_times": "R | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 1,
+        "instructor": "Prince Yaw Foh; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Prince Yaw Foh",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Laboratory",
+        "days_times": "T | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sara Pistolesi; Zhenhao Liu",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi",
+          "Zhenhao Liu"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "05",
+        "format": "Laboratory",
+        "days_times": "T | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Andrew Robert Lamkins; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Andrew Robert Lamkins",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "06",
+        "format": "Laboratory",
+        "days_times": "T | 6:10 PM - 9:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 1,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sara Pistolesi; Tuqa Hamed Ahmad Ibrahim",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi",
+          "Tuqa Hamed Ahmad Ibrahim"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "07",
+        "format": "Laboratory",
+        "days_times": "W | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Hasina Akhter; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Hasina Akhter",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "08",
+        "format": "Laboratory",
+        "days_times": "M | 12:05 PM - 2:55 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Michael Murphy; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Michael Murphy",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "09",
+        "format": "Laboratory",
+        "days_times": "W | 8:50 AM - 11:40 AM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Mahmudul Islam Rain; Rashmika Divyanjalee Walgamage; Sara Pistolesi",
+        "instructors": [
+          "Mahmudul Islam Rain",
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "10",
+        "format": "Laboratory",
+        "days_times": "R | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sam Lee Leonard; Sara Pistolesi",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sam Lee Leonard",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "11",
+        "format": "Laboratory",
+        "days_times": "R | 6:10 PM - 9:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 3,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sarah Jagnow; Sara Pistolesi",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sarah Jagnow",
+          "Sara Pistolesi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "12",
+        "format": "Laboratory",
+        "days_times": "R | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "1306",
+        "seats": 0,
+        "instructor": "Rashmika Divyanjalee Walgamage; Sara Pistolesi; Zachary John Metott",
+        "instructors": [
+          "Rashmika Divyanjalee Walgamage",
+          "Sara Pistolesi",
+          "Zachary John Metott"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "CHEM 1770": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "MWF | 1:10 PM - 2:00 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 44,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "Lecture",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 15,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Lecture",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 71,
+        "instructor": "Larissa Leilane Medeiros da Cunha; Pranav Sharma",
+        "instructors": [
+          "Larissa Leilane Medeiros da Cunha",
+          "Pranav Sharma"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AA",
+        "format": "Discussion",
+        "days_times": "R | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 8,
+        "instructor": "Aishat Erinola Abubakar; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Aishat Erinola Abubakar",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AB",
+        "format": "Discussion",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 3,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Krishna Kolengattukara Suresh",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Krishna Kolengattukara Suresh"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AC",
+        "format": "Discussion",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 6,
+        "instructor": "Akila Manodya Sandaruwan Karapitiye Pathiranage; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Akila Manodya Sandaruwan Karapitiye Pathiranage",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AD",
+        "format": "Discussion",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 0,
+        "instructor": "Akila Manodya Sandaruwan Karapitiye Pathiranage; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Akila Manodya Sandaruwan Karapitiye Pathiranage",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AE",
+        "format": "Discussion",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 1,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Krishna Kolengattukara Suresh",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Krishna Kolengattukara Suresh"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AF",
+        "format": "Discussion",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "PHYSICS",
+        "room": "0056",
+        "seats": 5,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Lukman Muhammad Yunusa",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Lukman Muhammad Yunusa"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AG",
+        "format": "Discussion",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 1,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Ruoxi Zhang",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Ruoxi Zhang"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AH",
+        "format": "Discussion",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 10,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Rui Hu",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Rui Hu"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AJ",
+        "format": "Discussion",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 5,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Shahrukh Islam",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Shahrukh Islam"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AK",
+        "format": "Discussion",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 7,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Ruoyu Cui",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Ruoyu Cui"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AL",
+        "format": "Discussion",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 5,
+        "instructor": "Abu Rashed Md Shawon; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Abu Rashed Md Shawon",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AM",
+        "format": "Discussion",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 5,
+        "instructor": "Anggon Barua; Baboucarr Faal; Cristina Bonaccorsi",
+        "instructors": [
+          "Anggon Barua",
+          "Baboucarr Faal",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AN",
+        "format": "Discussion",
+        "days_times": "R | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 11,
+        "instructor": "Anggon Barua; Benjamin T Schelske; Cristina Bonaccorsi",
+        "instructors": [
+          "Anggon Barua",
+          "Benjamin T Schelske",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "AP",
+        "format": "Discussion",
+        "days_times": "R | 4:25 PM - 5:15 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 12,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BA",
+        "format": "Discussion",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1312",
+        "seats": 0,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Lukman Muhammad Yunusa",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Lukman Muhammad Yunusa"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BB",
+        "format": "Discussion",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 0,
+        "instructor": "Anggon Barua; Baboucarr Faal; Cristina Bonaccorsi",
+        "instructors": [
+          "Anggon Barua",
+          "Baboucarr Faal",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BC",
+        "format": "Discussion",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "2104",
+        "seats": 0,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Ruoxi Zhang",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Ruoxi Zhang"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BD",
+        "format": "Discussion",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Ruoyu Cui",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Ruoyu Cui"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BE",
+        "format": "Discussion",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 0,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Rui Hu",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Rui Hu"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BG",
+        "format": "Discussion",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "MOL-BIO",
+        "room": "1420",
+        "seats": 0,
+        "instructor": "Aishat Erinola Abubakar; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Aishat Erinola Abubakar",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BH",
+        "format": "Discussion",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 0,
+        "instructor": "Abu Rashed Md Shawon; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Abu Rashed Md Shawon",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BJ",
+        "format": "Discussion",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 1,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Muhammad Rubaiat Hasan",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Muhammad Rubaiat Hasan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BK",
+        "format": "Discussion",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 0,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Muhammad Rubaiat Hasan",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Muhammad Rubaiat Hasan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BL",
+        "format": "Discussion",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 2,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Shahrukh Islam",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Shahrukh Islam"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BM",
+        "format": "Discussion",
+        "days_times": "R | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 1,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BN",
+        "format": "Discussion",
+        "days_times": "R | 3:20 PM - 4:10 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 10,
+        "instructor": "Anggon Barua; Cristina Bonaccorsi; Jackson Joseph Hayes",
+        "instructors": [
+          "Anggon Barua",
+          "Cristina Bonaccorsi",
+          "Jackson Joseph Hayes"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "BR",
+        "format": "Discussion",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1813",
+        "seats": 1,
+        "instructor": "Abu Rashed Md Shawon; Anggon Barua; Cristina Bonaccorsi",
+        "instructors": [
+          "Abu Rashed Md Shawon",
+          "Anggon Barua",
+          "Cristina Bonaccorsi"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CA",
+        "format": "Discussion",
+        "days_times": "R | 7:45 AM - 8:35 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 3,
+        "instructor": "Jiam Hoang Vuong; Larissa Leilane Medeiros da Cunha; Pranav Sharma",
+        "instructors": [
+          "Jiam Hoang Vuong",
+          "Larissa Leilane Medeiros da Cunha",
+          "Pranav Sharma"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CB",
+        "format": "Discussion",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "GILMAN",
+        "room": "1114",
+        "seats": 12,
+        "instructor": "Anggon Barua; Larissa Leilane Medeiros da Cunha; Md Robiul Hasan",
+        "instructors": [
+          "Anggon Barua",
+          "Larissa Leilane Medeiros da Cunha",
+          "Md Robiul Hasan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CD",
+        "format": "Discussion",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 5,
+        "instructor": "Anggon Barua; Larissa Leilane Medeiros da Cunha; Md Robiul Hasan",
+        "instructors": [
+          "Anggon Barua",
+          "Larissa Leilane Medeiros da Cunha",
+          "Md Robiul Hasan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CE",
+        "format": "Discussion",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 7,
+        "instructor": "Anggon Barua; Filipa Monteiro; Larissa Leilane Medeiros da Cunha",
+        "instructors": [
+          "Anggon Barua",
+          "Filipa Monteiro",
+          "Larissa Leilane Medeiros da Cunha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CG",
+        "format": "Discussion",
+        "days_times": "R | 12:05 PM - 12:55 PM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 0,
+        "instructor": "Anggon Barua; Filipa Monteiro; Larissa Leilane Medeiros da Cunha",
+        "instructors": [
+          "Anggon Barua",
+          "Filipa Monteiro",
+          "Larissa Leilane Medeiros da Cunha"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CJ",
+        "format": "Discussion",
+        "days_times": "R | 4:25 PM - 5:15 PM",
+        "building": "GILMAN",
+        "room": "1805",
+        "seats": 4,
+        "instructor": "Anggon Barua; Larissa Leilane Medeiros da Cunha; Pranav Sharma",
+        "instructors": [
+          "Anggon Barua",
+          "Larissa Leilane Medeiros da Cunha",
+          "Pranav Sharma"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "CK",
+        "format": "Discussion",
+        "days_times": "R | 4:25 PM - 5:15 PM",
+        "building": "GILMAN",
+        "room": "1811",
+        "seats": 8,
+        "instructor": "Anggon Barua; Larissa Leilane Medeiros da Cunha; Yuhang Cai",
+        "instructors": [
+          "Anggon Barua",
+          "Larissa Leilane Medeiros da Cunha",
+          "Yuhang Cai"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "CHEM 1770L": [
+      {
+        "section": "02",
+        "format": "Laboratory",
+        "days_times": "M | 12:05 PM - 2:55 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 1,
+        "instructor": "Matthew Hehr; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Matthew Hehr",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Laboratory",
+        "days_times": "M | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 1,
+        "instructor": "Sara Pistolesi; Woolin Lee; Zulkifle Ikram",
+        "instructors": [
+          "Sara Pistolesi",
+          "Woolin Lee",
+          "Zulkifle Ikram"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Laboratory",
+        "days_times": "M | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Rebekah Taepke; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Rebekah Taepke",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "05",
+        "format": "Laboratory",
+        "days_times": "M | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 2,
+        "instructor": "Akila Manodya Sandaruwan Karapitiye Pathiranage; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Akila Manodya Sandaruwan Karapitiye Pathiranage",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "06",
+        "format": "Laboratory",
+        "days_times": "M | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 2,
+        "instructor": "Muhammad Rubaiat Hasan; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Muhammad Rubaiat Hasan",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "07",
+        "format": "Laboratory",
+        "days_times": "M | 6:15 PM - 9:05 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 4,
+        "instructor": "Laura Parsons; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Laura Parsons",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "08",
+        "format": "Laboratory",
+        "days_times": "M | 6:15 PM - 9:05 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 10,
+        "instructor": "Abu Rashed Md Shawon; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Abu Rashed Md Shawon",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "09",
+        "format": "Laboratory",
+        "days_times": "M | 8:50 AM - 11:40 AM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Ruoyu Cui; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Ruoyu Cui",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "10",
+        "format": "Laboratory",
+        "days_times": "T | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Md Robiul Hasan; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Md Robiul Hasan",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "11",
+        "format": "Laboratory",
+        "days_times": "T | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 0,
+        "instructor": "Krishna Kolengattukara Suresh; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Krishna Kolengattukara Suresh",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "12",
+        "format": "Laboratory",
+        "days_times": "T | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 0,
+        "instructor": "Sara Pistolesi; Shahrukh Islam; Woolin Lee",
+        "instructors": [
+          "Sara Pistolesi",
+          "Shahrukh Islam",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "13",
+        "format": "Laboratory",
+        "days_times": "T | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 1,
+        "instructor": "Rui Hu; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Rui Hu",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "14",
+        "format": "Laboratory",
+        "days_times": "T | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "15",
+        "format": "Laboratory",
+        "days_times": "T | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 0,
+        "instructor": "Lukman Muhammad Yunusa; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Lukman Muhammad Yunusa",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "16",
+        "format": "Laboratory",
+        "days_times": "T | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 0,
+        "instructor": "Ruoyu Cui; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Ruoyu Cui",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "17",
+        "format": "Laboratory",
+        "days_times": "M | 8:50 AM - 11:40 AM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 0,
+        "instructor": "Akila Manodya Sandaruwan Karapitiye Pathiranage; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Akila Manodya Sandaruwan Karapitiye Pathiranage",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "18",
+        "format": "Laboratory",
+        "days_times": "T | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 3,
+        "instructor": "Jiam Hoang Vuong; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Jiam Hoang Vuong",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "19",
+        "format": "Laboratory",
+        "days_times": "T | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 3,
+        "instructor": "Baboucarr Faal; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Baboucarr Faal",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "20",
+        "format": "Laboratory",
+        "days_times": "T | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 1,
+        "instructor": "Muhammad Rubaiat Hasan; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Muhammad Rubaiat Hasan",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "21",
+        "format": "Laboratory",
+        "days_times": "T | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 5,
+        "instructor": "Ruoxi Zhang; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Ruoxi Zhang",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "22",
+        "format": "Laboratory",
+        "days_times": "W | 8:50 AM - 11:40 AM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 1,
+        "instructor": "Filipa Monteiro; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Filipa Monteiro",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "23",
+        "format": "Laboratory",
+        "days_times": "W | 12:05 PM - 2:55 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 5,
+        "instructor": "Eunhye Choi; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Eunhye Choi",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "24",
+        "format": "Laboratory",
+        "days_times": "W | 12:05 PM - 2:55 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 1,
+        "instructor": "Sara Pistolesi; Shahrukh Islam; Woolin Lee",
+        "instructors": [
+          "Sara Pistolesi",
+          "Shahrukh Islam",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "25",
+        "format": "Laboratory",
+        "days_times": "W | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 2,
+        "instructor": "Rebekah Taepke; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Rebekah Taepke",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "26",
+        "format": "Laboratory",
+        "days_times": "W | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 4,
+        "instructor": "Sara Pistolesi; Tanmoy Chakraborty; Woolin Lee",
+        "instructors": [
+          "Sara Pistolesi",
+          "Tanmoy Chakraborty",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "27",
+        "format": "Laboratory",
+        "days_times": "W | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 5,
+        "instructor": "Kirti Arora; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Kirti Arora",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "28",
+        "format": "Laboratory",
+        "days_times": "W | 3:20 PM - 6:10 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 1,
+        "instructor": "Krishna Kolengattukara Suresh; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Krishna Kolengattukara Suresh",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "30",
+        "format": "Laboratory",
+        "days_times": "R | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 0,
+        "instructor": "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Indunil Umesha Chandrasekara Chandrasekara Mudiyanselage Owite Walauwe",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "31",
+        "format": "Laboratory",
+        "days_times": "R | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Jackson Joseph Hayes; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Jackson Joseph Hayes",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "32",
+        "format": "Laboratory",
+        "days_times": "R | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 0,
+        "instructor": "Sara Pistolesi; Woolin Lee; Yuhang Cai",
+        "instructors": [
+          "Sara Pistolesi",
+          "Woolin Lee",
+          "Yuhang Cai"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "33",
+        "format": "Laboratory",
+        "days_times": "R | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 1,
+        "instructor": "Kirti Arora; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Kirti Arora",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "34",
+        "format": "Laboratory",
+        "days_times": "R | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 3,
+        "instructor": "Laura Parsons; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Laura Parsons",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "35",
+        "format": "Laboratory",
+        "days_times": "R | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 0,
+        "instructor": "Benjamin T Schelske; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Benjamin T Schelske",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "37",
+        "format": "Laboratory",
+        "days_times": "R | 12:10 PM - 3:00 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 6,
+        "instructor": "Muhammad Asjad Afzal; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Muhammad Asjad Afzal",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "38",
+        "format": "Laboratory",
+        "days_times": "R | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 4,
+        "instructor": "Lukman Muhammad Yunusa; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Lukman Muhammad Yunusa",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "39",
+        "format": "Laboratory",
+        "days_times": "R | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 3,
+        "instructor": "Sara Pistolesi; Tanmoy Chakraborty; Woolin Lee",
+        "instructors": [
+          "Sara Pistolesi",
+          "Tanmoy Chakraborty",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "40",
+        "format": "Laboratory",
+        "days_times": "R | 3:10 PM - 6:00 PM",
+        "building": "GILMAN",
+        "room": "3206A",
+        "seats": 8,
+        "instructor": "Ruoxi Zhang; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Ruoxi Zhang",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "41",
+        "format": "Laboratory",
+        "days_times": "R | 6:10 PM - 9:00 PM",
+        "building": "GILMAN",
+        "room": "3206B",
+        "seats": 13,
+        "instructor": "Md Robiul Hasan; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Md Robiul Hasan",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "42",
+        "format": "Laboratory",
+        "days_times": "M | 12:05 PM - 2:55 PM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 0,
+        "instructor": "Aishat Erinola Abubakar; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Aishat Erinola Abubakar",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "CHEM 1770N": [
+      {
+        "section": "01",
+        "format": "Laboratory",
+        "days_times": "T | 9:00 AM - 11:50 AM",
+        "building": "GILMAN",
+        "room": "1305",
+        "seats": 0,
+        "instructor": "Aishat Erinola Abubakar; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Aishat Erinola Abubakar",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "Laboratory",
+        "days_times": "M | 6:20 PM - 9:10 PM",
+        "building": "GILMAN",
+        "room": "0272",
+        "seats": 0,
+        "instructor": "Rui Hu; Sara Pistolesi; Woolin Lee",
+        "instructors": [
+          "Rui Hu",
+          "Sara Pistolesi",
+          "Woolin Lee"
+        ],
+        "reserved_seats": 4
+      }
+    ],
+    "ENGL 1500": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "FOOD SC",
+        "room": "2315",
+        "seats": 0,
+        "instructor": "Connor Ferguson",
+        "instructors": [
+          "Connor Ferguson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "02",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "MOL-BIO",
+        "room": "1428",
+        "seats": 0,
+        "instructor": "Adam Douglas Houtz",
+        "instructors": [
+          "Adam Douglas Houtz"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "In-Person",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "TIEB",
+        "room": "1106",
+        "seats": 0,
+        "instructor": "Isabella-Marie Inge Epstein",
+        "instructors": [
+          "Isabella-Marie Inge Epstein"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Lecture",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "CURTISS",
+        "room": "0009",
+        "seats": 0,
+        "instructor": "Katheryn Lynne Anderson",
+        "instructors": [
+          "Katheryn Lynne Anderson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "05",
+        "format": "In-Person",
+        "days_times": "MWF | 3:20 PM - 4:10 PM",
+        "building": "SICTR",
+        "room": "3204",
+        "seats": 0,
+        "instructor": "Mia Alena Varricchio",
+        "instructors": [
+          "Mia Alena Varricchio"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "06",
+        "format": "Lecture",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "CURTISS",
+        "room": "0108",
+        "seats": 0,
+        "instructor": "Connor Ferguson",
+        "instructors": [
+          "Connor Ferguson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "07",
+        "format": "In-Person",
+        "days_times": "TR | 3:40 PM - 4:55 PM",
+        "building": "CARVER",
+        "room": "0118",
+        "seats": 1,
+        "instructor": "Makayla Malachowski",
+        "instructors": [
+          "Makayla Malachowski"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "08",
+        "format": "In-Person",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "PHYSICS",
+        "room": "0052",
+        "seats": 0,
+        "instructor": "Oluwakemi Mary Alo",
+        "instructors": [
+          "Oluwakemi Mary Alo"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "09",
+        "format": "Lecture",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "ROSS H",
+        "room": "0029",
+        "seats": 1,
+        "instructor": "Virginia Ann Zantow",
+        "instructors": [
+          "Virginia Ann Zantow"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "10",
+        "format": "In-Person",
+        "days_times": "MWF | 7:45 AM - 8:35 AM",
+        "building": "ROSS H",
+        "room": "0031",
+        "seats": 0,
+        "instructor": "Stephanie Morrison Arko",
+        "instructors": [
+          "Stephanie Morrison Arko"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "11",
+        "format": "In-Person",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "E HALL",
+        "room": "0119",
+        "seats": 1,
+        "instructor": "Isabella-Marie Inge Epstein",
+        "instructors": [
+          "Isabella-Marie Inge Epstein"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "12",
+        "format": "In-Person",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "HAMILTN",
+        "room": "0006",
+        "seats": 0,
+        "instructor": "Jannatul Ferdous Anan",
+        "instructors": [
+          "Jannatul Ferdous Anan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "13",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "HAMILTN",
+        "room": "0006",
+        "seats": 0,
+        "instructor": "Jannatul Ferdous Anan",
+        "instructors": [
+          "Jannatul Ferdous Anan"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "14",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "ROSS H",
+        "room": "0129",
+        "seats": 0,
+        "instructor": "Emmanuel Alex Boateng Adjei",
+        "instructors": [
+          "Emmanuel Alex Boateng Adjei"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "15",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "FOOD SC",
+        "room": "2315",
+        "seats": 0,
+        "instructor": "Aidan LaCroix",
+        "instructors": [
+          "Aidan LaCroix"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "16",
+        "format": "In-Person",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "CARVER",
+        "room": "0294",
+        "seats": 0,
+        "instructor": "Makayla Malachowski",
+        "instructors": [
+          "Makayla Malachowski"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "17",
+        "format": "In-Person",
+        "days_times": "TR | 11:00 AM - 12:15 PM",
+        "building": "ROSS H",
+        "room": "0127",
+        "seats": 0,
+        "instructor": "Abigail Hope Houtz",
+        "instructors": [
+          "Abigail Hope Houtz"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "18",
+        "format": "Lecture",
+        "days_times": "TR | 12:40 PM - 1:55 PM",
+        "building": "ROSS H",
+        "room": "0127",
+        "seats": 0,
+        "instructor": "Casey Daniel White",
+        "instructors": [
+          "Casey Daniel White"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "19",
+        "format": "In-Person",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "FOOD SC",
+        "room": "2311",
+        "seats": 0,
+        "instructor": "Selma Basic",
+        "instructors": [
+          "Selma Basic"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "20",
+        "format": "In-Person",
+        "days_times": "TR | 3:40 PM - 4:55 PM",
+        "building": "HAMILTN",
+        "room": "0006",
+        "seats": 0,
+        "instructor": "Selma Basic",
+        "instructors": [
+          "Selma Basic"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "21",
+        "format": "Lecture",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "E HALL",
+        "room": "0119",
+        "seats": 0,
+        "instructor": "Manisha Sharma",
+        "instructors": [
+          "Manisha Sharma"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "22",
+        "format": "Lecture",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "CURTISS",
+        "room": "0008",
+        "seats": 0,
+        "instructor": "Josephine Kay Wickman",
+        "instructors": [
+          "Josephine Kay Wickman"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "23",
+        "format": "In-Person",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "FORKER",
+        "room": "0289",
+        "seats": 0,
+        "instructor": "Stephanie Morrison Arko",
+        "instructors": [
+          "Stephanie Morrison Arko"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "24",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "PHYSICS",
+        "room": "0052",
+        "seats": 0,
+        "instructor": "Kat Jackson",
+        "instructors": [
+          "Kat Jackson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "25",
+        "format": "In-Person",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "E HALL",
+        "room": "0119",
+        "seats": 0,
+        "instructor": "Kat Jackson",
+        "instructors": [
+          "Kat Jackson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "26",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "ROSS H",
+        "room": "0129",
+        "seats": 0,
+        "instructor": "Katheryn Lynne Anderson",
+        "instructors": [
+          "Katheryn Lynne Anderson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "27",
+        "format": "Lecture",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "CURTISS",
+        "room": "0008",
+        "seats": 0,
+        "instructor": "Josephine Kay Wickman",
+        "instructors": [
+          "Josephine Kay Wickman"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "28",
+        "format": "Lecture",
+        "days_times": "TR | 12:40 PM - 1:55 PM",
+        "building": "PEARSON",
+        "room": "2131",
+        "seats": 1,
+        "instructor": "Jorge Eduardo Ambacher",
+        "instructors": [
+          "Jorge Eduardo Ambacher"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "29",
+        "format": "Lecture",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "CURTISS",
+        "room": "0308",
+        "seats": 1,
+        "instructor": "Casey Daniel White",
+        "instructors": [
+          "Casey Daniel White"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "30",
+        "format": "In-Person",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "FOOD SC",
+        "room": "2319",
+        "seats": 0,
+        "instructor": "Gessica Alexandra Fabrin",
+        "instructors": [
+          "Gessica Alexandra Fabrin"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "31",
+        "format": "Lecture",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "FOOD SC",
+        "room": "2311",
+        "seats": 1,
+        "instructor": "Natalie Louise Meyer",
+        "instructors": [
+          "Natalie Louise Meyer"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "32",
+        "format": "Lecture",
+        "days_times": "MWF | 7:45 AM - 8:35 AM",
+        "building": "ROSS H",
+        "room": "0028",
+        "seats": 0,
+        "instructor": "Manisha Sharma",
+        "instructors": [
+          "Manisha Sharma"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "33",
+        "format": "In-Person",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "FOOD SC",
+        "room": "2311",
+        "seats": 0,
+        "instructor": "Gessica Alexandra Fabrin",
+        "instructors": [
+          "Gessica Alexandra Fabrin"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "34",
+        "format": "In-Person",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "SCI 2",
+        "room": "0119",
+        "seats": 0,
+        "instructor": "Adam Douglas Houtz",
+        "instructors": [
+          "Adam Douglas Houtz"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "35",
+        "format": "In-Person",
+        "days_times": "TR | 12:40 PM - 1:55 PM",
+        "building": "PHYSICS",
+        "room": "0056",
+        "seats": 0,
+        "instructor": "Abigail Hope Houtz",
+        "instructors": [
+          "Abigail Hope Houtz"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "36",
+        "format": "In-Person",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "ROSS H",
+        "room": "0127",
+        "seats": 0,
+        "instructor": "Klara Nazmutdinova",
+        "instructors": [
+          "Klara Nazmutdinova"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "37",
+        "format": "In-Person",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "ROSS H",
+        "room": "0127",
+        "seats": 2,
+        "instructor": "Emmanuel Alex Boateng Adjei",
+        "instructors": [
+          "Emmanuel Alex Boateng Adjei"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "38",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "FORKER",
+        "room": "0291",
+        "seats": 0,
+        "instructor": "Virginia Ann Zantow",
+        "instructors": [
+          "Virginia Ann Zantow"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "39",
+        "format": "Lecture",
+        "days_times": "TR | 11:00 AM - 12:15 PM",
+        "building": "FOOD SC",
+        "room": "2315",
+        "seats": 0,
+        "instructor": "Connor Ferguson",
+        "instructors": [
+          "Connor Ferguson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "40",
+        "format": "In-Person",
+        "days_times": "TR | 11:00 AM - 12:15 PM",
+        "building": "E HALL",
+        "room": "0119",
+        "seats": 0,
+        "instructor": "Klara Nazmutdinova",
+        "instructors": [
+          "Klara Nazmutdinova"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "41",
+        "format": "Lecture",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0274",
+        "seats": 0,
+        "instructor": "Tim Kochem",
+        "instructors": [
+          "Tim Kochem"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "44",
+        "format": "In-Person",
+        "days_times": "TR | 8:00 AM - 9:15 AM",
+        "building": "E HALL",
+        "room": "0119",
+        "seats": 0,
+        "instructor": "Kay Tychus",
+        "instructors": [
+          "Kay Tychus"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "45",
+        "format": "In-Person",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "ROSS H",
+        "room": "0127",
+        "seats": 0,
+        "instructor": "Oluwakemi Mary Alo",
+        "instructors": [
+          "Oluwakemi Mary Alo"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "46",
+        "format": "Lecture",
+        "days_times": "TR | 9:30 AM - 10:45 AM",
+        "building": "LAGOMAR",
+        "room": "1530",
+        "seats": 1,
+        "instructor": "Angela Hakim",
+        "instructors": [
+          "Angela Hakim"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "47",
+        "format": "In-Person",
+        "days_times": "MWF | 11:00 AM - 11:50 AM",
+        "building": "CARVER",
+        "room": "0290",
+        "seats": 0,
+        "instructor": "Grace Faye Kim Noelke",
+        "instructors": [
+          "Grace Faye Kim Noelke"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "48",
+        "format": "In-Person",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "CARVER",
+        "room": "0128",
+        "seats": 0,
+        "instructor": "Mia Alena Varricchio",
+        "instructors": [
+          "Mia Alena Varricchio"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "50",
+        "format": "Lecture",
+        "days_times": "MWF | 12:05 PM - 12:55 PM",
+        "building": "ROSS H",
+        "room": "0120",
+        "seats": 0,
+        "instructor": "Katheryn Lynne Anderson",
+        "instructors": [
+          "Katheryn Lynne Anderson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "51",
+        "format": "Lecture",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "ROSS H",
+        "room": "0029",
+        "seats": 0,
+        "instructor": "Julie Seier",
+        "instructors": [
+          "Julie Seier"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "52",
+        "format": "In-Person",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "MORRILL",
+        "room": "1030",
+        "seats": 0,
+        "instructor": "Grace Faye Kim Noelke",
+        "instructors": [
+          "Grace Faye Kim Noelke"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "53",
+        "format": "Lecture",
+        "days_times": "MWF | 2:15 PM - 3:05 PM",
+        "building": "ROSS H",
+        "room": "0129",
+        "seats": 0,
+        "instructor": "Virginia Ann Zantow",
+        "instructors": [
+          "Virginia Ann Zantow"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "54",
+        "format": "Lecture",
+        "days_times": "TR | 8:00 AM - 9:15 AM",
+        "building": "HAMILTN",
+        "room": "0006",
+        "seats": 1,
+        "instructor": "Sarah Haughn",
+        "instructors": [
+          "Sarah Haughn"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "55",
+        "format": "Lecture",
+        "days_times": "TR | 12:40 PM - 1:55 PM",
+        "building": "FOOD SC",
+        "room": "2315",
+        "seats": 2,
+        "instructor": "Brenna Jayne Dixon",
+        "instructors": [
+          "Brenna Jayne Dixon"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "56",
+        "format": "Lecture",
+        "days_times": "TR | 2:10 PM - 3:25 PM",
+        "building": "FORKER",
+        "room": "0289",
+        "seats": 0,
+        "instructor": "Connor Ferguson",
+        "instructors": [
+          "Connor Ferguson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "58",
+        "format": "In-Person",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "MOL-BIO",
+        "room": "1424",
+        "seats": 0,
+        "instructor": "Maddison Lee Evans",
+        "instructors": [
+          "Maddison Lee Evans"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "59",
+        "format": "In-Person",
+        "days_times": "TR | 3:40 PM - 4:55 PM",
+        "building": "CURTISS",
+        "room": "0108",
+        "seats": 1,
+        "instructor": "Kay Tychus",
+        "instructors": [
+          "Kay Tychus"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "61",
+        "format": "Lecture",
+        "days_times": "MWF | 8:50 AM - 9:40 AM",
+        "building": "CURTISS",
+        "room": "0308",
+        "seats": 0,
+        "instructor": "Shuhui Yin",
+        "instructors": [
+          "Shuhui Yin"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "62",
+        "format": "Lecture",
+        "days_times": "MWF | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0124",
+        "seats": 0,
+        "instructor": "Amy Catherine Bly Walton",
+        "instructors": [
+          "Amy Catherine Bly Walton"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "63",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 1,
+        "instructor": "Sara Kathrine Albright",
+        "instructors": [
+          "Sara Kathrine Albright"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "64",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Jon Michael Galletley",
+        "instructors": [
+          "Jon Michael Galletley"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "65",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Tim Kochem",
+        "instructors": [
+          "Tim Kochem"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "LIB 1600": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Kate Garretson; Yen Verhoeven",
+        "instructors": [
+          "Kate Garretson",
+          "Yen Verhoeven"
+        ],
+        "reserved_seats": 97
+      },
+      {
+        "section": "02",
+        "format": "Lecture",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 2,
+        "instructor": "Rano Marupova",
+        "instructors": [
+          "Rano Marupova"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "03",
+        "format": "Lecture",
+        "days_times": "W | 11:00 AM - 11:50 AM",
+        "building": "LIBRARY",
+        "room": "0134",
+        "seats": 0,
+        "instructor": "Anita Kay",
+        "instructors": [
+          "Anita Kay"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "04",
+        "format": "Lecture",
+        "days_times": "W | 12:05 PM - 12:55 PM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 3,
+        "instructor": "Becca Yowler",
+        "instructors": [
+          "Becca Yowler"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "05",
+        "format": "Lecture",
+        "days_times": "W | 1:10 PM - 2:00 PM",
+        "building": "LIBRARY",
+        "room": "0134",
+        "seats": 0,
+        "instructor": "Anita Kay",
+        "instructors": [
+          "Anita Kay"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "06",
+        "format": "Lecture",
+        "days_times": "R | 11:00 AM - 11:50 AM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 0,
+        "instructor": "Rano Marupova",
+        "instructors": [
+          "Rano Marupova"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "07",
+        "format": "Lecture",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 0,
+        "instructor": "Becca Yowler",
+        "instructors": [
+          "Becca Yowler"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "08",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Daniel Coffey",
+        "instructors": [
+          "Daniel Coffey"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "09",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Kris Stacy-Bates",
+        "instructors": [
+          "Kris Stacy-Bates"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "10",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 2,
+        "instructor": "Jesse Garrison",
+        "instructors": [
+          "Jesse Garrison"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "12",
+        "format": "Lecture",
+        "days_times": "W | 11:00 AM - 11:50 AM",
+        "building": "LIBRARY",
+        "room": "0134",
+        "seats": 0,
+        "instructor": "Anita Kay",
+        "instructors": [
+          "Anita Kay"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "13",
+        "format": "Lecture",
+        "days_times": "W | 12:05 PM - 12:55 PM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 0,
+        "instructor": "Becca Yowler",
+        "instructors": [
+          "Becca Yowler"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "14",
+        "format": "Lecture",
+        "days_times": "W | 1:10 PM - 2:00 PM",
+        "building": "LIBRARY",
+        "room": "0134",
+        "seats": 0,
+        "instructor": "Anita Kay",
+        "instructors": [
+          "Anita Kay"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "15",
+        "format": "Lecture",
+        "days_times": "T | 2:15 PM - 3:05 PM",
+        "building": "LIBRARY",
+        "room": "0192",
+        "seats": 0,
+        "instructor": "Becca Yowler",
+        "instructors": [
+          "Becca Yowler"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "16",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Kris Stacy-Bates",
+        "instructors": [
+          "Kris Stacy-Bates"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "17",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Kate Garretson",
+        "instructors": [
+          "Kate Garretson"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "18",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Jesse Garrison",
+        "instructors": [
+          "Jesse Garrison"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "19",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Rano Marupova",
+        "instructors": [
+          "Rano Marupova"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "20",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Charles A Yier",
+        "instructors": [
+          "Charles A Yier"
+        ],
+        "reserved_seats": 0
+      },
+      {
+        "section": "22",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Charles A Yier",
+        "instructors": [
+          "Charles A Yier"
+        ],
+        "reserved_seats": 0
+      }
+    ],
+    "ENGR 1010": [
+      {
+        "section": "01",
+        "format": "Lecture",
+        "days_times": "F | 9:55 AM - 10:45 AM",
+        "building": "SUKUP",
+        "room": "4220",
+        "seats": 1,
+        "instructor": "Aaron Leppert; Benjamin McCarty",
+        "instructors": [
+          "Aaron Leppert",
+          "Benjamin McCarty"
+        ],
+        "reserved_seats": 7,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "02",
+        "format": "Lecture",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "TOWN",
+        "room": "0270",
+        "seats": 1,
+        "instructor": "Benjamin N. Nuckolls; Nikki Eggert",
+        "instructors": [
+          "Benjamin N. Nuckolls",
+          "Nikki Eggert"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "03",
+        "format": "Lecture",
+        "days_times": "W | 8:50 AM - 9:40 AM",
+        "building": "COOVER",
+        "room": "1012",
+        "seats": 6,
+        "instructor": "Seth Schroeder; Tina N Prouty",
+        "instructors": [
+          "Seth Schroeder",
+          "Tina N Prouty"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "04",
+        "format": "Lecture",
+        "days_times": "W | 3:20 PM - 4:10 PM",
+        "building": "CARVER",
+        "room": "0074",
+        "seats": 1,
+        "instructor": "Seth Schroeder",
+        "instructors": [
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 1,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "05",
+        "format": "Lecture",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "HOWE",
+        "room": "1252",
+        "seats": 1,
+        "instructor": "Seth Schroeder",
+        "instructors": [
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "06",
+        "format": "Lecture",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "HOWE",
+        "room": "1252",
+        "seats": 0,
+        "instructor": "Seth Schroeder",
+        "instructors": [
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 23,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "07",
+        "format": "Lecture",
+        "days_times": "W | 9:55 AM - 10:45 AM",
+        "building": "COOVER",
+        "room": "1012",
+        "seats": 13,
+        "instructor": "Leah K Eilers; Seth Schroeder",
+        "instructors": [
+          "Leah K Eilers",
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 1,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "08",
+        "format": "Lecture",
+        "days_times": "R | 8:50 AM - 9:40 AM",
+        "building": "CARVER",
+        "room": "0160",
+        "seats": 1,
+        "instructor": "Sarah Larkin; Seth Schroeder",
+        "instructors": [
+          "Sarah Larkin",
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "09",
+        "format": "Lecture",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "CARVER",
+        "room": "0160",
+        "seats": 0,
+        "instructor": "Sarah Larkin; Seth Schroeder",
+        "instructors": [
+          "Sarah Larkin",
+          "Seth Schroeder"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "10",
+        "format": "Lecture",
+        "days_times": "MW | 2:15 PM - 3:05 PM",
+        "building": "TIEB",
+        "room": "1311",
+        "seats": 10,
+        "instructor": "Arlys Jorgensen; Marcus Ingles",
+        "instructors": [
+          "Arlys Jorgensen",
+          "Marcus Ingles"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "11",
+        "format": "Lecture",
+        "days_times": "T | 8:50 AM - 9:40 AM",
+        "building": "HOWE",
+        "room": "1246",
+        "seats": 0,
+        "instructor": "Andrea Klocke; Holly Nicole Dunlay-Lott",
+        "instructors": [
+          "Andrea Klocke",
+          "Holly Nicole Dunlay-Lott"
+        ],
+        "reserved_seats": 9,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "12",
+        "format": "Lecture",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "DESIGN",
+        "room": "0101",
+        "seats": 55,
+        "instructor": "Brad Eilers",
+        "instructors": [
+          "Brad Eilers"
+        ],
+        "reserved_seats": 79,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "13",
+        "format": "Lecture",
+        "days_times": "T | 11:00 AM - 11:50 AM",
+        "building": "COOVER",
+        "room": "2245",
+        "seats": 5,
+        "instructor": "Brad Eilers",
+        "instructors": [
+          "Brad Eilers"
+        ],
+        "reserved_seats": 186,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "14",
+        "format": "Lecture",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "MARSTON",
+        "room": "2155",
+        "seats": 75,
+        "instructor": "Brad Eilers",
+        "instructors": [
+          "Brad Eilers"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "15",
+        "format": "Lecture",
+        "days_times": "W | 8:50 AM - 9:40 AM",
+        "building": "MACKAY",
+        "room": "0117",
+        "seats": 1,
+        "instructor": "Ryan Johnson",
+        "instructors": [
+          "Ryan Johnson"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "16",
+        "format": "Lecture",
+        "days_times": "W | 3:20 PM - 4:10 PM",
+        "building": "CARVER",
+        "room": "0101",
+        "seats": 5,
+        "instructor": "Ryan Johnson",
+        "instructors": [
+          "Ryan Johnson"
+        ],
+        "reserved_seats": 28,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "17",
+        "format": "Lecture",
+        "days_times": "R | 2:15 PM - 3:05 PM",
+        "building": "HOOVER",
+        "room": "2055",
+        "seats": 0,
+        "instructor": "Kirsten Marie Hauge",
+        "instructors": [
+          "Kirsten Marie Hauge"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "18",
+        "format": "Lecture",
+        "days_times": "W | 7:45 AM - 8:35 AM",
+        "building": "MARSTON",
+        "room": "2300",
+        "seats": 0,
+        "instructor": "Alyssa Dawn Stafne",
+        "instructors": [
+          "Alyssa Dawn Stafne"
+        ],
+        "reserved_seats": 18,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "19",
+        "format": "Lecture",
+        "days_times": "R | 9:55 AM - 10:45 AM",
+        "building": "TOWN",
+        "room": "0230",
+        "seats": 12,
+        "instructor": "Seth Alan Loyd",
+        "instructors": [
+          "Seth Alan Loyd"
+        ],
+        "reserved_seats": 1,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "20",
+        "format": "Lecture",
+        "days_times": "W | 1:10 PM - 2:00 PM",
+        "building": "TOWN",
+        "room": "0270",
+        "seats": 0,
+        "instructor": "Patrick Kennedy",
+        "instructors": [
+          "Patrick Kennedy"
+        ],
+        "reserved_seats": 4,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "21",
+        "format": "Lecture",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "TOWN",
+        "room": "0270",
+        "seats": 0,
+        "instructor": "Benjamin N. Nuckolls; Nikki Eggert",
+        "instructors": [
+          "Benjamin N. Nuckolls",
+          "Nikki Eggert"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "26",
+        "format": "Lecture",
+        "days_times": "R | 1:10 PM - 2:00 PM",
+        "building": "TROXEL",
+        "room": "1001",
+        "seats": 74,
+        "instructor": "Tyler Hoenig",
+        "instructors": [
+          "Tyler Hoenig"
+        ],
+        "reserved_seats": 0,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "28",
+        "format": "Lecture",
+        "days_times": "T | 9:55 AM - 10:45 AM",
+        "building": "SUKUP",
+        "room": "0022",
+        "seats": 0,
+        "instructor": "Matthew Robert Brown",
+        "instructors": [
+          "Matthew Robert Brown"
+        ],
+        "reserved_seats": 10,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "29",
+        "format": "Lecture",
+        "days_times": "W | 2:15 PM - 3:05 PM",
+        "building": "TOWN",
+        "room": "0270",
+        "seats": 0,
+        "instructor": "Patrick Kennedy",
+        "instructors": [
+          "Patrick Kennedy"
+        ],
+        "reserved_seats": 1,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "30",
+        "format": "Lecture",
+        "days_times": "W | 8:50 AM - 9:40 AM",
+        "building": "PEARSON",
+        "room": "2105",
+        "seats": 0,
+        "instructor": "Jessie Vosseller",
+        "instructors": [
+          "Jessie Vosseller"
+        ],
+        "reserved_seats": 13,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      },
+      {
+        "section": "31",
+        "format": "Lecture",
+        "days_times": null,
+        "building": null,
+        "room": null,
+        "seats": 0,
+        "instructor": "Jenny L Baker",
+        "instructors": [
+          "Jenny L Baker"
+        ],
+        "reserved_seats": 4,
+        "ecpe_notes": [],
+        "ecpe_flag": false
+      }
+    ]
+  },
+  "counts": {
+    "CPRE 1850": 8,
+    "MATH 1650": 50,
+    "CHEM 1670": 60,
+    "CHEM 1670L": 12,
+    "CHEM 1770": 37,
+    "CHEM 1770L": 39,
+    "CHEM 1770N": 2,
+    "ENGL 1500": 60,
+    "LIB 1600": 20,
+    "ENGR 1010": 26
+  },
+  "notes": [
+    "CHEM 1670 search included CHEM 1670L; CHEM 1670L is separated here to avoid duplication.",
+    "CHEM 1770 search included CHEM 1770, CHEM 1770L, and CHEM 1770N; they are separated here to keep section identifiers unambiguous.",
+    "ENGR 1010 ECpE note scan found no ECpE text in the expanded Workday section details."
+  ],
+  "screenshots_dir": "/workspace/isu-cpre/workday/"
+}
