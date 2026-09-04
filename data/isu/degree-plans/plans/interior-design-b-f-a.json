@@ -1,0 +1,455 @@
+{
+  "major": "Interior Design",
+  "option": null,
+  "degree": "B.F.A.",
+  "college": "College of Design",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofdesign/interiordesign/#fouryearplantext",
+  "gridHeading": "Electives: 4-6 cr.",
+  "displayName": "Interior Design, B.F.A.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1150",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1320",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or Gen Ed)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or Gen Ed)"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 2500 (or Gen Ed)",
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "ARTID 2500 (or Gen Ed)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or Gen Ed)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or Gen Ed)"
+        },
+        {
+          "code": "ENGL 2500 (or Gen Ed)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 2500 (or Gen Ed)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "2-3"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ARTID 2500 (or Gen Ed)",
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "ARTID 2500 (or Gen Ed)"
+        },
+        {
+          "code": "ARTID 2610",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3530",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "2-3"
+        },
+        {
+          "code": "ARTID 2630",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 2670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "(DSNS 3010-Rome Prep)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ARTID 3600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3610",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Design Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Design Option or Gen Ed"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ARTID 3510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 3670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Design Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ARTID 3520",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 4600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ARTID 4650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Studies in Interior Design (or Gen Ed)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Design Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "ARTID 4610",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 5460",
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "(Elective (2 cr. if 4-credit 5640))"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Studies in Interior Design (or Gen Ed)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed or Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 credits from a two-year institution may apply, which may include up to 16 technical credits; 9 P-NP credits of free electives; 2.00 minimum GPA; Completion of all requirements listed below.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 4-6 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 4-6 cr. Complete electives sufficient to complete graduation requirements.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Interior Design Electives: Select 9 Credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Interior Design Electives: Select 9 Credits ARTID 5710 Advanced Visualization in Interior Design 3 ARTID 5720 Preservation & Cultural Heritage 3 ARTID 5730 Advanced Color Theory 3 ARTID 5740 Inclusive Environments 3 ARTID 6700 Advanced Variable Topics 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 3 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Interior Design Electives: Select 6 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Interior Design Electives: Select 6 credits ARTID 5710 Advanced Visualization in Interior Design 3 ARTID 5720 Preservation & Cultural Heritage 3 ARTID 5730 Advanced Color Theory 3 ARTID 5740 Inclusive Environments 3 ARTID 6700 Advanced Variable Topics 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "DSNS 1830 (or Gen Ed)"
+    },
+    {
+      "name": "ARTID 2500 (or Gen Ed)"
+    },
+    {
+      "name": "Gen Ed"
+    },
+    {
+      "name": "ENGL 2500 (or Gen Ed)"
+    },
+    {
+      "name": "2-3"
+    },
+    {
+      "name": "Professional Design Option"
+    },
+    {
+      "name": "Professional Design Option or Gen Ed"
+    },
+    {
+      "name": "Advanced Studies in Interior Design (or Gen Ed)"
+    },
+    {
+      "name": "(Elective (2 cr. if 4-credit 5640))"
+    },
+    {
+      "name": "Gen Ed or Elective"
+    },
+    {
+      "name": "Elective"
+    }
+  ],
+  "slug": "interior-design-b-f-a"
+}

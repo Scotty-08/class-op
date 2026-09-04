@@ -1,0 +1,422 @@
+{
+  "major": "Agricultural Systems Technology",
+  "option": "Machine Systems option",
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/systemstechnology/#fouryearplanstext",
+  "gridHeading": "Agricultural Systems Technology, B.S. - Machine Systems",
+  "displayName": "Agricultural Systems Technology, B.S. - Machine Systems option",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "TSM 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 1160",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "TSM 1110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 1150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities - see list 1"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year",
+      "yearLabel": "First Year",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "TSM 2010",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 2100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 2140",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 3700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "TSM 2160",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ABE 2710 , 2720 , or 2730",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 2400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year",
+      "yearLabel": "Second Year",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "TSM 3350",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 3631",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 4330",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3020 , 3090 , 3140 , or AGEDS 3270",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "TSM 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 3300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 3370",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 3650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Life Science - See list 3"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Summer",
+      "yearLabel": "Third Year",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": "TSM 3970",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "TSM 4150",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 4430",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120 , COMST 2140 , or AGEDS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspectives - see list 1"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "TSM 3710",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 4160",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TSM 4650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities - See list 2"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year",
+      "yearLabel": "Fourth Year",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "U.S. Cultures and Communities and International Perspectives",
+      "approvedListUrl": null
+    },
+    {
+      "name": "U.S. Cultures and Communities - see list 1"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "Life Science - See list 3"
+    },
+    {
+      "name": "International Perspectives - see list 1"
+    },
+    {
+      "name": "Humanities - See list 2"
+    }
+  ],
+  "slug": "agricultural-systems-technology-b-s-machine-systems-option"
+}

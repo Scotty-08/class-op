@@ -1,0 +1,427 @@
+{
+  "major": "Chemistry",
+  "option": "with Teacher Preparation & Education Secondary Major",
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 131.5,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/chemistry/#fouryearplantext",
+  "gridHeading": "Chemistry, B.A. with Teacher Preparation & Education Secondary Major",
+  "displayName": "Chemistry, B.A. with Teacher Preparation & Education Secondary Major",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770N",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1010A",
+          "title": "(recommended)",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education/Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16.5,
+      "courses": [
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1010B",
+          "title": "(recommended)",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2190",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2800L",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply/Accepted to Educator Preparation Program"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CHEM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1100",
+          "title": "(recommended)",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3330",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "CHEM 2110",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2110L",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Chemistry Upper-Level Choice"
+        },
+        {
+          "code": "PHYS 2320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "CHEM 3250",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language (First Semester)"
+        },
+        {
+          "code": "EDUC 4180",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3800B",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CHEM 3010",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3210L",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language (Second Semester)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        },
+        {
+          "code": "EDUC 4190",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4800B",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "SPED 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to Student Teach"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ENGL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HIST 2210 or 2220 (encouraged humanities)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "POLS 1110",
+          "title": "(encouraged social sciences)",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "General Education/Electives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply for Graduation"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "EDUC 4170J",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4170J",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "General Education Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Required General Education electives include a minimum of 12 credits from Group I (Arts and Humanities) and a minimum of 9 credits from Group III (Social Sciences). Additionally, all ISU majors must complete a three-credit course in U.S. Cultures and Communities and a three-credit course in International Perspectives. These courses may also be used to meet Group I and III Requirements. Discuss with your advisor how the two courses that you select can be applied to your graduation plan. Lists of approved courses are available online: LAS General Education Approved Course List Arts and Humanties",
+      "approvedListUrl": null
+    },
+    {
+      "name": "General Education/Electives"
+    },
+    {
+      "name": "Apply/Accepted to Educator Preparation Program"
+    },
+    {
+      "name": "Chemistry Upper-Level Choice"
+    },
+    {
+      "name": "World Language (First Semester)"
+    },
+    {
+      "name": "World Language (Second Semester)"
+    },
+    {
+      "name": "1-2"
+    },
+    {
+      "name": "Apply to Student Teach"
+    },
+    {
+      "name": "Apply for Graduation"
+    }
+  ],
+  "slug": "chemistry-b-a-with-teacher-preparation-and-education-secondary-major"
+}

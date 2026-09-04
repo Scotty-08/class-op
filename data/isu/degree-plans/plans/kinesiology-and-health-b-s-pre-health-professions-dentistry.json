@@ -1,0 +1,460 @@
+{
+  "major": "Kinesiology and Health",
+  "option": "Pre-Health Professions - Dentistry",
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/kinesiology/#fouryearplanstext",
+  "gridHeading": "Kinesiology and Health, B.S. - Pre-Health Professions - Dentistry",
+  "displayName": "Kinesiology and Health, B.S. - Pre-Health Professions - Dentistry",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2520",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2530",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 11,
+      "courses": [
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HS 1100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1430 , 1450 , or 1650",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16.5,
+      "courses": [
+        {
+          "code": "BIOL 2550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2550L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2420",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2580",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2850",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 11,
+      "courses": [
+        {
+          "code": "BIOL 2560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2560L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "SOC 1340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "BBMB 4040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3660",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3720",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "HS 3500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/U.S. Cultures and Communities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 3020 , 3140 , SPCM 3120 , or COMST 4120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3580",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3590",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3730",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Electives (3000+ Level Courses)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/International Perspectives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "BIOL 3130 , 3140 , 3280 , 3350 , 3500 , or BBMB 4050",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Electives (3000+ Level Courses)"
+        },
+        {
+          "code": "KIN 4000 Level Courses *",
+          "title": null,
+          "credits": 9,
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "U.S. Cultures and Communities and International Perspectives In order to meet graduation requirements, all students must complete 3 cr. of course work in U.S. Cultures and Communities and 3 cr. in International Perspectives. KIN 3600 meets the U.S. Cultures and Communities requirement and DANCE 2700 meets the International Perspectives requirement. See university approved list for courses.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 8-12 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 8-12 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 12-16 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 12-16 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 15-19 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 15-19 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 7 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 7 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 6-14 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 6-14 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "1-2"
+    },
+    {
+      "name": "Electives"
+    },
+    {
+      "name": "Humanities/U.S. Cultures and Communities"
+    },
+    {
+      "name": "Electives (3000+ Level Courses)"
+    },
+    {
+      "name": "Humanities/International Perspectives"
+    },
+    {
+      "name": "Social Science Choice"
+    }
+  ],
+  "slug": "kinesiology-and-health-b-s-pre-health-professions-dentistry"
+}

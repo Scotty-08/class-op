@@ -1,0 +1,366 @@
+{
+  "major": "Family and Consumer Sciences Education and Studies",
+  "option": "communications option",
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/familyandconsumerscienceseducationandstudies/#fouryearplantext",
+  "gridHeading": "Family and Consumer Sciences Education and Studies, B.S.-communications option",
+  "displayName": "Family and Consumer Sciences Education and Studies, B.S.-communications option",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "HDFS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": "HDFS 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "CHEM 1600",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L (if taking CHEM 1630)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 2060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": "HDFS 2830",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2760",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "FCEDS 3060",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 2870",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 1010 (or FSHN 2420 or FSHN 1150)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "PR 3050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3670 ( or HDFS 3770 or HS 1100)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Math or Stat from approved list"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communications from list"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 21,
+      "courses": [
+        {
+          "code": "HDFS 3670",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 3250",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2700 (or COMST 2140 or COMST 3140)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3690",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Sciences from approved list"
+        },
+        {
+          "code": "HDFS 2270 or HDFS 2340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3690",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 3130 (or ENGL 3140, ENGL 3320, ENGL 4150, or ENGL 4160)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3860",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PR 2200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "JLMC 4760 (or JLMC 4770, JLMC 4620)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "HDFS 4860",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 4200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 6,
+      "courses": [
+        {
+          "code": "FCEDS 4910A",
+          "title": "(3-6 credits)",
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Electives (to equal 123 total credits)"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "University Electives: 13-21 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "University Electives: 13-21 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "Note: Courses meeting International Perspectives requirements are marked with an *. Additional courses may be found in departments listed with a double **. AESHM 3420 Aesthetics of Consumer Experience 3 AFAM 2010 Introduction to African American Studies 3 AFAM 3340 Africana Religions 3 AFAM 3470 African American Literature 3 AFAM 3530 History of African Americans I 3 AFAM 3540 History of African Americans II 3 FDM 3540 Fashion History I: Prehistoric to Mid-19th Century 3 FDM 3560 Fashion History II: Mid-19th Century to the Present 3 AMIN 2100 Introduction to American Indian Studies 3 AMIN 2400",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Math or Stat from approved list"
+    },
+    {
+      "name": "Communications from list"
+    },
+    {
+      "name": "Social Sciences from approved list"
+    },
+    {
+      "name": "Electives"
+    },
+    {
+      "name": "Electives (to equal 123 total credits)"
+    }
+  ],
+  "slug": "family-and-consumer-sciences-education-and-studies-b-s-communications-option"
+}
