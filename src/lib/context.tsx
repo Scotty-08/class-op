@@ -22,7 +22,7 @@ import {
   saveWorkdayImport,
   type WorkdayCurrentExport,
 } from "./workday-current";
-import type { AppState, Meeting, YearLevel } from "./types";
+import type { AppState, HomeLocation, Meeting, YearLevel } from "./types";
 
 type Ctx = {
   ready: boolean;
@@ -35,6 +35,10 @@ type Ctx = {
   setProfile: (majorId: string, yearLevel?: YearLevel | null) => void;
   setCompletedCourseIds: (ids: string[]) => void;
   setMeetings: (meetings: Meeting[] | ((prev: Meeting[]) => Meeting[])) => void;
+  /** Persist profile home; map walk-start may use a commuter lot when off-campus. */
+  setHome: (home: HomeLocation) => void;
+  setCommuteOffCampus: (off: boolean) => void;
+  setWalkStartLotId: (lotId: string | null) => void;
   importWorkdayExport: (data: WorkdayCurrentExport) => void;
   /** Optional Y1 Beyer Loop demo seed — not the primary default. */
   loadY1DemoSeed: () => void;
@@ -147,6 +151,24 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const setHome = useCallback((home: HomeLocation) => {
+    setState((s) => commit({ ...s, home }));
+  }, []);
+
+  const setCommuteOffCampus = useCallback((commuteOffCampus: boolean) => {
+    setState((s) =>
+      commit({
+        ...s,
+        commuteOffCampus,
+        // Clearing the commute flag does not wipe a saved lot (handy if they toggle back).
+      }),
+    );
+  }, []);
+
+  const setWalkStartLotId = useCallback((walkStartLotId: string | null) => {
+    setState((s) => commit({ ...s, walkStartLotId }));
+  }, []);
+
   const importWorkdayExport = useCallback((data: WorkdayCurrentExport) => {
     const meetings = meetingsFromWorkdayExport(data);
     saveWorkdayImport(data);
@@ -214,6 +236,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setProfile,
       setCompletedCourseIds,
       setMeetings,
+      setHome,
+      setCommuteOffCampus,
+      setWalkStartLotId,
       importWorkdayExport,
       loadY1DemoSeed,
       loadCurrentClasses,
@@ -230,6 +255,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setProfile,
       setCompletedCourseIds,
       setMeetings,
+      setHome,
+      setCommuteOffCampus,
+      setWalkStartLotId,
       importWorkdayExport,
       loadY1DemoSeed,
       loadCurrentClasses,

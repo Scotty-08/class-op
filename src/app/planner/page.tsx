@@ -6,9 +6,11 @@ import { Plus, RotateCcw, Upload, Route, RefreshCw } from "lucide-react";
 import { Guard } from "@/components/Guard";
 import { ScheduleGrid } from "@/components/ScheduleGrid";
 import { CampusMap } from "@/components/CampusMap";
+import { HomeBaseCard } from "@/components/HomeBaseCard";
 import { MeetingModal } from "@/components/MeetingModal";
 import { AddSectionModal } from "@/components/AddSectionModal";
 import { useApp } from "@/lib/context";
+import { DEFAULT_HOME, resolveWalkStart } from "@/lib/buildings";
 import { MAJORS } from "@/lib/majors";
 import { YEAR_LABELS } from "@/lib/cpre-roadmap";
 import { DAY_LABEL, DAY_ORDER, conflictingIds } from "@/lib/time";
@@ -35,6 +37,15 @@ function PlannerInner() {
   const fileRef = useRef<HTMLInputElement>(null);
   const major = MAJORS.find((m) => m.id === state.majorId);
   const clashes = useMemo(() => conflictingIds(state.meetings), [state.meetings]);
+  const walkStart = useMemo(
+    () =>
+      resolveWalkStart({
+        home: state.home ?? DEFAULT_HOME,
+        commuteOffCampus: state.commuteOffCampus,
+        walkStartLotId: state.walkStartLotId,
+      }),
+    [state.home, state.commuteOffCampus, state.walkStartLotId],
+  );
   const isCurrent = state.scheduleSource === "current";
   const isDemoY1 = state.scheduleSource === "demo";
   const isImport = state.scheduleSource === "import";
@@ -72,7 +83,7 @@ function PlannerInner() {
           </p>
           <h1 className="text-2xl font-semibold tracking-tight">Map my registered classes</h1>
           <p className="max-w-2xl text-sm text-ink-muted">
-            Registered meetings on a day-checkbox campus map from Friley / 212 Beyer Ct.
+            Registered meetings on a day-checkbox campus map from your home base (default Friley / 212 Beyer Ct).
             {major ? ` ${major.name}` : ""}
             {state.yearLevel ? ` · ${YEAR_LABELS[state.yearLevel]}` : ""}.
             {isCurrent
@@ -169,6 +180,7 @@ function PlannerInner() {
       <div className="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
         <ScheduleGrid meetings={state.meetings} onSelect={setEditing} />
         <div className="flex min-h-[480px] flex-col gap-3">
+          <HomeBaseCard />
           <div className="rounded-xl border border-stone-200 bg-white p-2">
             <div className="mb-1.5 flex items-center justify-between px-1">
               <span className="text-[11px] font-semibold uppercase tracking-wide text-ink-muted">
@@ -217,11 +229,11 @@ function PlannerInner() {
             </div>
           </div>
           <div className="min-h-[420px] flex-1">
-            <CampusMap meetings={state.meetings} selectedDays={selectedDays} />
+            <CampusMap meetings={state.meetings} selectedDays={selectedDays} home={walkStart.start} usingLot={walkStart.usingLot} />
           </div>
           <p className="text-[11px] text-ink-muted">
-            Orange pin = 212 Beyer Ct / Friley Hall. Online / empty-day meetings stay off the map. Buildings include
-            Science Hall and Food Sciences from the Current Classes export.
+            Orange pin = walk-start (home on campus, or your ISU commuter lot when off-campus). Online / empty-day
+            meetings stay off the map. Buildings include Science Hall and Food Sciences from the Current Classes export.
           </p>
         </div>
       </div>

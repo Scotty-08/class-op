@@ -1,3 +1,4 @@
+import type { CommuterLot, HomeLocation } from "./types";
 export type Building = {
   id: string;
   name: string;
@@ -372,3 +373,264 @@ export const ROUTES = {
   ] as [number, number][],
 };
 
+/** Editable day-start / home base (persisted in AppState). */
+
+export const DEFAULT_HOME: HomeLocation = {
+  label: "212 Beyer Ct · Friley Hall",
+  lat: HOME.lat,
+  lon: HOME.lon,
+};
+
+export const HOME_QUICK_PICKS = BUILDINGS.filter((b) =>
+  [
+    "friley",
+    "carver",
+    "coover",
+    "pearson",
+    "hoover",
+    "parks",
+    "gilman",
+    "hach",
+    "marston",
+    "science",
+    "foodsci",
+  ].includes(b.id),
+);
+
+const WALK_MPS = 80;
+const CAMPUS_PATH_FACTOR = 1.25;
+
+export function haversineMeters(
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number,
+): number {
+  const R = 6371000;
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(a)));
+}
+
+export function walkMinutesBetween(
+  from: { lat: number; lon: number },
+  to: { lat: number; lon: number },
+): number {
+  const m = haversineMeters(from.lat, from.lon, to.lat, to.lon);
+  if (m < 40) return 0;
+  return Math.max(1, Math.round((m * CAMPUS_PATH_FACTOR) / WALK_MPS));
+}
+
+export function walkLabelFromHome(buildingId: string, home: HomeLocation): string {
+  if (buildingId === "online") return "Online";
+  const b = BUILDING_BY_ID[buildingId];
+  if (!b) return "";
+  const mins = walkMinutesBetween(home, b);
+  if (mins === 0) return "Home";
+  return `~${mins} min walk`;
+}
+
+/** Match known campus buildings / landmarks without network. */
+export function matchHomeQuery(query: string): HomeLocation | null {
+  const q = query.trim().toLowerCase().replace(/\s+/g, " ");
+  if (!q) return null;
+
+  if (
+    q.includes("beyer") ||
+    q === "home" ||
+    q === "home base" ||
+    q.includes("212 beyer")
+  ) {
+    return { ...DEFAULT_HOME };
+  }
+
+  for (const b of BUILDINGS) {
+    const name = b.name.toLowerCase();
+    const short = b.short.toLowerCase();
+    const id = b.id.toLowerCase();
+    if (
+      q === id ||
+      q === name ||
+      q === short ||
+      name.includes(q) ||
+      short.includes(q) ||
+      q.includes(name) ||
+      q.includes(short) ||
+      q.includes(id)
+    ) {
+      const label = b.id === "friley" ? DEFAULT_HOME.label : b.name;
+      return { label, lat: b.lat, lon: b.lon };
+    }
+  }
+  return null;
+}
+
+/** Free-text geocode via Nominatim (Ames IA bias). */
+export async function geocodeHomeQuery(query: string): Promise<HomeLocation> {
+  const trimmed = query.trim();
+  if (!trimmed) {
+    throw new Error("Enter a street address, building name, or campus landmark.");
+  }
+
+  const local = matchHomeQuery(trimmed);
+  if (local) return local;
+
+  const biased = /ames/i.test(trimmed) ? trimmed : `${trimmed}, Ames, Iowa`;
+  const url =
+    "https://nominatim.openstreetmap.org/search?" +
+    new URLSearchParams({
+      q: biased,
+      format: "json",
+      limit: "1",
+      countrycodes: "us",
+    }).toString();
+
+  let res: Response;
+  try {
+    res = await fetch(url, {
+      headers: { Accept: "application/json" },
+    });
+  } catch {
+    throw new Error("Could not reach geocoder. Try a campus building name (e.g. Coover, Carver).");
+  }
+  if (!res.ok) {
+    throw new Error("Geocoder request failed. Try a known building name.");
+  }
+  const data = (await res.json()) as { lat: string; lon: string; display_name?: string }[];
+  if (!Array.isArray(data) || !data.length) {
+    throw new Error("No match found. Try a campus landmark or fuller address in Ames, IA.");
+  }
+  const lat = Number(data[0].lat);
+  const lon = Number(data[0].lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    throw new Error("Invalid coordinates from geocoder.");
+  }
+  return {
+    label: trimmed,
+    lat,
+    lon,
+  };
+}
+
+/** Approximate ISU main-campus bounding box (Ames). */
+export const ISU_CAMPUS_BBOX = {
+  minLat: 42.0195,
+  maxLat: 42.0348,
+  minLon: -93.6588,
+  maxLon: -93.6355,
+};
+
+export function isWithinCampus(lat: number, lon: number): boolean {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+  const b = ISU_CAMPUS_BBOX;
+  return lat >= b.minLat && lat <= b.maxLat && lon >= b.minLon && lon <= b.maxLon;
+}
+
+export function isHomeOnCampus(home: HomeLocation): boolean {
+  return isWithinCampus(home.lat, home.lon);
+}
+
+/**
+ * Real-ish ISU commuter lots near the campus edge.
+ * Coords approximate lot centroids for walk-start routing (not survey-grade).
+ */
+export const COMMUTER_LOTS: CommuterLot[] = [
+  {
+    id: "lot29",
+    name: "Lot 29 (Commuter)",
+    short: "Lot 29",
+    lat: 42.02555,
+    lon: -93.65575,
+    edge: "West · near Union Dr / Memorial Union",
+  },
+  {
+    id: "lot50",
+    name: "Lot 50 (Commuter)",
+    short: "Lot 50",
+    lat: 42.02115,
+    lon: -93.64955,
+    edge: "South · near Hilton Coliseum",
+  },
+  {
+    id: "lot67",
+    name: "Lot 67 (Commuter)",
+    short: "Lot 67",
+    lat: 42.03105,
+    lon: -93.6564,
+    edge: "Northwest campus edge",
+  },
+  {
+    id: "lot1a",
+    name: "Lot 1A (Commuter)",
+    short: "Lot 1A",
+    lat: 42.02405,
+    lon: -93.6412,
+    edge: "Southeast · near Lincoln Way",
+  },
+];
+
+export const COMMUTER_LOT_BY_ID = Object.fromEntries(
+  COMMUTER_LOTS.map((l) => [l.id, l]),
+) as Record<string, (typeof COMMUTER_LOTS)[number]>;
+
+export function needsCommuterLot(opts: {
+  home: HomeLocation;
+  commuteOffCampus: boolean;
+}): boolean {
+  return Boolean(opts.commuteOffCampus) || !isHomeOnCampus(opts.home);
+}
+
+/** Map walk-start: commuter lot when off-campus; otherwise profile home. */
+export function resolveWalkStart(opts: {
+  home: HomeLocation;
+  commuteOffCampus: boolean;
+  walkStartLotId: string | null;
+}): {
+  start: HomeLocation;
+  usingLot: boolean;
+  needsLot: boolean;
+  lotId: string | null;
+} {
+  const home = isValidHome(opts.home) ? opts.home : { ...DEFAULT_HOME };
+  const needsLot = needsCommuterLot({ home, commuteOffCampus: opts.commuteOffCampus });
+  if (needsLot) {
+    const lot = opts.walkStartLotId ? COMMUTER_LOT_BY_ID[opts.walkStartLotId] : undefined;
+    if (lot) {
+      return {
+        start: { label: lot.name, lat: lot.lat, lon: lot.lon },
+        usingLot: true,
+        needsLot: true,
+        lotId: lot.id,
+      };
+    }
+    // Off-campus without a lot yet — keep map stable on default campus start.
+    return {
+      start: { ...DEFAULT_HOME },
+      usingLot: false,
+      needsLot: true,
+      lotId: null,
+    };
+  }
+  return { start: home, usingLot: false, needsLot: false, lotId: null };
+}
+
+export function isValidHome(h: unknown): h is HomeLocation {
+  if (!h || typeof h !== "object") return false;
+  const o = h as Record<string, unknown>;
+  return (
+    typeof o.label === "string" &&
+    o.label.trim().length > 0 &&
+    typeof o.lat === "number" &&
+    typeof o.lon === "number" &&
+    Number.isFinite(o.lat) &&
+    Number.isFinite(o.lon) &&
+    o.lat >= -90 &&
+    o.lat <= 90 &&
+    o.lon >= -180 &&
+    o.lon <= 180
+  );
+}

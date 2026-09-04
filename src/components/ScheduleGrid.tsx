@@ -1,7 +1,8 @@
 "use client";
 
 import { conflictingIds, DAY_LABEL, DAY_ORDER, durationPx, formatRange, GRID_END, GRID_START, HOUR_PX, minutesToY, parseHHMM } from "@/lib/time";
-import { BUILDING_BY_ID, walkLabel } from "@/lib/buildings";
+import { BUILDING_BY_ID, DEFAULT_HOME, resolveWalkStart, walkLabelFromHome } from "@/lib/buildings";
+import { useApp } from "@/lib/context";
 import type { DayCode, Meeting } from "@/lib/types";
 
 type Props = {
@@ -10,6 +11,12 @@ type Props = {
 };
 
 export function ScheduleGrid({ meetings, onSelect }: Props) {
+  const { state } = useApp();
+  const home = resolveWalkStart({
+    home: state.home ?? DEFAULT_HOME,
+    commuteOffCampus: state.commuteOffCampus,
+    walkStartLotId: state.walkStartLotId,
+  }).start;
   const hours: number[] = [];
   for (let t = GRID_START; t < GRID_END; t += 60) hours.push(t);
   const height = minutesToY(GRID_END);
@@ -48,6 +55,7 @@ export function ScheduleGrid({ meetings, onSelect }: Props) {
               height={height}
               hours={hours}
               onSelect={onSelect}
+              home={home}
             />
           ))}
         </div>
@@ -83,6 +91,7 @@ function DayColumn({
   height,
   hours,
   onSelect,
+  home,
 }: {
   day: DayCode;
   meetings: Meeting[];
@@ -90,6 +99,7 @@ function DayColumn({
   height: number;
   hours: number[];
   onSelect: (m: Meeting) => void;
+  home: { label: string; lat: number; lon: number };
 }) {
   const blocks = meetings.filter((m) => m.days.includes(day) && m.start && m.end);
   return (
@@ -131,7 +141,7 @@ function DayColumn({
               </div>
             ) : null}
             {h > 56 && bldg ? (
-              <div className="truncate text-[10px] text-white/70">{walkLabel(m.buildingId)}</div>
+              <div className="truncate text-[10px] text-white/70">{walkLabelFromHome(m.buildingId, home)}</div>
             ) : null}
             {clash ? (
               <div className="mt-0.5 text-[9px] font-bold uppercase tracking-wide text-yellow-200">Overlap</div>

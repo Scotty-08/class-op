@@ -1,5 +1,6 @@
 import { currentClassesSeed } from "./current-classes-seed";
-import type { AppState, Meeting, ScheduleSource, YearLevel } from "./types";
+import { DEFAULT_HOME, isValidHome } from "./buildings";
+import type { AppState, HomeLocation, Meeting, ScheduleSource, YearLevel } from "./types";
 
 export const STORAGE_KEY = "class-op-v1";
 
@@ -11,6 +12,9 @@ export const EMPTY_STATE: AppState = {
   completedCourseIds: [],
   meetings: [],
   scheduleSource: "demo",
+  home: { ...DEFAULT_HOME },
+  commuteOffCampus: false,
+  walkStartLotId: null,
 };
 
 function parseYear(v: unknown): YearLevel | null {
@@ -23,6 +27,13 @@ function parseSource(v: unknown): ScheduleSource {
   if (v === "import") return "import";
   if (v === "current") return "current";
   return "demo";
+}
+
+function parseHome(v: unknown): HomeLocation {
+  if (isValidHome(v)) {
+    return { label: v.label.trim(), lat: v.lat, lon: v.lon };
+  }
+  return { ...DEFAULT_HOME };
 }
 
 export function loadState(): AppState {
@@ -41,6 +52,12 @@ export function loadState(): AppState {
         : [],
       meetings: Array.isArray(parsed.meetings) ? (parsed.meetings as Meeting[]) : [],
       scheduleSource: parseSource(parsed.scheduleSource),
+      home: parseHome(parsed.home),
+      commuteOffCampus: Boolean(parsed.commuteOffCampus),
+      walkStartLotId:
+        typeof parsed.walkStartLotId === "string" && parsed.walkStartLotId.trim()
+          ? parsed.walkStartLotId.trim()
+          : null,
     };
   } catch {
     return EMPTY_STATE;
@@ -62,6 +79,9 @@ export function connectDemoWorkday(email: string): AppState {
     completedCourseIds: prev.completedCourseIds,
     meetings: currentClassesSeed(),
     scheduleSource: "current",
+    home: prev.home ?? { ...DEFAULT_HOME },
+    commuteOffCampus: prev.commuteOffCampus ?? false,
+    walkStartLotId: prev.walkStartLotId ?? null,
   };
   saveState(next);
   return next;

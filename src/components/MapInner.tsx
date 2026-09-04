@@ -7,13 +7,19 @@ import "leaflet/dist/leaflet.css";
 import {
   BUILDING_BY_ID,
   DAY_ROUTE_COLORS,
-  HOME,
+  DEFAULT_HOME,
   chainWalk,
+  walkMinutesBetween,
 } from "@/lib/buildings";
 import { DAY_LABEL, DAY_ORDER, formatRange, parseHHMM } from "@/lib/time";
-import type { DayCode, Meeting } from "@/lib/types";
+import type { DayCode, HomeLocation, Meeting } from "@/lib/types";
 
-type Props = { meetings: Meeting[]; selectedDays: DayCode[] };
+type Props = {
+  meetings: Meeting[];
+  selectedDays: DayCode[];
+  home?: HomeLocation;
+  usingLot?: boolean;
+};
 
 type Stop = {
   meeting: Meeting;
@@ -65,13 +71,32 @@ function stopsForDay(meetings: Meeting[], day: DayCode): Stop[] {
   });
 }
 
-function routePointsForStops(stops: Stop[]): [number, number][] {
+function routePointsForStops(stops: Stop[], home: HomeLocation): [number, number][] {
   if (!stops.length) return [];
-  const pts: [number, number][] = [[HOME.lat, HOME.lon], ...stops.map((s) => [s.lat, s.lon] as [number, number])];
+  const pts: [number, number][] = [
+    [home.lat, home.lon],
+    ...stops.map((s) => [s.lat, s.lon] as [number, number]),
+  ];
   return chainWalk(pts);
 }
 
-export default function MapInner({ meetings, selectedDays }: Props) {
+function homeShortLabel(home: HomeLocation): string {
+  const label = home.label.trim();
+  if (label.length <= 28) return label;
+  return `${label.slice(0, 26)}…`;
+}
+
+export default function MapInner({
+  meetings,
+  selectedDays,
+  home: homeProp,
+  usingLot = false,
+}: Props) {
+  const home =
+    homeProp && Number.isFinite(homeProp.lat) && Number.isFinite(homeProp.lon)
+      ? homeProp
+      : DEFAULT_HOME;
+
   const days = useMemo(
     () => DAY_ORDER.filter((d) => selectedDays.includes(d)),
     [selectedDays],
@@ -94,9 +119,9 @@ export default function MapInner({ meetings, selectedDays }: Props) {
       return [
         {
           key: `day-${singleDay}`,
-          pts: routePointsForStops(stops),
+          pts: routePointsForStops(stops, home),
           color: DAY_ROUTE_COLORS[singleDay],
-          label: `${DAY_LABEL[singleDay]} route · home → ${stops.length} stop${stops.length === 1 ? "" : "s"}`,
+          label: `${DAY_LABEL[singleDay]} route · ${usingLot ? "lot" : "home"} → ${stops.length} stop${stops.length === 1 ? "" : "s"}`,
         },
       ];
     }
@@ -106,18 +131,17 @@ export default function MapInner({ meetings, selectedDays }: Props) {
         if (!stops.length) return null;
         return {
           key: `day-${day}`,
-          pts: routePointsForStops(stops),
+          pts: routePointsForStops(stops, home),
           color: DAY_ROUTE_COLORS[day],
           label: `${DAY_LABEL[day]} · ${stops.length} stop${stops.length === 1 ? "" : "s"}`,
         };
       })
       .filter(Boolean) as { key: string; pts: [number, number][]; color: string; label: string }[];
-  }, [meetings, days, singleDay]);
+  }, [meetings, days, singleDay, home, usingLot]);
 
   const markers = useMemo(() => {
     if (!days.length) return [] as Stop[];
     if (singleDay) return stopsForDay(meetings, singleDay);
-    // Multi-day: one marker per meeting (may appear on multiple days — keep unique by meeting id)
     const seen = new Set<string>();
     const out: Stop[] = [];
     for (const day of days) {
@@ -135,10 +159,11 @@ export default function MapInner({ meetings, selectedDays }: Props) {
     if (singleDay) {
       return stopsForDay(meetings, singleDay).map((s) => {
         const b = BUILDING_BY_ID[s.buildingId];
+        const mins = b ? walkMinutesBetween(home, b) : null;
         return {
           color: s.meeting.color,
           title: `${s.order}. ${s.meeting.course}`,
-          detail: `${formatRange(s.meeting.start, s.meeting.end)} · ${b?.short ?? s.buildingId} · ~${b?.walkMin ?? "?"} min`,
+          detail: `${formatRange(s.meeting.start, s.meeting.end)} · ${b?.short ?? s.buildingId} · ~${mins ?? "?"} min`,
         };
       });
     }
@@ -150,14 +175,14 @@ export default function MapInner({ meetings, selectedDays }: Props) {
         detail: n ? `${n} class${n === 1 ? "" : "es"} on map` : "No on-campus classes",
       };
     });
-  }, [meetings, days, singleDay]);
+  }, [meetings, days, singleDay, home]);
 
   if (!days.length) {
     return (
       <div className="flex h-full min-h-[420px] flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-stone-300 bg-stone-50 px-6 text-center">
         <p className="text-sm font-semibold text-stone-800">Select days to compose the campus map</p>
         <p className="max-w-sm text-xs text-stone-500">
-          Check Mon–Fri above. One day shows a numbered walk from Friley; multiple days merge onto one map with
+          Check Mon–Fri above. One day shows a numbered walk from your walk-start; multiple days merge onto one map with
           color-coded routes.
         </p>
       </div>
@@ -195,18 +220,20 @@ export default function MapInner({ meetings, selectedDays }: Props) {
         ))}
 
         <Marker
-          position={[HOME.lat, HOME.lon]}
-          icon={pinIcon(HOME.color, "⌂", true)}
+          position={[home.lat, home.lon]}
+          icon={pinIcon("#f97316", usingLot ? "P" : "⌂", true)}
           zIndexOffset={500}
         >
           <Popup>
             <div className="min-w-[160px] text-[13px]">
-              <div className="font-semibold text-stone-900">212 Beyer Ct · Friley Hall</div>
-              <div className="text-stone-500">Home base</div>
+              <div className="font-semibold text-stone-900">{home.label}</div>
+              <div className="text-stone-500">
+                {usingLot ? "Commuter lot · walk-start" : "Home base · walk-start"}
+              </div>
             </div>
           </Popup>
           <Tooltip direction="top" offset={[0, -28]} opacity={1}>
-            Friley (home)
+            {homeShortLabel(home)} ({usingLot ? "lot" : "home"})
           </Tooltip>
         </Marker>
 
@@ -215,6 +242,7 @@ export default function MapInner({ meetings, selectedDays }: Props) {
           const numbered = singleDay != null && s.order > 0;
           const glyph = numbered ? String(s.order) : (b?.short.slice(0, 1) ?? "?");
           const color = s.meeting.color;
+          const mins = b ? walkMinutesBetween(home, b) : null;
           return (
             <Marker
               key={`${s.meeting.id}-${s.day ?? "x"}`}
@@ -228,7 +256,11 @@ export default function MapInner({ meetings, selectedDays }: Props) {
                     {numbered ? `${s.order}. ` : ""}
                     {b?.name ?? s.buildingId}
                   </div>
-                  <div className="text-stone-500">~{b?.walkMin ?? "?"} min walk from Friley</div>
+                  <div className="text-stone-500">
+                    {mins === 0
+                      ? "At walk-start"
+                      : `~${mins ?? "?"} min walk from ${usingLot ? "lot" : "home"}`}
+                  </div>
                   <div className="mt-2 border-l-2 pl-2" style={{ borderColor: s.meeting.color }}>
                     <div className="font-medium">
                       {s.meeting.course}{" "}
@@ -276,10 +308,10 @@ export default function MapInner({ meetings, selectedDays }: Props) {
       <div className="pointer-events-none absolute bottom-3 left-3 rounded-xl bg-white/92 px-3 py-2 text-[11px] text-stone-600 shadow-card backdrop-blur">
         <div className="mb-1 font-semibold text-stone-800">
           {singleDay
-            ? `${DAY_LABEL[singleDay]} walk from Friley`
+            ? `${DAY_LABEL[singleDay]} walk from ${homeShortLabel(home)}`
             : `Merged · ${days.map((d) => DAY_LABEL[d]).join(" + ")}`}
         </div>
-        <LegendDot color="#f97316" label="Friley home" />
+        <LegendDot color="#f97316" label={usingLot ? "Commuter lot" : "Home base"} />
         {singleDay ? (
           <LegendDot color={DAY_ROUTE_COLORS[singleDay]} dashed label="Chronological route" />
         ) : (

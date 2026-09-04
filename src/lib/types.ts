@@ -47,6 +47,24 @@ export type YearLevel = 1 | 2 | 3 | 4;
 /** Where the primary map meetings came from. */
 export type ScheduleSource = "demo" | "current" | "import";
 
+/** Profile home address / building (not always the map walk-start). */
+export type HomeLocation = {
+  label: string;
+  lat: number;
+  lon: number;
+};
+
+/** ISU commuter lot used as walk-start when home is off-campus. */
+export type CommuterLot = {
+  id: string;
+  name: string;
+  short: string;
+  lat: number;
+  lon: number;
+  /** Short campus-edge hint for the picker. */
+  edge: string;
+};
+
 export type AppState = {
   email: string | null;
   workdayDemo: boolean;
@@ -58,6 +76,12 @@ export type AppState = {
   meetings: Meeting[];
   /** current = bundled Fall 2026 Current Classes; demo = Y1 Beyer Loop; import = user JSON. */
   scheduleSource: ScheduleSource;
+  /** Editable home / profile location; defaults to Friley / 212 Beyer Ct. */
+  home: HomeLocation;
+  /** User checked “I commute / live off campus”. */
+  commuteOffCampus: boolean;
+  /** Selected ISU commuter lot id when off-campus; null until picked. */
+  walkStartLotId: string | null;
 };
 
 /** @deprecated Prefer selectedDays: DayCode[] on CampusMap. */

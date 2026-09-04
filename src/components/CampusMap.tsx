@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { DayCode, Meeting } from "@/lib/types";
+import type { DayCode, HomeLocation, Meeting } from "@/lib/types";
 
 const Inner = dynamic(() => import("./MapInner"), {
   ssr: false,
@@ -12,6 +12,13 @@ const Inner = dynamic(() => import("./MapInner"), {
   ),
 });
 
-export function CampusMap(props: { meetings: Meeting[]; selectedDays: DayCode[] }) {
+export function CampusMap(props: {
+  meetings: Meeting[];
+  selectedDays: DayCode[];
+  /** Walk-start for routes (home or commuter lot). */
+  home?: HomeLocation;
+  /** When true, orange pin is a commuter lot walk-start. */
+  usingLot?: boolean;
+}) {
   return <Inner {...props} />;
 }
