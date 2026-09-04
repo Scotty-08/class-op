@@ -1,0 +1,388 @@
+{
+  "major": "Industrial Design",
+  "option": null,
+  "degree": null,
+  "college": "College of Design",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofdesign/industrialdesign/#fouryearplantext",
+  "gridHeading": "Electives: 9 credits",
+  "displayName": "Industrial Design",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or General Education)"
+        },
+        {
+          "code": "ENGL 1500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 1500 (or General Education)"
+        },
+        {
+          "code": "DSNS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or General Education)"
+        },
+        {
+          "code": "DSNS 1320",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 1500 (or General Education)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "INDD 2010",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 2100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 2200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 2800",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "INDD 2020",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 2600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "INDD 3010",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "INDD 3020 (or Approved Experiential Learning)",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 3800",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "INDD 4010 (or Approved Experiential Learning)",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ History, Theory and Criticism"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "INDD 4990",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "INDD 4400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Dept. Elective or General Education"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 credits from a two-year institution may apply, which may include up to 16 technical credits; 9 P-NP credits of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 9 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 9 credits Electives should be assembled to support a focused area of study. Suggested Departmental Electives: INDD 2400 Digital Tools For Industrial Design 3 INDD 3500 Applied Human Factors Lab 1 INDD 4350 Strategic Design: Project Management 3 INDD 4600 Product Realization 3 INDD 5200 Design Theory Methodology 3 INDD 5300 Design Thinking 3 INDD 5400 Design Communication 3 INDD 5500 Human Factors: User Experience Design 3 INDD 5600 Change by Design: Disruptive Innovation 3 INDD 5700 Systems Thinking in Design 3 INDD 5800 Material Culture and Values 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Departmental Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Suggested Departmental Electives: INDD 2400 Digital Tools For Industrial Design 3 INDD 3500 Applied Human Factors Lab 1 INDD 4350 Strategic Design: Project Management 3 INDD 4600 Product Realization 3 INDD 5200 Design Theory Methodology 3 INDD 5300 Design Thinking 3 INDD 5400 Design Communication 3 INDD 5500 Human Factors: User Experience Design 3 INDD 5600 Change by Design: Disruptive Innovation 3 INDD 5700 Systems Thinking in Design 3 INDD 5800 Material Culture and Values 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Suggested Focused Electives 9-12 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Suggested Focused Electives 9-12 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "DSNS 1830 (or General Education)"
+    },
+    {
+      "name": "ENGL 1500 (or General Education)"
+    },
+    {
+      "name": "General Education"
+    },
+    {
+      "name": "Dept. Elective or General Education"
+    },
+    {
+      "name": "3000+ History, Theory and Criticism"
+    }
+  ],
+  "slug": "industrial-design"
+}

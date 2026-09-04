@@ -1,0 +1,453 @@
+{
+  "major": "Civil Engineering",
+  "option": "GENERAL Program",
+  "degree": "B.S.",
+  "college": "College of Engineering",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 128,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofengineering/civilengineering/#fouryearplangeneralprogramtext",
+  "gridHeading": "Civil Engineering, B.S. - environmental OPTION",
+  "displayName": "Civil Engineering, B.S. -GENERAL Program",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGR 1010",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "CE 1200",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CE 1600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CE 2710",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CE 1700",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2510",
+          "title": "(Spring only)",
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CE 2720",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "EM 3240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 2060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 1110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 3060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2660",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3005",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "CE 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EM 3270",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CE 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 3820",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ABE 3780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ABE 3780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CE 3340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 3260",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 2010",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "CE 3720",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Communication Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CE 3600",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "Take two of four: ENVE 4260, 4270, 4290 or 4300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENVE 4260",
+          "title": "(Fall only)",
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ENVE 4300",
+          "title": "(Fall only)",
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "CE Design Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "US Cultures and Communities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "CE 4850",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 4280",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "Take two of four: ENVE 4260, 4270, 4290 or 4300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENVE 4270",
+          "title": "(Spring only)",
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ENVE 4290",
+          "title": "(Spring only)",
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "CE 4030",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr. 1",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Communication Elective",
+      "credits": null,
+      "courses": [],
+      "notes": "Technical Communication Elective 2",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Engineering Topics Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Engineering Topics Electives 2",
+      "approvedListUrl": null
+    },
+    {
+      "name": "SSH Elective"
+    },
+    {
+      "name": "Technical Communication Elective"
+    },
+    {
+      "name": "CE Design Elective"
+    },
+    {
+      "name": "International Perspective"
+    },
+    {
+      "name": "US Cultures and Communities"
+    }
+  ],
+  "slug": "civil-engineering-b-s-general-program"
+}

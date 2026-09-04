@@ -1,0 +1,338 @@
+{
+  "major": "Philosophy",
+  "option": null,
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/philosophy/#fouryearplantext",
+  "gridHeading": "Philosophy, B.A.",
+  "displayName": "Philosophy, B.A.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "PHIL 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "PHIL 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "PHIL 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHIL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "PHIL 3300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHIL 3640",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice - 3000/4000 Level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 12,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice - 4000 Level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice - 3000/4000 Level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "PHIL 4920",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Philosophy Choice - 4000 Level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 10,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Humanities Choice"
+    },
+    {
+      "name": "Social Science Choice"
+    },
+    {
+      "name": "World Language/Elective"
+    },
+    {
+      "name": "Philosophy Choice"
+    },
+    {
+      "name": "Math Choice"
+    },
+    {
+      "name": "Natural Science Choice"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "Electives"
+    },
+    {
+      "name": "Philosophy Choice - 3000/4000 Level"
+    },
+    {
+      "name": "Philosophy Choice - 4000 Level"
+    }
+  ],
+  "slug": "philosophy-b-a"
+}

@@ -1,0 +1,349 @@
+{
+  "major": "Linguistics",
+  "option": null,
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/linguistics/#fouryearplantext",
+  "gridHeading": "Linguistics, B.A.",
+  "displayName": "Linguistics, B.A.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        },
+        {
+          "code": "LING 1190",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "LING 1010",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math Choice"
+        },
+        {
+          "code": "PSYCH 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LING 2190",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ANTHR 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language 2010"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "LING 3710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language 2020"
+        },
+        {
+          "code": "LING 2200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "LING 3090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LING 4370",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3050 , 3140 , WLC 3700A , WLC 3700B , or WLC 3700C",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "LING 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LING 4130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LING 4200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "LING Area of Concentration"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 11,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "LING Area of Concentration"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "World Language/Elective"
+    },
+    {
+      "name": "Natural Science Choice"
+    },
+    {
+      "name": "Humanities Choice"
+    },
+    {
+      "name": "Math Choice"
+    },
+    {
+      "name": "World Language 2010"
+    },
+    {
+      "name": "World Language 2020"
+    },
+    {
+      "name": "Social Science Choice"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "LING Area of Concentration"
+    },
+    {
+      "name": "U.S. Cultures and Communities"
+    },
+    {
+      "name": "Electives"
+    }
+  ],
+  "slug": "linguistics-b-a"
+}

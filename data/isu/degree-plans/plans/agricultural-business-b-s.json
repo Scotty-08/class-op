@@ -1,0 +1,360 @@
+{
+  "major": "Agricultural Business",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agriculturalbusiness/#fouryearplantext",
+  "gridHeading": "Bachelor of Science, Agricultural Business",
+  "displayName": "Agricultural Business, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ECON 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1600",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Ag Science or Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "ECON 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 2350",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 2070 or MATH 1660",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Ag Science or Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 10,
+      "courses": [
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 3010",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 2920A",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 2026",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Ag Science or Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": "STAT 3226",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L or PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspectives or Cultures and Communities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Life Sciences"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Business elective a"
+        },
+        {
+          "code": "ECON 2300-2390, 3000-3890, or 4000-4890",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120 or AGEDS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Ethics"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ECON 2300-2390, 3000-3890, or 4000-4890",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FIN 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspectives or Cultures and Communities"
+        },
+        {
+          "code": "ECON 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Business elective a"
+        },
+        {
+          "code": "ENGL 3020 , 3090 , or 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ECON 4000",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 4920",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 12,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective : 3 cr. 3 cr. from approved list.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 22-24 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 22-24 cr. Agricultural Business majors seeking a double major in Economics must take an additional 9 credits of economics courses beyond those required for the Economics major for a total of 47 credits in economics and must earn a minimum GPA of 2.0 across ECON 1010 Principles of Microeconomics , ECON 1020 Principles of Macroeconomics , ECON 3010 Intermediate Microeconomics , and ECON 3020 Intermediate Macroeconomics , with no grade in these lower than a C‐.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Ag Science or Humanities"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "International Perspectives or Cultures and Communities"
+    },
+    {
+      "name": "Life Sciences"
+    },
+    {
+      "name": "Business elective a"
+    },
+    {
+      "name": "Ethics"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "Electives"
+    }
+  ],
+  "slug": "agricultural-business-b-s"
+}

@@ -1,0 +1,478 @@
+{
+  "major": "Pre-Physician Assistant Sample Plan",
+  "option": null,
+  "degree": null,
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120.5,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/biology/#fouryearplantext",
+  "gridHeading": "Pre-Physician Assistant Sample Plan",
+  "displayName": "Pre-Physician Assistant Sample Plan",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14.5,
+      "courses": [
+        {
+          "code": "BIOL 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 1110",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1600",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Summer",
+      "yearLabel": "Freshman",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "All Summers: Consider internship, study abroad, field stations, research, clinical observation"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "BIOL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "Or CHEM 3310 & CHEM 3310L",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500 (or Elective)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 2500 (or Elective)"
+        },
+        {
+          "code": "STAT 1040",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3670",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Biology Choice"
+        },
+        {
+          "code": "BIOL 3130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3130L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore",
+      "yearLabel": "Sophomore",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "BBMB 3160",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3120",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3500",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": "PSYCH 4600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Biology"
+        },
+        {
+          "code": "BIOL 3350",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3350L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities + Humanities"
+        },
+        {
+          "code": "PHYS 1150/L or PHYS 1310/L",
+          "title": null,
+          "credits": 5,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior",
+      "yearLabel": "Junior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Biology Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Written Communication/Speech"
+        },
+        {
+          "code": "BIOL 3150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IP + Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "World Lang or Elective Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Biology Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "All Summers: Consider internship, study abroad, field stations, research, clinical observation"
+    },
+    {
+      "name": "ENGL 2500 (or Elective)"
+    },
+    {
+      "name": "Advanced Biology Choice"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "Humanities Choice"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Advanced Biology"
+    },
+    {
+      "name": "U.S. Cultures and Communities + Humanities"
+    },
+    {
+      "name": "Written Communication/Speech"
+    },
+    {
+      "name": "IP + Humanities Choice"
+    },
+    {
+      "name": "World Lang or Elective Choice"
+    },
+    {
+      "name": "Elective Choice"
+    },
+    {
+      "name": "Arts & Humanities Choice"
+    },
+    {
+      "name": "Social Science"
+    }
+  ],
+  "slug": "pre-physician-assistant-sample-plan-liberal-arts-and-sciences"
+}

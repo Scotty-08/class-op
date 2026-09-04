@@ -1,0 +1,349 @@
+{
+  "major": "Mathematics Major with Applications",
+  "option": null,
+  "degree": null,
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/mathematics/#fouryearplantext",
+  "gridHeading": "Mathematics Major with Applications",
+  "displayName": "Mathematics Major with Applications",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MATH 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area Prereq."
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area Prereq."
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MATH 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area Prereq."
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 11,
+      "courses": [
+        {
+          "code": "MATH 2660",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 3170",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MATH 3000+ or MATH 3040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area 3000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives/World Language"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MATH 3000+ or MATH 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area 3000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communication Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives/World Language"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MATH 3000",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area 3000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MATH 3000",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Specialization Area 3000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "Courses used to meet the International Perspectives and U.S. Cultures and Communities requirements can also be used to fulfill general education requirements.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Natural Science Choice"
+    },
+    {
+      "name": "Specialization Area Prereq."
+    },
+    {
+      "name": "Arts & Humanities Choice"
+    },
+    {
+      "name": "Social Science Choice"
+    },
+    {
+      "name": "Specialization Area 3000+"
+    },
+    {
+      "name": "Electives/World Language"
+    },
+    {
+      "name": "Communication Choice"
+    },
+    {
+      "name": "Electives"
+    }
+  ],
+  "slug": "mathematics-major-with-applications"
+}

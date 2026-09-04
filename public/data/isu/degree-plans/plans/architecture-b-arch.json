@@ -1,0 +1,501 @@
+{
+  "major": "Architecture",
+  "option": null,
+  "degree": "B.Arch.",
+  "college": "College of Design",
+  "catalogYear": "2025-26",
+  "planYears": 5,
+  "totalCredits": 165,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofdesign/architecture/#fiveyearplantext",
+  "gridHeading": "Electives: 17 cr.",
+  "displayName": "Architecture, B.Arch.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or General Elective)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or General Elective)"
+        },
+        {
+          "code": "DSNS 1320",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500 or LIB 1600 (or General Elective)",
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "ENGL 1500 or LIB 1600 (or General Elective)"
+        },
+        {
+          "code": "MATH 1450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science/Humanities Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 or ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-3"
+        },
+        {
+          "code": "LIB 1600 or ENGL 2500 *",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "*LIB 1600 is taken once.",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ARCH 2010",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 2200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3450",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3450L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "*If not taken the first year."
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ARCH 2020",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3460",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3460L",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ARCH 2210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3010",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3470",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3470L",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Sciences/Humanities Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ARCH 3020",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3220",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3480",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 3480L",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HTC Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ARCH 4010",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 4450",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 4450L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ARCH 4820",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HTC Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science/Humanities Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ARCH 4020",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HTC Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fifth Year Fall",
+      "yearLabel": "Fifth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ARCH 4030",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fifth Year Spring",
+      "yearLabel": "Fifth Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "DSNS 5460",
+          "title": null,
+          "credits": 6,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Professional Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 17 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 17 cr. 2 cr. KIN or ATH allowed; 4 cr. AFAS, MS, or NS allowed; 9 cr. ARCH allowed (no P/NP).",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 24 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 24 cr. Total Credits: 90",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 6 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 6 cr. Total Credits: 30",
+      "approvedListUrl": null
+    },
+    {
+      "name": "DSNS 1830 (or General Elective)"
+    },
+    {
+      "name": "ENGL 1500 or LIB 1600 (or General Elective)"
+    },
+    {
+      "name": "Social Science/Humanities Elective"
+    },
+    {
+      "name": "1-3"
+    },
+    {
+      "name": "*If not taken the first year."
+    },
+    {
+      "name": "Social Sciences/Humanities Elective"
+    },
+    {
+      "name": "HTC Elective"
+    },
+    {
+      "name": "General Elective"
+    },
+    {
+      "name": "Professional Elective"
+    }
+  ],
+  "slug": "architecture-b-arch"
+}

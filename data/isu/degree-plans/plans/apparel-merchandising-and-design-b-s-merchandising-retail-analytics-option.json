@@ -1,0 +1,410 @@
+{
+  "major": "Apparel, Merchandising, and Design",
+  "option": "merchandising retail analytics option",
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/apparelmerchandisinganddesign/#fouryearplanstext",
+  "gridHeading": "(36-37) Fashion Communication",
+  "displayName": "Apparel, Merchandising, and Design, B.S. - merchandising retail analytics option",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 1310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 1650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 1110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 1110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 2450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 2040",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 1130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman",
+      "yearLabel": "Freshman",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FDM 2750",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 2100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Option Elective"
+        },
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "History/ARTH"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "FDM 3560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 3760",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 3760L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "DS 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore",
+      "yearLabel": "Sophomore",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "FDM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 3770",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Option Elective"
+        },
+        {
+          "code": "AESHM 3110N",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "FDM 3750",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 4750",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 3880",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Merchandising Option Elective 3"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Summer",
+      "yearLabel": "Junior",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": "AESHM 4700N",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FDM 3720",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 4670",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities or Social Science Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "AESHM 4740",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Option Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "COMSTSpeech Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Merchandising Elective 3"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Option Elective"
+    },
+    {
+      "name": "History/ARTH"
+    },
+    {
+      "name": "Science Choice"
+    },
+    {
+      "name": "Merchandising Option Elective 3"
+    },
+    {
+      "name": "Humanities or Social Science Elective"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "COMSTSpeech Choice"
+    },
+    {
+      "name": "Merchandising Elective 3"
+    }
+  ],
+  "slug": "apparel-merchandising-and-design-b-s-merchandising-retail-analytics-option"
+}

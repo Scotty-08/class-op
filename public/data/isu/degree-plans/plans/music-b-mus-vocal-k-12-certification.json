@@ -1,0 +1,583 @@
+{
+  "major": "Music",
+  "option": "vocal: K-12 certification",
+  "degree": "B.Mus.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/music/#fouryearplanstext",
+  "gridHeading": "Music, B.Mus. - Vocal Education K-12",
+  "displayName": "Music, B.Mus. - vocal: K-12 certification",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 19,
+      "courses": [
+        {
+          "code": "MUSIC 1190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1270",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2240",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2250",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math course"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 13.5,
+      "courses": [
+        {
+          "code": "MUSIC 1190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1280",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2350",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2660",
+          "title": "c",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2800K",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 20,
+      "courses": [
+        {
+          "code": "MUSIC 2190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2270",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3350",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3610 (even falls) or PSYCH 2300 (odd falls) ++",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3830",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 2190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2280",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2480",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3440",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "2-3"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3600",
+          "title": "(even springs)++",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3620A (odd springs) or MUSIC 3670 (even springs) ++",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Continuation Exam"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MUSIC 3190: Applied Music: Majors",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3660",
+          "title": "c",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4800K",
+          "title": "c",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3610 (even falls) or PSYCH 3330 (odd falls) ++",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": "SPED 4010",
+          "title": "c",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language"
+        },
+        {
+          "code": "MUSIC 3740",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MUSIC 3190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3270B",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3600",
+          "title": "(even springs)",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3620A (odd springs) or MUSIC 3670 (even spring) ++",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "2-3"
+        },
+        {
+          "code": "MUSIC 4800K",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education - Natural Science/Math"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MUSIC 4190",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4660",
+          "title": "c",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Choral Ensemble"
+        },
+        {
+          "code": "MUSIC 3010A or 3010B",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4650",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3580A",
+          "title": "2",
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 3330",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4260",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4800K",
+          "title": "c",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4200",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 4170R",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4170S",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-3"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Electives: Educ. 2040, 4060, or any other non-music classes",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: Educ. 2040, 4060, or any other non-music classes.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Choral Ensemble"
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Math course"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "2-3"
+    },
+    {
+      "name": "Continuation Exam"
+    },
+    {
+      "name": "World Language"
+    },
+    {
+      "name": "General Education - Natural Science/Math"
+    },
+    {
+      "name": "1-3"
+    }
+  ],
+  "slug": "music-b-mus-vocal-k-12-certification"
+}

@@ -1,0 +1,449 @@
+{
+  "major": "Advertising",
+  "option": null,
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/advertising/#fouryearplantext",
+  "gridHeading": "Advertising, B.A.",
+  "displayName": "Advertising, B.A.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "JLMC 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ADVRT 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "JLMC 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman",
+      "yearLabel": "Freshman",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ADVRT 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "World Languages and Cultures or Elective"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "ADVRT 3340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore",
+      "yearLabel": "Sophomore",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ADVRT/JLMC/PR/SMC choice-3000 level"
+        },
+        {
+          "code": "MKT 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor/additional major choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor/additional major choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ADVRT/JLMC/PR/SMC choice-3000 level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ADVRT/JLMC/PR/SMC choice-4000 level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor/additional major choice-3000 level"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor/additional major choice-3000 level"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Summer",
+      "yearLabel": "Junior",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": "ADVRT 4990A",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "JLMC 4600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "One of the following:"
+        },
+        {
+          "code": "ADVRT 4340",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ADVRT 4360",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ADVRT/JLMC/PR/SMC elective or additional major/minor choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor/additional major choice-3000 level or above"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective or Minor/additional major choice-3000 level or above"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "JLMC 4620",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective or Minor/additional major choice-3000 level or above"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective or Minor/additional major choice-3000 level or above"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective or Minor/additional major choice-3000 level or above"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Arts and Humanities"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "Social Science"
+    },
+    {
+      "name": "World Languages and Cultures or Elective"
+    },
+    {
+      "name": "U.S. Cultures and Communities"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "ADVRT/JLMC/PR/SMC choice-3000 level"
+    },
+    {
+      "name": "Arts & Humanities"
+    },
+    {
+      "name": "Minor/additional major choice"
+    },
+    {
+      "name": "ADVRT/JLMC/PR/SMC choice-4000 level"
+    },
+    {
+      "name": "International Perspective"
+    },
+    {
+      "name": "Minor/additional major choice-3000 level"
+    },
+    {
+      "name": "One of the following:"
+    },
+    {
+      "name": "ADVRT/JLMC/PR/SMC elective or additional major/minor choice"
+    },
+    {
+      "name": "Minor/additional major choice-3000 level or above"
+    },
+    {
+      "name": "Elective or Minor/additional major choice-3000 level or above"
+    }
+  ],
+  "slug": "advertising-b-a"
+}

@@ -1,0 +1,488 @@
+{
+  "major": "Music",
+  "option": "strings",
+  "degree": "B.Mus.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/music/#fouryearplanstext",
+  "gridHeading": "Music, B.Mus. - Strings",
+  "displayName": "Music, B.Mus. - strings",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": "c",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1270",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2240",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2250",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math/Natural Science"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1280",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2350",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MUSIC 2190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2270",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3350",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3830",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 2190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2280",
+          "title": "1",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3210D",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3440",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3450",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "(Continuation Examination)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 3210D",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3610",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4150D",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4400",
+          "title": "(even falls only)",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 3210D",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math/Natural Science Choice"
+        },
+        {
+          "code": "MUSIC 4720",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MUSIC 3210D",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4190",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": "MUSIC 4400",
+          "title": "(even falls only)",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MUSIC 1810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 3210D",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4150D",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 4190D",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        },
+        {
+          "code": "MUSIC 4200",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Electives: Educ. 2040, 4060, or any other non-music classes",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: Educ. 2040, 4060, or any other non-music classes.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Math/Natural Science"
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Social Science"
+    },
+    {
+      "name": "(Continuation Examination)"
+    },
+    {
+      "name": "World Language/Elective"
+    },
+    {
+      "name": "Math/Natural Science Choice"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "General Education Elective"
+    }
+  ],
+  "slug": "music-b-mus-strings"
+}

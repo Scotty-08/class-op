@@ -1,0 +1,405 @@
+{
+  "major": "Technical Communication",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/technicalcommunication/#fouryearplantext",
+  "gridHeading": "Technical Communication, B.S.",
+  "displayName": "Technical Communication, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ENGL 1500 (or ENGL 2500 by placement or transfer credit)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MATH or STAT"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        },
+        {
+          "code": "ENGL 2500 (if not in Fall); or ENGL 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 3100 , 3130 , or 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective/Minor"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical/Scientific/Design Course"
+        },
+        {
+          "code": "ENGL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3130, 3100, or TComm Elective",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 3130, 3100, or TComm Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice or elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "TComm Elective/Minor"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Natural Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "TComm Choice: ENG 4160, 4770, or other 4000-level TComm course",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective/Minor"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspectives Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 4150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Minor"
+        },
+        {
+          "code": "TComm Elective from List (ENGL 3000+)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "TComm Elective from List (ENGL 3000+)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical/Scientific/Design Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical/Scientific/Design Course"
+        },
+        {
+          "code": "TComm Elective from List – ENGL 4000+",
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "TComm Elective from List – ENGL 4000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Electives/Minor"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "ENGL 4870",
+          "title": "(recommended)",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "TComm Elective from List – ENGL 4000+",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "TComm Elective from List – ENGL 4000+"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Electives or Minor"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Electives: 9 credits (with at least 6 credits from 4000 or above courses)",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 9 credits (with at least 6 credits from 4000 or above courses)",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Humanities Choice"
+    },
+    {
+      "name": "World Language/Elective"
+    },
+    {
+      "name": "MATH or STAT"
+    },
+    {
+      "name": "Social Science Choice"
+    },
+    {
+      "name": "Natural Science Choice"
+    },
+    {
+      "name": "U.S. Cultures and Communities Choice"
+    },
+    {
+      "name": "Elective/Minor"
+    },
+    {
+      "name": "Technical/Scientific/Design Course"
+    },
+    {
+      "name": "ENGL 3130, 3100, or TComm Elective"
+    },
+    {
+      "name": "Humanities Choice or elective"
+    },
+    {
+      "name": "TComm Elective/Minor"
+    },
+    {
+      "name": "International Perspectives Choice"
+    },
+    {
+      "name": "Minor"
+    },
+    {
+      "name": "TComm Elective from List (ENGL 3000+)"
+    },
+    {
+      "name": "Electives"
+    },
+    {
+      "name": "TComm Elective from List – ENGL 4000+"
+    },
+    {
+      "name": "Electives/Minor"
+    },
+    {
+      "name": "Electives or Minor"
+    }
+  ],
+  "slug": "technical-communication-b-s"
+}

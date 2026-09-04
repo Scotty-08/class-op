@@ -1,0 +1,348 @@
+{
+  "major": "Statistics",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/statistics/#fouryearplantext",
+  "gridHeading": "Statistics, B.S.",
+  "displayName": "Statistics, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 2010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3201",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Computer Science or Data Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 4212",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "MATH 2070",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 4279",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120 or COMST 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "STAT 3441",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 4278",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "World Language/Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "STAT 3442",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "STAT 4207",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Statistics 3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "3000+ Electives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Statistics 3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts & Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "3000+ Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Arts & Humanities"
+    },
+    {
+      "name": "Computer Science or Data Science"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "Social Science"
+    },
+    {
+      "name": "World Language/Elective"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Statistics 3000+ Elective"
+    },
+    {
+      "name": "3000+ Electives"
+    }
+  ],
+  "slug": "statistics-b-s"
+}

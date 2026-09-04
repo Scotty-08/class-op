@@ -1,0 +1,364 @@
+{
+  "major": "Healthcare Management",
+  "option": null,
+  "degree": "B.S.",
+  "college": "Ivy College of Business",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 122,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofbusiness/healthcaremanagement/#fouryearplantext",
+  "gridHeading": "Curriculum:",
+  "displayName": "Healthcare Management, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "BUSAD 1020",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 1130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ECON 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 2026",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HUM/SOC SCI"
+        },
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Global/International Perspective @"
+        },
+        {
+          "code": "BUSAD 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ACCT 2850",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MKT 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "SPCM 3120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 2150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHIL 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MGMT 3710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENTSP 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FIN 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SCM 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HCM 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HCM 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "HCM 3030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HCM 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MIS 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MGMT 3720",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities #"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HUM/SOC SCI"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Global/International Perspective @"
+        },
+        {
+          "code": "HCM 4020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HCM 3910",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 5,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MGMT 4780",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HUM/SOC SCI"
+        },
+        {
+          "code": "HCM 4030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HCM Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "HUM/SOC SCI"
+    },
+    {
+      "name": "Global/International Perspective @"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "U.S. Cultures and Communities #"
+    },
+    {
+      "name": "General Elective"
+    },
+    {
+      "name": "HCM Elective"
+    },
+    {
+      "name": "General Electives"
+    }
+  ],
+  "slug": "healthcare-management-b-s"
+}

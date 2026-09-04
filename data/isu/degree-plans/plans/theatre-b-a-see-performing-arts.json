@@ -1,0 +1,483 @@
+{
+  "major": "Theatre",
+  "option": "See Performing Arts",
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120.5,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/theatreandperformingarts/#fouryearplantext",
+  "gridHeading": "Theatre - B.A. - Emphasis in Musical Theatre",
+  "displayName": "Theatre, B.A. - See Performing Arts",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15.5,
+      "courses": [
+        {
+          "code": "THTRE 2510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 2550",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PERF 1050",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 1060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "THTRE 2630",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 2500",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Elective"
+        },
+        {
+          "code": "THTRE 1510 (or other Acting/Directing course)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman",
+      "yearLabel": "Freshman",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15.5,
+      "courses": [
+        {
+          "code": "PERF 1050",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": "THTRE 2500",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Class"
+        },
+        {
+          "code": "THTRE 3540",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": "MUSIC 1250",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Class"
+        },
+        {
+          "code": "THTRE 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 1250",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Summer",
+      "yearLabel": "Sophomore",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": "PERF 3100",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 14.5,
+      "courses": [
+        {
+          "code": "PERF 1050",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 4550 (or other 3000+ Acting/Directing Course)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 4650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Elective"
+        },
+        {
+          "code": "MUSIC 1180A",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Dance Class Elective"
+        },
+        {
+          "code": "THTRE 3510 (Or other 3000+ THTRE Acting/Directing Course)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": "MUSIC 1180A",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Summer",
+      "yearLabel": "Junior",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": "PERF 3100",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "PERF 4010",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 3520 (or other THTRE 3000+ course from degree requirements)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "THTRE 4510 (or other 3000+ acting/directing course)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Requirement"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "3000+ Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Dance Elective"
+    },
+    {
+      "name": "General Education Requirement"
+    },
+    {
+      "name": "3000+ Elective"
+    },
+    {
+      "name": "Dance Class"
+    },
+    {
+      "name": "Dance Class Elective"
+    }
+  ],
+  "slug": "theatre-b-a-see-performing-arts"
+}

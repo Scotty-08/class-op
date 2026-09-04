@@ -1,0 +1,578 @@
+{
+  "major": "Scientific Illustration and Visualization",
+  "option": null,
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/scientificillustrationandvisualization/#fouryearplantext",
+  "gridHeading": "Scientific Illustration and Visualization, B.A. 120 minimum credits required.",
+  "displayName": "Scientific Illustration and Visualization, B.A.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "LAS 1010",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ART 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Soc Sci Choice"
+        },
+        {
+          "code": "CHEM 2310 & 2310L or STAT or MATH",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Summer",
+      "yearLabel": "Freshman",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Prepare application for major entry / apply during second year"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Consider taking a science course over the summer"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 7,
+      "courses": [
+        {
+          "code": "Foreign Lang. or Humanities (ART 2800)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310 & 2310L or STAT or MATH",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "SCIVZ 3230",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Science Core Course"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 6,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": "ART 3300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Summer",
+      "yearLabel": "Sophomore",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "For Lang or Social Sci"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Consider study abroad, or attending summer AMI / GNSI Conferences and enrolling in Art/Science/Techniques Workshops or Iowa Lakeside Lab to take advanced biology courses"
+        },
+        {
+          "code": "SCIVZ 3260",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "Consider conducting SCIVZ 4970 Internship over the summer",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Science Core Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "SCIVZ 3350",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Advanced Science or Science Core Course"
+        },
+        {
+          "code": "ART 3080",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities or Social Sci"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced Science or Art"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "SCIVZ 3370",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Soc Sci"
+        },
+        {
+          "code": "ART 2330",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities and Advanced Art"
+        },
+        {
+          "code": "Consider taking SCIVZ 4910, Portfolio Design and Professional Development, to begin preparing for post-graduation steps",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Summer",
+      "yearLabel": "Junior",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Work with Advisory Committee to fine tune/plan senior portfolio"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Science Core Course or Advanced Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "If planning to attend graduate school, take GRE over the summer, or at the latest in the fall, and prepare up to 20 portfolio pieces for submission over the summer and fine tune in the fall"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 7,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Advanced Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Advanced Art"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/Social Elective"
+        },
+        {
+          "code": "BPMI 4970",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced English or Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 3,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-5"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-6"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Humanities/Social Sci/Elective"
+        },
+        {
+          "code": "Advanced English or Elective (ENGL 3020 through ENGL 3160 count as Advanced English)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced English or Elective (ENGL 3020 through ENGL 3160 count as Advanced English)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "Choose courses to meet International Perspectives & U.S. Cultures and Communities requirements",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Soc Sci Choice"
+    },
+    {
+      "name": "Prepare application for major entry / apply during second year"
+    },
+    {
+      "name": "Consider taking a science course over the summer"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Science Core Course"
+    },
+    {
+      "name": "For Lang or Social Sci"
+    },
+    {
+      "name": "Consider study abroad, or attending summer AMI / GNSI Conferences and enrolling in Art/Science/Techniques Workshops or Iowa Lakeside Lab to take advanced biology courses"
+    },
+    {
+      "name": "Advanced Science or Science Core Course"
+    },
+    {
+      "name": "Humanities or Social Sci"
+    },
+    {
+      "name": "Advanced Science or Art"
+    },
+    {
+      "name": "Soc Sci"
+    },
+    {
+      "name": "Humanities and Advanced Art"
+    },
+    {
+      "name": "Work with Advisory Committee to fine tune/plan senior portfolio"
+    },
+    {
+      "name": "Science Core Course or Advanced Science"
+    },
+    {
+      "name": "If planning to attend graduate school, take GRE over the summer, or at the latest in the fall, and prepare up to 20 portfolio pieces for submission over the summer and fine tune in the fall"
+    },
+    {
+      "name": "Advanced Science"
+    },
+    {
+      "name": "Advanced Art"
+    },
+    {
+      "name": "Humanities/Social Elective"
+    },
+    {
+      "name": "Advanced English or Elective"
+    },
+    {
+      "name": "3-5"
+    },
+    {
+      "name": "3-6"
+    },
+    {
+      "name": "Humanities/Social Sci/Elective"
+    },
+    {
+      "name": "Advanced English or Elective (ENGL 3020 through ENGL 3160 count as Advanced English)"
+    }
+  ],
+  "slug": "scientific-illustration-and-visualization-b-a"
+}

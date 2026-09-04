@@ -1,0 +1,443 @@
+{
+  "major": "Microbiology",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/microbiology/#fouryearplantext",
+  "gridHeading": "Microbiology:",
+  "displayName": "Microbiology, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MICRO 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3000L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MICRO 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3100L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1430 , 1600 , or 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MICRO Environmental or Elective"
+        },
+        {
+          "code": "BIOL 3130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3130L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1600 , STAT 3201 , or MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MICRO Environmental or Elective"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MICRO 3200",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Advanced English"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspectives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "MICRO 4400",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MICRO elective"
+        },
+        {
+          "code": "MICRO 4510",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ETHICS choice"
+        },
+        {
+          "code": "BBMB 4040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MICRO elective"
+        },
+        {
+          "code": "MICRO 4500",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "BBMB 4050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 5,
+          "kind": "elective",
+          "electiveBucket": "Gen Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr. International Perspectives Courses",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives Courses",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: 7-12",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: 7-12",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Social Science choice"
+    },
+    {
+      "name": "MICRO Environmental or Elective"
+    },
+    {
+      "name": "Humanities choice"
+    },
+    {
+      "name": "Gen Elective"
+    },
+    {
+      "name": "Advanced English"
+    },
+    {
+      "name": "MICRO elective"
+    },
+    {
+      "name": "ETHICS choice"
+    },
+    {
+      "name": "U.S. Cultures and Communities"
+    },
+    {
+      "name": "Gen Electives"
+    }
+  ],
+  "slug": "microbiology-b-s"
+}

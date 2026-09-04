@@ -1,0 +1,408 @@
+{
+  "major": "Horticulture",
+  "option": "Landscape Design, Installation, and Management",
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/horticulture/#fouryearplanstext",
+  "gridHeading": "Horticulture, B.S. - Landscape Design, Installation, and Management",
+  "displayName": "Horticulture, B.S. - Landscape Design, Installation, and Management",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        },
+        {
+          "code": "HORT 1210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 2810",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 2210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ENT 2010",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENT 2110",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "HORTICULTURE ELECTIVE"
+        },
+        {
+          "code": "MATH 1400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3800",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 10,
+      "courses": [
+        {
+          "code": "AGRON 2820",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3810",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1010 , 1310 , 1150 , BBMB 2210 , or AGRON 2590",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ENT 3760",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "HORT 2400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3910",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 4440",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120 or AGEDS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 2340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "BIOL 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310 & 2310L or BBMB 2210",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities"
+        },
+        {
+          "code": "HORT 3410",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ENTSP 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3910",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 3340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MGMT 3710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3420",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 4810",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Ethics"
+        },
+        {
+          "code": "PLP 4080",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HORT 3220",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 credits from a two-year institution may apply which may include up to 16 technical credits; 9 P-NP credits of free electives; 2.00 minimum GPA .",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr. 3 cr. from approved list 3 Total Credits 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Social Science"
+    },
+    {
+      "name": "HORTICULTURE ELECTIVE"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "U.S. Cultures and Communities"
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Ethics"
+    }
+  ],
+  "slug": "horticulture-b-s-landscape-design-installation-and-management"
+}

@@ -1,0 +1,362 @@
+{
+  "major": "Business Analytics",
+  "option": null,
+  "degree": "B.S.",
+  "college": "Ivy College of Business",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 122,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofbusiness/businessanalytics/#fouryearplantext",
+  "gridHeading": "Student Learning Outcomes",
+  "displayName": "Business Analytics, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "BUSAD 1020",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 1130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ECON 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 2026",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHIL 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Global/International Perspective @"
+        },
+        {
+          "code": "BUSAD 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ACCT 2850",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 3010",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MIS 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HUM SOC/SCI"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MIS 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3226",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 3120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Business Core Course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MIS 3200 or ACCT 3840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Business Core Courses"
+        },
+        {
+          "code": "ACCT 2150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities #"
+        },
+        {
+          "code": "General Electives (only 1 cr if ACCT 3010 taken)",
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "General Electives (only 1 cr if ACCT 3010 taken)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MIS 4360",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Business Core Courses"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Global/International Perspective @"
+        },
+        {
+          "code": "ENGL 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "MIS 4460",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Business Core Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Business Analytics Electives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HUM/SOC SCI"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Business Analytics Elective"
+        },
+        {
+          "code": "MGMT 4780",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 9,
+          "kind": "elective",
+          "electiveBucket": "General Electives"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Global/International Perspective @"
+    },
+    {
+      "name": "HUM SOC/SCI"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "Business Core Course"
+    },
+    {
+      "name": "Business Core Courses"
+    },
+    {
+      "name": "U.S. Cultures and Communities #"
+    },
+    {
+      "name": "General Electives (only 1 cr if ACCT 3010 taken)"
+    },
+    {
+      "name": "Business Analytics Electives"
+    },
+    {
+      "name": "HUM/SOC SCI"
+    },
+    {
+      "name": "Business Analytics Elective"
+    },
+    {
+      "name": "General Electives"
+    }
+  ],
+  "slug": "business-analytics-b-s"
+}

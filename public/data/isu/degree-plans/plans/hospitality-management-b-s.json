@@ -1,0 +1,411 @@
+{
+  "major": "Hospitality Management",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/hospitalitymanagement/#fouryearplantext",
+  "gridHeading": "Hospitality Management, B.S.",
+  "displayName": "Hospitality Management, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 1110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 1110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science \"Select from\" Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Natural Sciences \"Select from\" Course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "HSPM 1330",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HSPM Elective"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EVENT 1710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science \"Select from\" Course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman",
+      "yearLabel": "Freshman",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "AESHM 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ACCT 2840 or HSPM 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 2510X",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 2870",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "AESHM 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH (Math 1040, 1050, 1400 ,1430, 1500, or 1600)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "Speech or Comm. (COMST 2210, 2140, 2180, or SPCM 2120)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HSPM Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore",
+      "yearLabel": "Sophomore",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "HSPM 3330",
+          "title": "Fall",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "HSPM Elective"
+        },
+        {
+          "code": "AESHM 3110E or 3110N",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "AESHM 3420",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 3150",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "Statistics (STAT 1010, 1040, 2026)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "International Perspecive Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "HSPM Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Summer",
+      "yearLabel": "Junior",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": "HSPM 4700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "AESHM 2380",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "AESHM 4790",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "HSPM Electives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "US Cultures & Communiteis Course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "HSPM 4550",
+          "title": "Spring",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "General Elective Course"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "HSPM Electives Course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Social Science \"Select from\" Course"
+    },
+    {
+      "name": "Natural Sciences \"Select from\" Course"
+    },
+    {
+      "name": "HSPM Elective"
+    },
+    {
+      "name": "General Elective"
+    },
+    {
+      "name": "Humanities Course"
+    },
+    {
+      "name": "International Perspecive Course"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "HSPM Electives"
+    },
+    {
+      "name": "US Cultures & Communiteis Course"
+    },
+    {
+      "name": "General Elective Course"
+    },
+    {
+      "name": "HSPM Electives Course"
+    }
+  ],
+  "slug": "hospitality-management-b-s"
+}

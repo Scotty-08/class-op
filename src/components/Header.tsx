@@ -4,13 +4,13 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { LogOut } from "lucide-react";
 import { useApp } from "@/lib/context";
-import { MAJORS } from "@/lib/majors";
+import { getMajor } from "@/lib/majors";
 
 export function Header() {
   const { state, ready, signOut } = useApp();
   const router = useRouter();
   const pathname = usePathname();
-  const major = MAJORS.find((m) => m.id === state.majorId);
+  const major = getMajor(state.majorId);
   const profileReady = Boolean(state.workdayDemo && state.majorId);
 
   function handleSignOut() {
@@ -51,7 +51,8 @@ export function Header() {
               ) : null}
               {major ? (
                 <span className="rounded-full bg-gold-soft px-2.5 py-1 text-[11px] font-medium text-ink">
-                  {major.name.replace(" B.S.", "")}
+                  {major.name.replace(/,?\s*B\.[A-Z.]+/i, "")}
+                  {state.planOption ? ` · ${state.planOption}` : ""}
                 </span>
               ) : null}
               <span className="max-w-[180px] truncate rounded-full bg-stone-100 px-2.5 py-1 text-[11px] text-ink-muted">

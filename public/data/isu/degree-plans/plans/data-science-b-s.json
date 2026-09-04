@@ -1,0 +1,366 @@
+{
+  "major": "Data Science",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 120,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/datascience/#fouryearplantext",
+  "gridHeading": "B.S., Data Science",
+  "displayName": "Data Science, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "DS 1100",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 1270",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DS 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 2270",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DS 2020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 2280",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities/U.S. Cultures and Communities"
+        },
+        {
+          "code": "STAT 2010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "MATH 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 2300 or CPRE 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science/International Perspectives"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3201",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "DS 3030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3447",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities (3000+ level)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective or World Language"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "COMS 3630",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 4217",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Application Emphasis Area"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Application Emphasis Area"
+        },
+        {
+          "code": "ENGL 3020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Natural Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "DS 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 4190",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Application Emphasis Area"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science (3000+ Level)"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Science Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "The minor in data science requires the completion of 15 credit hours, including 9 credits from the data science core and 6 credits from approved data science electives. At least 6 credits in courses numbered 3000-level with a grade of C or higher. At least 3 credits taken at Iowa State. At least 3 credits that are not used to meet any other department, college, or university requirement. Courses for the minor cannot be taken on a pass/not-pass basis.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Social Science"
+    },
+    {
+      "name": "Arts and Humanities/U.S. Cultures and Communities"
+    },
+    {
+      "name": "Social Science/International Perspectives"
+    },
+    {
+      "name": "Arts and Humanities"
+    },
+    {
+      "name": "Arts and Humanities (3000+ level)"
+    },
+    {
+      "name": "Elective or World Language"
+    },
+    {
+      "name": "Natural Science"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Application Emphasis Area"
+    },
+    {
+      "name": "Social Science (3000+ Level)"
+    }
+  ],
+  "slug": "data-science-b-s"
+}

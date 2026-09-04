@@ -1,0 +1,433 @@
+{
+  "major": "Earth Science Education and Studies",
+  "option": "Earth Science, B.S.",
+  "degree": "B.A.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 125.5,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/earthscience/#fouryearplanstext",
+  "gridHeading": "Earth Science Education and Studies, B.A.",
+  "displayName": "Earth Science Education and Studies, B.A., Earth Science, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 1000",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 1000L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770 , 1630 , or 1670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L , 1630L , or 1670L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 1120",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2190",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "EDUC 2040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 2020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GEOL 2020L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MTEOR 2060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15.5,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "LAS 2030",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2800L",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        },
+        {
+          "code": "ENSCI 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply/Accepted to Educator Preparation Program"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "PSYCH 3330",
+          "title": "(social science)",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities Option 1"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Climate/Human impacts choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Geology choice (3000-4000 level)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Astronomy choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "EDUC 4180",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3800J",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "HIST 2800 or 2810 (humanities)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ASTRO 1200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Geology choice (3000-4000 level)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "EDUC 4190",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        },
+        {
+          "code": "COMST 2110 , SPCM 2120 , or THTRE 3580",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "World Language"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities Option 1"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply for student teaching"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "SPED 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "World Language"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Arts and Humanities Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Option 1"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply for graduation"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "EDUC 4170J",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4170J",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Science Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "And 9 credits of Earth Science electives in agronomy, environmental science, meteorology, or other approved areas.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Apply/Accepted to Educator Preparation Program"
+    },
+    {
+      "name": "Arts and Humanities Option 1"
+    },
+    {
+      "name": "Climate/Human impacts choice"
+    },
+    {
+      "name": "Geology choice (3000-4000 level)"
+    },
+    {
+      "name": "Astronomy choice"
+    },
+    {
+      "name": "1-2"
+    },
+    {
+      "name": "World Language"
+    },
+    {
+      "name": "Apply for student teaching"
+    },
+    {
+      "name": "Arts and Humanities Option"
+    },
+    {
+      "name": "Social Science Option 1"
+    },
+    {
+      "name": "Apply for graduation"
+    },
+    {
+      "name": "3-4"
+    }
+  ],
+  "slug": "earth-science-education-and-studies-b-a-earth-science-b-s"
+}

@@ -1,0 +1,618 @@
+{
+  "major": "Diet and Exercise",
+  "option": null,
+  "degree": "B.S./M.S..",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 5,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/dietandexercise/#fiveyearplantext",
+  "gridHeading": "Diet and Exercise, B.S./M.S.",
+  "displayName": "Diet and Exercise, B.S./M.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "FSHN 1100 or KIN 2520 and KIN 2530",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1400 , 1430 , 1600 , or 1650",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 8,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HS 1100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2580",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010 , 1040 , or 2026",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year",
+      "yearLabel": "First Year",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "BIOL 2550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2550L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3660",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2590",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HSPM 1330",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FSHN 2650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2560L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BBMB 3010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 2140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 1150",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 2010",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Summer",
+      "yearLabel": "Second Year",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FSHN 3400",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3580",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3590",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ATR 2200",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1150",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply for admission to the BS/MS program by Oct. 1st."
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Acceptance into the program required before spring of the third year."
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 9,
+      "courses": [
+        {
+          "code": "FSHN 3610",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3670",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3800",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3800L",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Select from:"
+        },
+        {
+          "code": "KIN 3550 , 3660 , 3720 , 4580 , or 4800",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Summer",
+      "yearLabel": "Third Year",
+      "term": "Summer",
+      "credits": 4,
+      "courses": [
+        {
+          "code": "KIN 5990 , FSHN 5990 , KIN 6990 , or NUTRS 6990",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-3"
+        },
+        {
+          "code": "STAT 5101",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "6-7"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "KIN 5050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "NUTRS 5610",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "NUTRS 5630",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 6820",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 5500 , 5510 , 5670 , 5700 , or 5730X",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "KIN 5010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 5510",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "NUTRS 5640",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 6820",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 4620",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Summer",
+      "yearLabel": "Fourth Year",
+      "term": "Summer",
+      "credits": null,
+      "courses": [
+        {
+          "code": "FSHN 5990 , KIN 5990 , KIN 6990 , or NUTRS 6990",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-3"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fifth Year Fall",
+      "yearLabel": "Fifth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "NUTRS 5100",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 4300",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 5900C",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 6820",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 5670 , 5500 , 5510 , 5700 , or 5730X",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HS 3500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/Ethics course"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fifth Year Spring",
+      "yearLabel": "Fifth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "NUTRS 5110",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 6810",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 6820",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 3450 or FSHN 3920",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 6990 , NUTRS 6990 , KIN 5990 , or FSHN 5990",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 4660",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/International Perspectives"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fifth Year",
+      "yearLabel": "Fifth Year",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "1-2"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Apply for admission to the BS/MS program by Oct. 1st."
+    },
+    {
+      "name": "Acceptance into the program required before spring of the third year."
+    },
+    {
+      "name": "Select from:"
+    },
+    {
+      "name": "1-3"
+    },
+    {
+      "name": "6-7"
+    },
+    {
+      "name": "Humanities/Ethics course"
+    },
+    {
+      "name": "Humanities/International Perspectives"
+    }
+  ],
+  "slug": "diet-and-exercise-b-s-m-s-health-and-human-sciences"
+}

@@ -1,0 +1,422 @@
+{
+  "major": "Mechanical Engineering",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Engineering",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 129,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofengineering/mechanicalengineering/#fouryearplantext",
+  "gridHeading": "Transfer Credit Requirements",
+  "displayName": "Mechanical Engineering, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "CHEM 1670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ME 1600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGR 1010",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 1700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CE 2710",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CE 2720",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MATE 2730",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "EM 3240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ME 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 2700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        },
+        {
+          "code": "ME 2020",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "EE 4420",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EE 4480",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3005",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3240L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "ME 3250",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3350",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3700",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ME 3240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communication Requirement"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed Elective (Intl Perspective)"
+        },
+        {
+          "code": "ME 4210",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ME 4360",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Gen Ed Elective (U.S. Cultures and Communities)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Capstone Design"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr. 1",
+      "approvedListUrl": null
+    },
+    {
+      "name": "General Education Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "General Education Electives: 15 cr. No more than three 1000-level courses for this set of courses can be applied to the Bachelor of Science Degree in Mechanical Engineering. Choose one course from the following: 3 ECON 1010 Principles of Microeconomics or ECON 1020 Principles of Macroeconomics Social Science 2 3 Humanities 2 6 Humanities or Social Science 2 3 Total Credits 15",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Technical Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Complete 15 cr. Technical Electives 2",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives: Choose from a list of approved courses",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: Choose from a list of approved courses",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Approved Elective",
+      "credits": null,
+      "courses": [],
+      "notes": "Approved Elective Courses",
+      "approvedListUrl": null
+    },
+    {
+      "name": "General Education Elective"
+    },
+    {
+      "name": "Communication Requirement"
+    },
+    {
+      "name": "Gen Ed Elective (Intl Perspective)"
+    },
+    {
+      "name": "Technical Elective"
+    },
+    {
+      "name": "Gen Ed Elective (U.S. Cultures and Communities)"
+    },
+    {
+      "name": "Capstone Design"
+    }
+  ],
+  "slug": "mechanical-engineering-b-s"
+}

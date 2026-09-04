@@ -1,0 +1,421 @@
+{
+  "major": "Nutritional Science",
+  "option": "pre-health professional & research option",
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/nutritionalscience/#fouryearplantext",
+  "gridHeading": "Nutritional Science, B.S.",
+  "displayName": "Nutritional Science, B.S. - pre-health professional & research option",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "FSHN 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 11,
+      "courses": [
+        {
+          "code": "FSHN 1670",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1400 , 1430 , 1600 , or 1650",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "CHEM 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "FSHN 2650",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 2670",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BBMB 3010, BBMB 3030, BBMB 3160, or BBMB 4040 and 4050 the next year",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities (CHHS) or elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 2,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "BIOL 2550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2550L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3420",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 2010",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3000L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 8,
+      "courses": [
+        {
+          "code": "BIOL 2560 and 2560L, or 3350",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3610",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 3620",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities/Social Sci. (CHHS) or elective (CALS) *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "2-3"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FSHN 4920",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Additional course from approved list **"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Additional course from approved list **"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 1,
+          "kind": "elective",
+          "electiveBucket": "Additional course from approved list **"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 12,
+      "courses": [
+        {
+          "code": "FSHN 4670",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3020 , 3090 , or 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "U.S. Cultures and Communities (if not already taken) or elective *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Elective *"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Humanities (CHHS) or elective"
+    },
+    {
+      "name": "Elective *"
+    },
+    {
+      "name": "Humanities/Social Sci. (CHHS) or elective (CALS) *"
+    },
+    {
+      "name": "2-3"
+    },
+    {
+      "name": "Additional course from approved list **"
+    },
+    {
+      "name": "U.S. Cultures and Communities (if not already taken) or elective *"
+    }
+  ],
+  "slug": "nutritional-science-b-s-pre-health-professional-and-research-option-agriculture-and-life-sciences"
+}

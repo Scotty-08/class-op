@@ -11,7 +11,7 @@ import { MeetingModal } from "@/components/MeetingModal";
 import { AddSectionModal } from "@/components/AddSectionModal";
 import { useApp } from "@/lib/context";
 import { DEFAULT_HOME, resolveWalkStart } from "@/lib/buildings";
-import { MAJORS } from "@/lib/majors";
+import { getMajor } from "@/lib/majors";
 import { YEAR_LABELS } from "@/lib/cpre-roadmap";
 import { DAY_LABEL, DAY_ORDER, conflictingIds } from "@/lib/time";
 import { parseWorkdayCurrentJson } from "@/lib/workday-current";
@@ -35,7 +35,7 @@ function PlannerInner() {
   const [importError, setImportError] = useState<string | null>(null);
   const [importOk, setImportOk] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
-  const major = MAJORS.find((m) => m.id === state.majorId);
+  const major = getMajor(state.majorId);
   const clashes = useMemo(() => conflictingIds(state.meetings), [state.meetings]);
   const walkStart = useMemo(
     () =>
@@ -242,7 +242,9 @@ function PlannerInner() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">View my plan</p>
           <p className="mt-1 text-sm text-ink">
-            CPRE 2026–27 catalog roadmap with Current Classes highlighted as in-progress.
+            {major?.hasPlan
+              ? `${major.name} catalog plan — pick this semester or plan from your year.`
+              : "No catalog plan yet — Current Classes stay on the map."}
           </p>
         </div>
         <Link

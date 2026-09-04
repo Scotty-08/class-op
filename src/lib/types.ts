@@ -65,14 +65,25 @@ export type CommuterLot = {
   edge: string;
 };
 
+/** How the student continues after viewing the catalog plan. */
+export type PlanningMode = "semester" | "forward" | null;
+
 export type AppState = {
   email: string | null;
   workdayDemo: boolean;
   majorId: string | null;
+  /** Selected plans/{slug}.json stem from the degree-plans package. */
+  planSlug: string | null;
+  /** Option label when the major has multiple grids; null for single-plan majors. */
+  planOption: string | null;
   /** Class standing used for demo remaining-roadmap (not live Workday Academic Progress). */
   yearLevel: YearLevel | null;
   /** Explicit completed course ids; when empty, derived from yearLevel. */
   completedCourseIds: string[];
+  /** Plan course ids the student marked as “taking this semester”. */
+  selectedPlanCourseIds: string[];
+  /** semester = map this term; forward = plan remaining years. */
+  planningMode: PlanningMode;
   meetings: Meeting[];
   /** current = bundled Fall 2026 Current Classes; demo = Y1 Beyer Loop; import = user JSON. */
   scheduleSource: ScheduleSource;
@@ -82,6 +93,8 @@ export type AppState = {
   commuteOffCampus: boolean;
   /** Selected ISU commuter lot id when off-campus; null until picked. */
   walkStartLotId: string | null;
+  /** True after the dedicated home/living step (or migrated returning session). */
+  homeSetupDone: boolean;
 };
 
 /** @deprecated Prefer selectedDays: DayCode[] on CampusMap. */

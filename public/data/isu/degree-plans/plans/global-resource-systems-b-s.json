@@ -1,0 +1,414 @@
+{
+  "major": "Global Resource Systems",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 126,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/globalresourcesystems/#fouryearplantext",
+  "gridHeading": "Electives:",
+  "displayName": "Global Resource Systems, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "GLOBE 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "GLOBE 2110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "GLOBAL COMPETENCY ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "BIOLOGICAL SCIENCE ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVE"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "GLOBE 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GLOBE 2110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ECON 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "US CULTURES AND COMMUNITIES ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "EARTH SCIENCE ELECTIVE"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "GLOBE 3030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "LANGUAGE 1010"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "STATISTICS ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "GLOBAL COMPETENCY"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVE"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "GLOBE 3040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "LANGUAGE 1020"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVES"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "LANGUAGE 2010"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "GLOBAL COMPETENCY"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 5,
+          "kind": "elective",
+          "electiveBucket": "PHYSICAL SCIENCE ELECTIVES"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVES"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "GLOBE 3200",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "GLOBE 2110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "LANGUAGE 2020"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ETHICS ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVES"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "GLOBE 3210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GLOBE 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SPEECH ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "GLOBAL COMPETENCY ELECTIVE"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVE"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "GLOBE 4020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3020 , 3090 , or 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "GLOBAL COMPETENCY"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "SPECIALIZATION ELECTIVES"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr. Met by Global Resource Systems requirements",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: Sufficient coursework to ensure a total of no less than 125 credits.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "GLOBAL COMPETENCY ELECTIVE"
+    },
+    {
+      "name": "BIOLOGICAL SCIENCE ELECTIVE"
+    },
+    {
+      "name": "SPECIALIZATION ELECTIVE"
+    },
+    {
+      "name": "US CULTURES AND COMMUNITIES ELECTIVE"
+    },
+    {
+      "name": "EARTH SCIENCE ELECTIVE"
+    },
+    {
+      "name": "LANGUAGE 1010"
+    },
+    {
+      "name": "STATISTICS ELECTIVE"
+    },
+    {
+      "name": "GLOBAL COMPETENCY"
+    },
+    {
+      "name": "LANGUAGE 1020"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "SPECIALIZATION ELECTIVES"
+    },
+    {
+      "name": "LANGUAGE 2010"
+    },
+    {
+      "name": "PHYSICAL SCIENCE ELECTIVES"
+    },
+    {
+      "name": "LANGUAGE 2020"
+    },
+    {
+      "name": "ETHICS ELECTIVE"
+    },
+    {
+      "name": "SPEECH ELECTIVE"
+    }
+  ],
+  "slug": "global-resource-systems-b-s"
+}

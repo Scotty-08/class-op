@@ -1,0 +1,375 @@
+{
+  "major": "Industrial Engineering",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Engineering",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofengineering/industrialengineering/#fouryearplantext",
+  "gridHeading": "Seminar/Co-op/Internships:",
+  "displayName": "Industrial Engineering, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        },
+        {
+          "code": "IE 1600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGR 1010",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        },
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "IE 1020",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MATH 2650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "IE 2480",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATE 2730",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "MATH 2670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "IE 2220",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 2710",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3031",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "IE 3050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 3410",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 3120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 4320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 2710",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "IE 3480",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 3610",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CE 2720",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IE Program Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "IE 4130",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ME 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IE Program Elective"
+        },
+        {
+          "code": "ENGL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "SSH Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "IE 4410",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "IE 4480",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IE Program Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IE Program Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "IE Program Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr. 1",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Humanities Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Social Sciences and Humanities Electives: 12 cr. 2 Students must choose SSH courses from at least 2 different programs. 2 For Social Sciences and Humanities, and IE Program Electives, choose from the department approved list.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "IE PROGRAM ELECTIVES: 15 cr",
+      "credits": null,
+      "courses": [],
+      "notes": "IE PROGRAM ELECTIVES: 15 cr: Fifteen credits of IE program electives are required, of which: 6 must be from IE Courses in Advanced Manufacturing, Operations Research and Analytics, or Human Factors and Ergonomics. 3 must be from IE Courses in System Engineering or Engineering Management. 3 must be from department approved list of STEM courses. 3 from department approved list",
+      "approvedListUrl": null
+    },
+    {
+      "name": "SSH Elective"
+    },
+    {
+      "name": "IE Program Elective"
+    }
+  ],
+  "slug": "industrial-engineering-b-s"
+}

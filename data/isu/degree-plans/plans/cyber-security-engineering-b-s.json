@@ -1,0 +1,362 @@
+{
+  "major": "Cyber Security Engineering",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Engineering",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 126,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofengineering/cybersecurityengineering/#fouryearplantext",
+  "gridHeading": "Transfer Credit Requirements",
+  "displayName": "Cyber Security Engineering, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CHEM 1670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 1850",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGR 1010",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "COMS 2270",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 1660",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "CPRE 2810",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 2280",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CYBE 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CPRE 2880",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CYBE 2310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CYBE 2340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CPRE 3810",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 3090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CYBE 3310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CPRE 3080",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CYBE 3250",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3140 or ENGL 3090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CYBE 4910",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 4940",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Cyber Security Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CYBE 4920",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Cyber Security Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 6,
+          "kind": "elective",
+          "electiveBucket": "Tech Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspectives: 3 cr. 1",
+      "approvedListUrl": null
+    },
+    {
+      "name": "General Education Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "General Education Electives: 21 cr. 3 ENGL 2500 Written, Oral, Visual, and Electronic Composition (Must have a C or better in this course.) 3 ENGL 3140 Technical Communication (Must have a C or better in this course.) 3 or ENGL 3090 Proposal and Report Writing Complete minimum of 3 cr. from Approved General Education Component 3000 level and above. 3 3 Complete additional 12 cr. from Approved General Education Component. 3 12 Total Credits 21",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Technical Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Cyber SecurityTechnical Electives 3",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Gen Ed Elective"
+    },
+    {
+      "name": "General Education Elective"
+    },
+    {
+      "name": "Cyber Security Elective"
+    },
+    {
+      "name": "Tech Elective"
+    }
+  ],
+  "slug": "cyber-security-engineering-b-s"
+}

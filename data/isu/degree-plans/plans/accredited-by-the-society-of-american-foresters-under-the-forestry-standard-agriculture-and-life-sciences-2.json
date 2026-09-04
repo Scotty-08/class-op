@@ -1,0 +1,407 @@
+{
+  "major": "Accredited by the Society of American Foresters under the Forestry Standard.",
+  "option": null,
+  "degree": null,
+  "college": "College of Agriculture and Life Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 128,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/forestry/#fouryearplantext",
+  "gridHeading": "Accredited by the Society of American Foresters under the Forestry Standard.",
+  "displayName": "Accredited by the Society of American Foresters under the Forestry Standard.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "US Cultures or International Perspective Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CHEM 1630",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1630L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 1200",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "STAT 1010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "CALS Elective: Humanities, Ethics, or Social Science"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "FOR 2010",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 2020",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 2030",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 2040",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 2050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 2060",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "SPCM 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "US Cultures or International Perspective Elective"
+        },
+        {
+          "code": "FOR 3020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 2110",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Free Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "FOR 3560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 3010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technology Elective"
+        },
+        {
+          "code": "AGRON 1820",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Additional NRCR Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Math Elective"
+        },
+        {
+          "code": "FOR 4510",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "WFCE 3660",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "CALS Elective: Humanities, Ethics, or Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "FOR 4160",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 3900",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Policy Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Adv. Comm."
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Free Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "FOR 4520",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FOR 4540",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "NREM 4070",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "CALS Elective: Humanities, Ethics, or Social Science"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 4,
+          "kind": "elective",
+          "electiveBucket": "Free Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Free Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Only 65 cr. from a two-year institution may apply which may include up to 16 technical cr.; 9 P-NP cr. of free electives; 2.00 minimum GPA.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspective",
+      "credits": null,
+      "courses": [],
+      "notes": "International Perspective: 3 cr.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives:",
+      "approvedListUrl": null
+    },
+    {
+      "name": "US Cultures or International Perspective Elective"
+    },
+    {
+      "name": "CALS Elective: Humanities, Ethics, or Social Science"
+    },
+    {
+      "name": "Free Elective"
+    },
+    {
+      "name": "Technology Elective"
+    },
+    {
+      "name": "Additional NRCR Elective"
+    },
+    {
+      "name": "Math Elective"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Policy Elective"
+    },
+    {
+      "name": "Adv. Comm."
+    }
+  ],
+  "slug": "accredited-by-the-society-of-american-foresters-under-the-forestry-standard-agriculture-and-life-sciences-2"
+}

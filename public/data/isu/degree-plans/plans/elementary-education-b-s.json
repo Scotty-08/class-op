@@ -1,0 +1,446 @@
+{
+  "major": "Elementary Education",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 121,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/elementaryeducation/#fouryearplantext",
+  "gridHeading": "Elementary Education, B.S.",
+  "displayName": "Elementary Education, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "EDUC 2160",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2050 or SPED 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PSYCH 2300",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Option"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "EDUC 2800N",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "SPED 2500 or EDUC 2050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2600",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "HIST 2210",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Biological Science Option"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "EDUC 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1960",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3774",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1020L",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply/Accepted to Educator Preparation Program"
+        },
+        {
+          "code": "If taking EDUC 3774, must take CYCLONE Y2/SP",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "CYCLONE BLOCK (Y2/SP or Y3/F)"
+        },
+        {
+          "code": "EDUC 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3775",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Earth/Space Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Option"
+        },
+        {
+          "code": "If taking EDUC 3774, must take POWER Y2/SP",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "POWER BLOCK (Y2/SP or Y3/F)"
+        },
+        {
+          "code": "EDUC 3500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2680",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4590",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ARTED 2090",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "MUSIC 2650",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communications Option"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "CARDINAL BLOCK (Y3/SP or Y4/F)"
+        },
+        {
+          "code": "EDUC 3776",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4680A",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4430",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3550",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4520",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4880",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "GOLD BLOCK (Y3/SP or Y4/F)"
+        },
+        {
+          "code": "EDUC 4480",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4680C",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4490",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "KIN 2840",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to Student Teach"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply for Graduation"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Student Teaching:"
+        },
+        {
+          "code": "EDUC 4160A Supervised Student Teaching - Elementary K-6",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4160B Supervised Student Teaching - Elementary K-6",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Social Science Option"
+    },
+    {
+      "name": "Biological Science Option"
+    },
+    {
+      "name": "Apply/Accepted to Educator Preparation Program"
+    },
+    {
+      "name": "CYCLONE BLOCK (Y2/SP or Y3/F)"
+    },
+    {
+      "name": "Earth/Space Option"
+    },
+    {
+      "name": "Humanities Option"
+    },
+    {
+      "name": "POWER BLOCK (Y2/SP or Y3/F)"
+    },
+    {
+      "name": "Communications Option"
+    },
+    {
+      "name": "CARDINAL BLOCK (Y3/SP or Y4/F)"
+    },
+    {
+      "name": "GOLD BLOCK (Y3/SP or Y4/F)"
+    },
+    {
+      "name": "Apply to Student Teach"
+    },
+    {
+      "name": "Apply for Graduation"
+    },
+    {
+      "name": "Student Teaching:"
+    }
+  ],
+  "slug": "elementary-education-b-s"
+}

@@ -1,6 +1,13 @@
 import { currentClassesSeed } from "./current-classes-seed";
 import { DEFAULT_HOME, isValidHome } from "./buildings";
-import type { AppState, HomeLocation, Meeting, ScheduleSource, YearLevel } from "./types";
+import type {
+  AppState,
+  HomeLocation,
+  Meeting,
+  PlanningMode,
+  ScheduleSource,
+  YearLevel,
+} from "./types";
 
 export const STORAGE_KEY = "class-op-v1";
 
@@ -8,13 +15,18 @@ export const EMPTY_STATE: AppState = {
   email: null,
   workdayDemo: false,
   majorId: null,
+  planSlug: null,
+  planOption: null,
   yearLevel: null,
   completedCourseIds: [],
+  selectedPlanCourseIds: [],
+  planningMode: null,
   meetings: [],
   scheduleSource: "demo",
   home: { ...DEFAULT_HOME },
   commuteOffCampus: false,
   walkStartLotId: null,
+  homeSetupDone: false,
 };
 
 function parseYear(v: unknown): YearLevel | null {
@@ -27,6 +39,11 @@ function parseSource(v: unknown): ScheduleSource {
   if (v === "import") return "import";
   if (v === "current") return "current";
   return "demo";
+}
+
+function parsePlanningMode(v: unknown): PlanningMode {
+  if (v === "semester" || v === "forward") return v;
+  return null;
 }
 
 function parseHome(v: unknown): HomeLocation {
@@ -46,10 +63,16 @@ export function loadState(): AppState {
       email: parsed.email ?? null,
       workdayDemo: Boolean(parsed.workdayDemo),
       majorId: parsed.majorId ?? null,
+      planSlug: typeof parsed.planSlug === "string" ? parsed.planSlug : null,
+      planOption: typeof parsed.planOption === "string" ? parsed.planOption : null,
       yearLevel: parseYear(parsed.yearLevel),
       completedCourseIds: Array.isArray(parsed.completedCourseIds)
         ? (parsed.completedCourseIds as string[])
         : [],
+      selectedPlanCourseIds: Array.isArray(parsed.selectedPlanCourseIds)
+        ? (parsed.selectedPlanCourseIds as string[])
+        : [],
+      planningMode: parsePlanningMode(parsed.planningMode),
       meetings: Array.isArray(parsed.meetings) ? (parsed.meetings as Meeting[]) : [],
       scheduleSource: parseSource(parsed.scheduleSource),
       home: parseHome(parsed.home),
@@ -58,6 +81,11 @@ export function loadState(): AppState {
         typeof parsed.walkStartLotId === "string" && parsed.walkStartLotId.trim()
           ? parsed.walkStartLotId.trim()
           : null,
+      // Returning sessions that already picked a major keep map access without re-prompt.
+      homeSetupDone:
+        typeof parsed.homeSetupDone === "boolean"
+          ? parsed.homeSetupDone
+          : Boolean(parsed.majorId),
     };
   } catch {
     return EMPTY_STATE;
@@ -75,13 +103,18 @@ export function connectDemoWorkday(email: string): AppState {
     email,
     workdayDemo: true,
     majorId: prev.majorId,
+    planSlug: prev.planSlug,
+    planOption: prev.planOption,
     yearLevel: prev.yearLevel,
     completedCourseIds: prev.completedCourseIds,
+    selectedPlanCourseIds: prev.selectedPlanCourseIds ?? [],
+    planningMode: prev.planningMode ?? null,
     meetings: currentClassesSeed(),
     scheduleSource: "current",
     home: prev.home ?? { ...DEFAULT_HOME },
     commuteOffCampus: prev.commuteOffCampus ?? false,
     walkStartLotId: prev.walkStartLotId ?? null,
+    homeSetupDone: prev.homeSetupDone ?? Boolean(prev.majorId),
   };
   saveState(next);
   return next;

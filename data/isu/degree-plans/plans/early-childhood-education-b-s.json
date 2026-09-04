@@ -1,0 +1,397 @@
+{
+  "major": "Early Childhood Education",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 122.5,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/earlychildhood_education/#fouryearplantext",
+  "gridHeading": "Early Childhood Education - Unified, B.S.",
+  "displayName": "Early Childhood Education, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "HDFS 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Biological Science Option *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "HIST 2210 , 2220 , or POLS 1110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1950",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2080",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "HDFS 3420",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1960",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2350X or SPED 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Physical Sciences Option *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to Educator Preparation program"
+        },
+        {
+          "code": "EDUC 2450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communication Option *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Option *"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "EDUC 3770",
+          "title": "B",
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4380",
+          "title": "B",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4680F",
+          "title": "B",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4680G",
+          "title": "B",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4330",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3400",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "EDUC 4390",
+          "title": "B",
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4680I",
+          "title": "B",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "SPED 4050",
+          "title": "B",
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "SPED 4580",
+          "title": "B",
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4050",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3430",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 3450",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "HDFS 4550",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 4560",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HS 1050",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities Option *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Social Science Option *"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to graduate"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to student teaching"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 16.5,
+      "courses": [
+        {
+          "code": "EDUC 4160A",
+          "title": "B",
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 4170",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 4180",
+          "title": null,
+          "credits": 0.5,
+          "kind": "required"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "Electives: Credits left to get to 122 total credits",
+      "credits": null,
+      "courses": [],
+      "notes": "Electives: Credits left to get to 122 total credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "Biological Science Option *"
+    },
+    {
+      "name": "Physical Sciences Option *"
+    },
+    {
+      "name": "Apply to Educator Preparation program"
+    },
+    {
+      "name": "Communication Option *"
+    },
+    {
+      "name": "Humanities Option *"
+    },
+    {
+      "name": "Social Science Option *"
+    },
+    {
+      "name": "Apply to graduate"
+    },
+    {
+      "name": "Apply to student teaching"
+    }
+  ],
+  "slug": "early-childhood-education-b-s"
+}

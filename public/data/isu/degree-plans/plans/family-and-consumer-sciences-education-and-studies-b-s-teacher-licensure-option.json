@@ -1,0 +1,386 @@
+{
+  "major": "Family and Consumer Sciences Education and Studies",
+  "option": "teacher licensure option",
+  "degree": "B.S.",
+  "college": "College of Health and Human Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 123,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofhumansciences/familyandconsumerscienceseducationandstudies/#fouryearplantext",
+  "gridHeading": "Family and Consumer Sciences Education and Studies, B.S.-teacher licensure option",
+  "displayName": "Family and Consumer Sciences Education and Studies, B.S.-teacher licensure option",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "HDFS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 1020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2040",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "RELIG 2050 (Humanities course)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 2060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "HDFS 2760",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2830",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 2060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "MATH or STAT Course from approved FCEDS list"
+        },
+        {
+          "code": "AESHM 4210 , FSHN 3420 , PSYCH 1010 , or SOC 1340",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2190",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "FCEDS 3060",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 2020",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMST 2110 , 2140 , 2180 , SPCM 2120 , or SPCM 3120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "CHEM 1600",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "HDFS 2240L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 1150",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "FSHN 1010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Apply to Educator Preparation program"
+        },
+        {
+          "code": "FCEDS 3980",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "PSYCH 3330",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Humanities"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Communications from list"
+        },
+        {
+          "code": "FDM 1310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 3250",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 3800V",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 9,
+      "courses": [
+        {
+          "code": "FCEDS 3980",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FDM 1200",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "SPED 4010",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "FCEDS 4800V",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-2"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 6,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Elective"
+        },
+        {
+          "code": "EDUC 4060",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EDUC 4260",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 8,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "6-7"
+        },
+        {
+          "code": "FCEDS 4170B",
+          "title": null,
+          "credits": 8,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "PRAXIS II in content & pedagogy to be taken prior to license approval"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "University Electives: 13-21 credits",
+      "credits": null,
+      "courses": [],
+      "notes": "University Electives: 13-21 credits",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "Note: Courses meeting International Perspectives requirements are marked with an *. Additional courses may be found in departments listed with a double **. AESHM 3420 Aesthetics of Consumer Experience 3 AFAM 2010 Introduction to African American Studies 3 AFAM 3340 Africana Religions 3 AFAM 3470 African American Literature 3 AFAM 3530 History of African Americans I 3 AFAM 3540 History of African Americans II 3 FDM 3540 Fashion History I: Prehistoric to Mid-19th Century 3 FDM 3560 Fashion History II: Mid-19th Century to the Present 3 AMIN 2100 Introduction to American Indian Studies 3 AMIN 2400",
+      "approvedListUrl": null
+    },
+    {
+      "name": "MATH or STAT Course from approved FCEDS list"
+    },
+    {
+      "name": "Apply to Educator Preparation program"
+    },
+    {
+      "name": "Humanities"
+    },
+    {
+      "name": "Communications from list"
+    },
+    {
+      "name": "Elective"
+    },
+    {
+      "name": "1-2"
+    },
+    {
+      "name": "6-7"
+    },
+    {
+      "name": "PRAXIS II in content & pedagogy to be taken prior to license approval"
+    }
+  ],
+  "slug": "family-and-consumer-sciences-education-and-studies-b-s-teacher-licensure-option"
+}

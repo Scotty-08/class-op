@@ -1,0 +1,491 @@
+{
+  "major": "Genetics",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Liberal Arts and Sciences",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": 116,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofliberalartsandsciences/genetics/#fouryearplantext",
+  "gridHeading": "B. College of Liberal Arts and Sciences",
+  "displayName": "Genetics, B.S.",
+  "semesters": [
+    {
+      "termLabel": "Freshman Fall",
+      "yearLabel": "Freshman",
+      "term": "Fall",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "GEN 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2120L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1770L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "MATH/STAT choice"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "(if taking ENGL 2500)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman Spring",
+      "yearLabel": "Freshman",
+      "term": "Spring",
+      "credits": 10,
+      "courses": [
+        {
+          "code": "BIOL 2110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 2110L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 1780",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "MATH/STAT or college requirement choice"
+        },
+        {
+          "code": "ENGL 2500 or college requirement choice",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": "(or semester 1 with ENGL 2500)",
+          "title": null,
+          "credits": null,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Consider Research"
+        }
+      ]
+    },
+    {
+      "termLabel": "Freshman",
+      "yearLabel": "Freshman",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Sophomore Fall",
+      "yearLabel": "Sophomore",
+      "term": "Fall",
+      "credits": 11,
+      "courses": [
+        {
+          "code": "BIOL 3130",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BIOL 3130L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "College requirement or Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "MATH/STAT choice"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Spring",
+      "yearLabel": "Sophomore",
+      "term": "Spring",
+      "credits": 10,
+      "courses": [
+        {
+          "code": "BIOL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CHEM 3320L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3020 or BIOL 3150 (or Bioinformatics/Genomics Choice)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "MATH/STAT or college requirement choice"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        }
+      ]
+    },
+    {
+      "termLabel": "Sophomore Summer",
+      "yearLabel": "Sophomore",
+      "term": "Summer",
+      "credits": 3,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Consider Intership, Study Abroad"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "College Requirement or Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Fall",
+      "yearLabel": "Junior",
+      "term": "Fall",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "GEN 4090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "BBMB 4040",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1310L or 2310L *",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3020 or BIOL 3150 (or Bioinformatics/Genomics Choice)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "College Requirement or Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior Spring",
+      "yearLabel": "Junior",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "GEN 4100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 1320L or 2320L *",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "BBMB 4050",
+          "title": "*",
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "MICRO 3020 or BIOL 3150 (or Bioinformatics/Genomics Choice)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "GEN 4910",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Junior",
+      "yearLabel": "Junior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    },
+    {
+      "termLabel": "Senior Fall",
+      "yearLabel": "Senior",
+      "term": "Fall",
+      "credits": 6,
+      "courses": [
+        {
+          "code": "GEN 4620",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "Advanced science elective or STAT 3010",
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Advanced science elective or STAT 3010"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "College Requirement or Elective"
+        },
+        {
+          "code": "Advanced Writing (ENGL 3020-316)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior Spring",
+      "yearLabel": "Senior",
+      "term": "Spring",
+      "credits": 3,
+      "courses": [
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "Advanced Science Elective(s)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "3-4"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": null,
+          "kind": "elective",
+          "electiveBucket": "1-6"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "College Requirement or Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Senior",
+      "yearLabel": "Senior",
+      "term": "",
+      "credits": null,
+      "courses": []
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "2. Advanced Sciences Electives: 6 cr. from program approved list",
+      "credits": null,
+      "courses": [],
+      "notes": "2. Advanced Sciences Electives: 6 cr. from program approved list A grade of C- or better is required in each course. No more than 3 cr. of GEN 4900, 4900R, 4900H, 4920, 4960, 4990, or 4990H may be used to meet this requirement.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "International Perspectives",
+      "credits": null,
+      "courses": [],
+      "notes": "5. International Perspectives: 3 cr. from university approved list This course can satisfy both the university requirement for International Perspectives and the college requirement for a General Education elective (item 8) if the selection appears on both lists of approved courses.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "General Education Electives",
+      "credits": null,
+      "courses": [],
+      "notes": "8. General Education electives Courses from college approved lists that also appear on university approved lists of U.S. Cultures and Communities or International Perspectives courses can be used to satisfy both requirements.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "MATH/STAT choice"
+    },
+    {
+      "name": "MATH/STAT or college requirement choice"
+    },
+    {
+      "name": "3-4"
+    },
+    {
+      "name": "Consider Research"
+    },
+    {
+      "name": "College requirement or Elective"
+    },
+    {
+      "name": "Consider Intership, Study Abroad"
+    },
+    {
+      "name": "College Requirement or Elective"
+    },
+    {
+      "name": "Advanced science elective or STAT 3010"
+    },
+    {
+      "name": "Advanced Science Elective(s)"
+    },
+    {
+      "name": "1-6"
+    }
+  ],
+  "slug": "genetics-b-s-liberal-arts-and-sciences"
+}

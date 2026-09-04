@@ -1,0 +1,386 @@
+{
+  "major": "Illustration",
+  "option": null,
+  "degree": "B.F.A.",
+  "college": "College of Design",
+  "catalogYear": "2025-26",
+  "planYears": 4,
+  "totalCredits": null,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofdesign/illustration/index.html#overviewtext",
+  "gridHeading": "The remaining 43 credits follow University and College of Design requirements:",
+  "displayName": "Illustration, B.F.A.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1100",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1320",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or General Education)"
+        },
+        {
+          "code": "ENGL 1500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 1500 (or General Education)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "DSNS 1020",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "DSNS 1830 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "DSNS 1830 (or General Education)"
+        },
+        {
+          "code": "ENGL 1500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 1500 (or General Education)"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ARTH 2800",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ILLUS 2400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 2300 (or Studio Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Studio Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": "ENGL 2500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 2500 (or General Education)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ARTH 2810",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ILLUS 2410",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 2300 (or Study Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Studio Option"
+        },
+        {
+          "code": "ENGL 2500 (or General Education)",
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "ENGL 2500 (or General Education)"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ILLUS 3400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4300 (or Studio Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Studio Option"
+        },
+        {
+          "code": "ARTH 3000 level or above",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 14,
+      "courses": [
+        {
+          "code": "ILLUS 3410",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4300 (or Studio Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Studio Option"
+        },
+        {
+          "code": "ARTH 3000 level or above",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 3990",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "ILLUS 4400",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4300 (or Studio Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4310",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Studio Option"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 13,
+      "courses": [
+        {
+          "code": "ILLUS 4410",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4300 (or Studio Option)",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ART 4990",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "DSNS 1830 (or General Education)"
+    },
+    {
+      "name": "ENGL 1500 (or General Education)"
+    },
+    {
+      "name": "General Education"
+    },
+    {
+      "name": "Studio Option"
+    },
+    {
+      "name": "ENGL 2500 (or General Education)"
+    }
+  ],
+  "slug": "illustration-b-f-a"
+}
