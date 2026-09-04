@@ -11,7 +11,7 @@ export function Header() {
   const router = useRouter();
   const pathname = usePathname();
   const major = MAJORS.find((m) => m.id === state.majorId);
-  const profileReady = Boolean(state.workdayDemo && state.majorId && state.yearLevel);
+  const profileReady = Boolean(state.workdayDemo && state.majorId);
 
   function handleSignOut() {
     signOut();

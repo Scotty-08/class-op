@@ -10,21 +10,23 @@ export default function AboutPage() {
       <h2 className="mt-8 text-lg font-semibold">Product flow</h2>
       <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-ink-muted">
         <li>Sign in with @iastate.edu</li>
-        <li>Pick year (1–4) and major (Computer Engineering first)</li>
+        <li>Demo Workday — loads Fall 2026 Current Classes onto the map</li>
         <li>
-          <strong className="font-semibold text-ink">Map my registered classes</strong> — Demo Workday loads a
-          simulated Fall 2026 Beyer Loop schedule until live SSO can read Current Classes / My Classes
+          <strong className="font-semibold text-ink">Pick your major</strong> — we load the catalog plan and map
+          what&apos;s on Workday (Computer Engineering first)
         </li>
-        <li>Optional: remaining CPRE roadmap (2026–27) for future-term optimization</li>
+        <li>
+          Main CTAs: <strong className="font-semibold text-ink">View my plan</strong> (roadmap) and map registered
+          classes
+        </li>
       </ol>
 
       <h2 className="mt-8 text-lg font-semibold">Workday Current Classes</h2>
       <p className="mt-2 text-sm text-ink-muted">
-        The planner accepts a JSON export shaped like Workday Current Classes (
-        <code className="rounded bg-stone-100 px-1 text-[11px]">classes[]</code> with building codes such as CARVER,
-        COOVER, TROXEL). Import via the planner or use{" "}
-        <code className="rounded bg-stone-100 px-1 text-[11px]">data/isu/workday-current-classes-demo.json</code>. Demo
-        path still uses the Beyer Loop seed labeled as simulated registered.
+        Default schedule is{' '}
+        <code className="rounded bg-stone-100 px-1 text-[11px]">data/isu/current-classes.json</code> (SCIENCE, PEARSON,
+        CARVER, COOVER, FOODSCI). The planner also accepts any Workday Current Classes JSON import. Optional{' '}
+        <strong className="font-semibold text-ink">Load Y1 demo seed</strong> restores the Beyer Loop Fall Y1 schedule.
       </p>
 
       <h2 className="mt-8 text-lg font-semibold">Optimization rules</h2>

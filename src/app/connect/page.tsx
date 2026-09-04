@@ -19,7 +19,7 @@ export default function ConnectPage() {
 function ConnectInner() {
   const { state, connectDemo } = useApp();
   const router = useRouter();
-  const profileReady = Boolean(state.majorId && state.yearLevel);
+  const profileReady = Boolean(state.majorId);
 
   useEffect(() => {
     if (!state.workdayDemo) return;
@@ -31,10 +31,11 @@ function ConnectInner() {
       <p className="text-xs font-semibold uppercase tracking-wide text-cardinal">Step 2 of 3</p>
       <h1 className="mt-1 text-3xl font-semibold tracking-tight">Your registered schedule</h1>
       <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-        Class OP&apos;s primary job is to put the classes you already registered for on a campus map and help you walk
-        less. Iowa State registration lives in Workday (Microsoft / ISU SSO). This preview does{" "}
-        <strong className="font-semibold text-ink">not</strong> call a live Workday API yet — Demo Workday loads a
-        simulated registered Fall 2026 week (Beyer Loop). Live Find Course Sections / My Classes comes later.
+        Class OP puts the classes you already registered for on a campus map. Iowa State registration lives in Workday.
+        This preview does <strong className="font-semibold text-ink">not</strong> call a live Workday API yet — Demo
+        Workday loads Scott&apos;s Fall 2026 <strong className="font-semibold text-ink">Current Classes</strong> export
+        (COMS 3190, COMS 3090, CPRE 3100, EE 2300). Next you pick your major — we&apos;ll load the catalog plan and map
+        what&apos;s on Workday.
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -46,13 +47,13 @@ function ConnectInner() {
           <MonitorPlay className="h-6 w-6 text-gold-dark" />
           <div className="mt-3 text-lg font-semibold text-ink">Demo Workday</div>
           <p className="mt-1 text-sm text-ink-muted">
-            Simulated SSO success. Loads <strong className="font-medium text-ink">Demo · registered Fall 2026</strong>{" "}
-            sections: MATH 1650 Lec 01, CPRE 1850, ENGL 1500 §11, CHEM 1670 Lec 04, ENGR 1010, LIB 1600 §10 (Beyer Loop
-            from Friley).
+            Simulated SSO success. Loads <strong className="font-medium text-ink">Current Classes · Fall 2026</strong>{" "}
+            onto the map: Science Hall, Pearson, Carver, Coover, Food Sciences — online / empty-day meetings stay in the
+            list only.
           </p>
           <span className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-ink px-3 py-1 text-xs font-semibold text-white">
             <MapPin className="h-3 w-3" />
-            Then map my registered classes
+            Then pick your major
           </span>
         </button>
 
@@ -73,8 +74,8 @@ function ConnectInner() {
       </div>
 
       <p className="mt-6 rounded-xl border border-stone-200 bg-white px-4 py-3 text-xs leading-relaxed text-ink-muted">
-        Demo Workday ≠ live Academic Progress. Rooms and true enrollment sync arrive with Workday SSO. Degree roadmap of
-        remaining courses is secondary — after you map what you already have registered.
+        After Demo Workday, pick your major. We load that major&apos;s catalog plan and map registered Current Classes.
+        Optional Y1 Beyer Loop demo seed remains available on the planner as a reset.
       </p>
     </div>
   );

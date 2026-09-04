@@ -404,3 +404,70 @@ export const BEYER_LOOP_COURSE_CODES = [
   "LIB 1600",
   "ENGR 1010",
 ] as const;
+
+
+/** Normalize "COMS 3090" / "coms_3090" → comparable key. */
+function normCourseCode(code: string): string {
+  return code.trim().toUpperCase().replace(/[_\s]+/g, " ");
+}
+
+/**
+ * Infer class standing from registered Current Classes against the 2026–27 plan.
+ * Defaults to Year 3 (mid-curriculum) when nothing matches.
+ */
+export function inferYearFromRegistered(courseCodes: string[]): 1 | 2 | 3 | 4 {
+  const keys = new Set(courseCodes.map(normCourseCode));
+  let maxYear: 1 | 2 | 3 | 4 = 1;
+  let found = false;
+  for (const sem of CPRE_ROADMAP) {
+    for (const c of sem.courses) {
+      if (keys.has(normCourseCode(c.code))) {
+        found = true;
+        if (sem.year > maxYear) maxYear = sem.year;
+      }
+    }
+  }
+  return found ? maxYear : 3;
+}
+
+/**
+ * Completed = template courses in semesters strictly before the earliest
+ * semester that contains a currently registered plan course.
+ * Registered sections stay visible on the roadmap as in-progress.
+ */
+export function completedIdsBeforeRegistered(courseCodes: string[]): string[] {
+  const keys = new Set(courseCodes.map(normCourseCode));
+  let earliestIdx = CPRE_ROADMAP.length;
+  for (let i = 0; i < CPRE_ROADMAP.length; i++) {
+    const sem = CPRE_ROADMAP[i];
+    if (sem.courses.some((c) => keys.has(normCourseCode(c.code)))) {
+      earliestIdx = i;
+      break;
+    }
+  }
+  const ids: string[] = [];
+  for (let i = 0; i < earliestIdx; i++) {
+    for (const c of CPRE_ROADMAP[i].courses) ids.push(c.id);
+  }
+  return ids;
+}
+
+/** Course codes from Current Classes that appear on the CPRE template. */
+export function registeredTemplateCodes(courseCodes: string[]): Set<string> {
+  const keys = new Set(courseCodes.map(normCourseCode));
+  const out = new Set<string>();
+  for (const sem of CPRE_ROADMAP) {
+    for (const c of sem.courses) {
+      if (keys.has(normCourseCode(c.code))) out.add(normCourseCode(c.code));
+    }
+  }
+  return out;
+}
+
+/** Scott Fall 2026 Current Classes course codes (roadmap highlight). */
+export const CURRENT_TERM_COURSE_CODES = [
+  "COMS 3190",
+  "COMS 3090",
+  "CPRE 3100",
+  "EE 2300",
+] as const;

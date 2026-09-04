@@ -1,12 +1,11 @@
 # ISU section data
 
-Fall 2026 Year-1 Computer Engineering starter sections from the public Schedule of Classes API (`https://api.classes.iastate.edu`).
+- `current-classes.json` — **default** registered schedule: Scott's Fall 2026 Workday Current Classes export (COMS 3190, COMS 3090, CPRE 3100, EE 2300). Also mirrored under `public/data/isu/` for static fetch.
+- `workday-current-classes-demo.json` — older Beyer Loop–shaped Workday export (optional Y1 demo).
+- `fall-2026-y1-sections.json` — public Schedule of Classes API dump for Y1 CPRE courses.
 
-- `fall-2026-y1-sections.json` — all sections for CHEM 1670/1770, CPRE 1850, MATH 1650, ENGL 1500, LIB 1600, ENGR 1010
-- `workday-current-classes-demo.json` — confirmed Workday **Current Classes** export shape (`classes[]` with building codes like CARVER / COOVER / TROXEL). Demo content mirrors the Beyer Loop seed; live SSO will replace this.
-- `building` / `room` are null in the public feed; Workday Current Classes export includes building codes/names
-- Home base for walk scoring: 212 Beyer Ct, Ames 50012
+Building codes in Current Classes: SCIENCE, PEARSON, CARVER, COOVER, FOODSCI (plus online / empty-day meetings with null building).
 
-Regenerate SoC dump: POST `/api/courses/search` with `academicPeriodId: ACADEMIC_PERIOD-2026Fall`.
+Home base for walk scoring: 212 Beyer Ct, Ames 50012.
 
-Import path in the app: planner “Import Workday JSON” (file picker or paste) → `meetingsFromWorkdayExport` → campus map. Also stored under localStorage key `class-op-workday-current`.
+Import path: Demo Workday loads `current-classes.json` by default; planner can import JSON or optionally “Load Y1 demo seed” (Beyer Loop).

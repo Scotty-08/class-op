@@ -119,6 +119,24 @@ export const BUILDINGS: Building[] = [
     walkMin: 12,
     color: "#dc2626",
   },
+  {
+    id: "science",
+    name: "Science Hall",
+    short: "Science",
+    lat: 42.02931,
+    lon: -93.64633,
+    walkMin: 14,
+    color: "#0369a1",
+  },
+  {
+    id: "foodsci",
+    name: "Food Sciences Building",
+    short: "Food Sci",
+    lat: 42.02689,
+    lon: -93.64278,
+    walkMin: 13,
+    color: "#b45309",
+  },
 ];
 
 export const BUILDING_BY_ID = Object.fromEntries(

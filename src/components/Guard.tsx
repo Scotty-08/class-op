@@ -13,7 +13,7 @@ export function Guard({
 }) {
   const { ready, state } = useApp();
   const router = useRouter();
-  const profileReady = Boolean(state.majorId && state.yearLevel);
+  const profileReady = Boolean(state.majorId);
 
   useEffect(() => {
     if (!ready) return;

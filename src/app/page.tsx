@@ -12,7 +12,7 @@ export default function HomePage() {
   const router = useRouter();
   const [email, setLocal] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const profileReady = Boolean(state.majorId && state.yearLevel);
+  const profileReady = Boolean(state.majorId);
 
   useEffect(() => {
     if (!ready) return;
@@ -49,8 +49,8 @@ export default function HomePage() {
           <span className="block text-cardinal">Walk less at Iowa State.</span>
         </h1>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-muted">
-          Class OP puts your registered sections on a real campus map, starting from Friley / 212 Beyer Ct. Demo Workday
-          loads a simulated Fall 2026 week (Beyer Loop). Remaining degree roadmap is secondary — after the map.
+          Class OP puts your registered sections on a real campus map, starting from Friley / 212 Beyer Ct. Pick your
+          major — we&apos;ll load the catalog plan and map what&apos;s on Workday.
         </p>
         <ul className="mt-8 space-y-3 text-sm text-ink">
           <li className="flex gap-3">
@@ -59,11 +59,11 @@ export default function HomePage() {
           </li>
           <li className="flex gap-3">
             <CalendarRange className="mt-0.5 h-5 w-5 text-cardinal" />
-            Year + major, then Demo registered schedule (MATH 1650, CPRE 1850, ENGL 1500, CHEM 1670, ENGR 1010, LIB 1600)
+            Demo Workday loads Current Classes (COMS 3190, COMS 3090, CPRE 3100, EE 2300), then you pick your major
           </li>
           <li className="flex gap-3">
             <MapPin className="mt-0.5 h-5 w-5 text-cardinal" />
-            Day-checkbox map of registered meetings; optional CPRE remaining roadmap for future terms
+            View my plan (CPRE 2026–27 roadmap) and map registered classes on the planner
           </li>
         </ul>
       </section>

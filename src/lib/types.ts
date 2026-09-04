@@ -45,7 +45,7 @@ export type CatalogSection = {
 export type YearLevel = 1 | 2 | 3 | 4;
 
 /** Where the primary map meetings came from. */
-export type ScheduleSource = "demo" | "import";
+export type ScheduleSource = "demo" | "current" | "import";
 
 export type AppState = {
   email: string | null;
@@ -56,7 +56,7 @@ export type AppState = {
   /** Explicit completed course ids; when empty, derived from yearLevel. */
   completedCourseIds: string[];
   meetings: Meeting[];
-  /** demo = Beyer Loop seed; import = Workday Current Classes JSON. */
+  /** current = bundled Fall 2026 Current Classes; demo = Y1 Beyer Loop; import = user JSON. */
   scheduleSource: ScheduleSource;
 };
 

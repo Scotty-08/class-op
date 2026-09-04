@@ -1,4 +1,4 @@
-import { beyerLoopSeed } from "./seed-schedule";
+import { currentClassesSeed } from "./current-classes-seed";
 import type { AppState, Meeting, ScheduleSource, YearLevel } from "./types";
 
 export const STORAGE_KEY = "class-op-v1";
@@ -20,7 +20,9 @@ function parseYear(v: unknown): YearLevel | null {
 }
 
 function parseSource(v: unknown): ScheduleSource {
-  return v === "import" ? "import" : "demo";
+  if (v === "import") return "import";
+  if (v === "current") return "current";
+  return "demo";
 }
 
 export function loadState(): AppState {
@@ -58,8 +60,8 @@ export function connectDemoWorkday(email: string): AppState {
     majorId: prev.majorId,
     yearLevel: prev.yearLevel,
     completedCourseIds: prev.completedCourseIds,
-    meetings: beyerLoopSeed(),
-    scheduleSource: "demo",
+    meetings: currentClassesSeed(),
+    scheduleSource: "current",
   };
   saveState(next);
   return next;

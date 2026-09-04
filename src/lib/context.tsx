@@ -8,7 +8,12 @@ import {
   useMemo,
   useState,
 } from "react";
-import { completedIdsForYear } from "./cpre-roadmap";
+import {
+  completedIdsBeforeRegistered,
+  completedIdsForYear,
+  inferYearFromRegistered,
+} from "./cpre-roadmap";
+import { currentClassesSeed, currentRegisteredCourseCodes } from "./current-classes-seed";
 import { EMPTY_STATE, loadState, saveState, signOut as clearStorage } from "./storage";
 import { beyerLoopSeed } from "./seed-schedule";
 import {
@@ -26,13 +31,17 @@ type Ctx = {
   connectDemo: () => void;
   setMajor: (majorId: string) => void;
   setYearLevel: (year: YearLevel) => void;
-  setProfile: (majorId: string, yearLevel: YearLevel) => void;
+  /** Major-first: pick major → load catalog plan + Current Classes map. Year optional. */
+  setProfile: (majorId: string, yearLevel?: YearLevel | null) => void;
   setCompletedCourseIds: (ids: string[]) => void;
   setMeetings: (meetings: Meeting[] | ((prev: Meeting[]) => Meeting[])) => void;
   importWorkdayExport: (data: WorkdayCurrentExport) => void;
-  resetSeed: () => void;
+  /** Optional Y1 Beyer Loop demo seed — not the primary default. */
+  loadY1DemoSeed: () => void;
+  /** Restore bundled Fall 2026 Current Classes as registered schedule. */
+  loadCurrentClasses: () => void;
   signOut: () => void;
-  /** Demo completed ids: explicit checklist, else inferred from year. */
+  /** Demo completed ids: explicit checklist, else inferred from year / Current Classes. */
   effectiveCompletedIds: string[];
 };
 
@@ -41,6 +50,20 @@ const AppCtx = createContext<Ctx | null>(null);
 function commit(next: AppState) {
   saveState(next);
   return next;
+}
+
+function midCurriculumDefaults(majorId: string): {
+  yearLevel: YearLevel;
+  completedCourseIds: string[];
+} {
+  if (majorId === "cpre") {
+    const codes = currentRegisteredCourseCodes();
+    return {
+      yearLevel: inferYearFromRegistered(codes),
+      completedCourseIds: completedIdsBeforeRegistered(codes),
+    };
+  }
+  return { yearLevel: 3, completedCourseIds: completedIdsForYear(3) };
 }
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -57,15 +80,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const connectDemo = useCallback(() => {
-    setState((s) =>
-      commit({
+    setState((s) => {
+      const keepImport = s.scheduleSource === "import" && s.meetings.length > 0;
+      return commit({
         ...s,
         workdayDemo: true,
-        // Simulated registered Fall 2026 sections (Beyer Loop) until live Workday SSO.
-        meetings: s.scheduleSource === "import" && s.meetings.length ? s.meetings : beyerLoopSeed(),
-        scheduleSource: s.scheduleSource === "import" && s.meetings.length ? "import" : "demo",
-      }),
-    );
+        // Default registered schedule = Fall 2026 Current Classes (not Beyer Loop).
+        meetings: keepImport ? s.meetings : currentClassesSeed(),
+        scheduleSource: keepImport ? "import" : "current",
+      });
+    });
   }, []);
 
   const setMajor = useCallback((majorId: string) => {
@@ -82,20 +106,29 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     );
   }, []);
 
-  const setProfile = useCallback((majorId: string, yearLevel: YearLevel) => {
-    setState((s) =>
-      commit({
+  const setProfile = useCallback((majorId: string, yearLevel?: YearLevel | null) => {
+    setState((s) => {
+      const defaults = midCurriculumDefaults(majorId);
+      const year = yearLevel ?? s.yearLevel ?? defaults.yearLevel;
+      const completed =
+        s.completedCourseIds.length && s.yearLevel === year
+          ? s.completedCourseIds
+          : majorId === "cpre" && !yearLevel
+            ? defaults.completedCourseIds
+            : completedIdsForYear(year);
+      const meetings = s.meetings.length ? s.meetings : currentClassesSeed();
+      const scheduleSource = s.meetings.length
+        ? s.scheduleSource
+        : ("current" as const);
+      return commit({
         ...s,
         majorId,
-        yearLevel,
-        completedCourseIds:
-          s.completedCourseIds.length && s.yearLevel === yearLevel
-            ? s.completedCourseIds
-            : completedIdsForYear(yearLevel),
-        meetings: s.meetings.length ? s.meetings : beyerLoopSeed(),
-        scheduleSource: s.meetings.length ? s.scheduleSource : "demo",
-      }),
-    );
+        yearLevel: year,
+        completedCourseIds: completed,
+        meetings,
+        scheduleSource,
+      });
+    });
   }, []);
 
   const setCompletedCourseIds = useCallback((completedCourseIds: string[]) => {
@@ -127,13 +160,30 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     );
   }, []);
 
-  const resetSeed = useCallback(() => {
+  const loadY1DemoSeed = useCallback(() => {
     clearWorkdayImport();
     setState((s) =>
       commit({
         ...s,
         meetings: beyerLoopSeed(),
         scheduleSource: "demo",
+        yearLevel: 1,
+        completedCourseIds: completedIdsForYear(1),
+      }),
+    );
+  }, []);
+
+  const loadCurrentClasses = useCallback(() => {
+    clearWorkdayImport();
+    const codes = currentRegisteredCourseCodes();
+    setState((s) =>
+      commit({
+        ...s,
+        meetings: currentClassesSeed(),
+        scheduleSource: "current",
+        yearLevel: s.majorId === "cpre" ? inferYearFromRegistered(codes) : s.yearLevel ?? 3,
+        completedCourseIds:
+          s.majorId === "cpre" ? completedIdsBeforeRegistered(codes) : s.completedCourseIds,
       }),
     );
   }, []);
@@ -146,9 +196,12 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   const effectiveCompletedIds = useMemo(() => {
     if (state.completedCourseIds.length) return state.completedCourseIds;
+    if (state.scheduleSource === "current" || state.meetings.some((m) => m.course.startsWith("COMS") || m.course.startsWith("CPRE 3100") || m.course.startsWith("EE 2300"))) {
+      return completedIdsBeforeRegistered(currentRegisteredCourseCodes());
+    }
     if (state.yearLevel) return completedIdsForYear(state.yearLevel);
     return [];
-  }, [state.completedCourseIds, state.yearLevel]);
+  }, [state.completedCourseIds, state.yearLevel, state.scheduleSource, state.meetings]);
 
   const value = useMemo(
     () => ({
@@ -162,7 +215,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setCompletedCourseIds,
       setMeetings,
       importWorkdayExport,
-      resetSeed,
+      loadY1DemoSeed,
+      loadCurrentClasses,
       signOut,
       effectiveCompletedIds,
     }),
@@ -177,7 +231,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setCompletedCourseIds,
       setMeetings,
       importWorkdayExport,
-      resetSeed,
+      loadY1DemoSeed,
+      loadCurrentClasses,
       signOut,
       effectiveCompletedIds,
     ],

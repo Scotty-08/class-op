@@ -2,7 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { Plus, RotateCcw, Upload, Route } from "lucide-react";
+import { Plus, RotateCcw, Upload, Route, RefreshCw } from "lucide-react";
 import { Guard } from "@/components/Guard";
 import { ScheduleGrid } from "@/components/ScheduleGrid";
 import { CampusMap } from "@/components/CampusMap";
@@ -26,7 +26,7 @@ export default function PlannerPage() {
 }
 
 function PlannerInner() {
-  const { state, setMeetings, resetSeed, importWorkdayExport } = useApp();
+  const { state, setMeetings, loadY1DemoSeed, loadCurrentClasses, importWorkdayExport } = useApp();
   const [selectedDays, setSelectedDays] = useState<DayCode[]>(ALL_DAYS);
   const [editing, setEditing] = useState<Meeting | null>(null);
   const [addOpen, setAddOpen] = useState(false);
@@ -35,7 +35,9 @@ function PlannerInner() {
   const fileRef = useRef<HTMLInputElement>(null);
   const major = MAJORS.find((m) => m.id === state.majorId);
   const clashes = useMemo(() => conflictingIds(state.meetings), [state.meetings]);
-  const isDemo = state.scheduleSource !== "import";
+  const isCurrent = state.scheduleSource === "current";
+  const isDemoY1 = state.scheduleSource === "demo";
+  const isImport = state.scheduleSource === "import";
 
   function toggleDay(day: DayCode) {
     setSelectedDays((prev) =>
@@ -57,36 +59,27 @@ function PlannerInner() {
     }
   }
 
-  async function loadBundledDemoExport() {
-    setImportError(null);
-    setImportOk(null);
-    try {
-      const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
-      const res = await fetch(`${base}/data/isu/workday-current-classes-demo.json`);
-      if (!res.ok) throw new Error(`Fetch failed (${res.status})`);
-      const data = parseWorkdayCurrentJson(await res.text());
-      importWorkdayExport(data);
-      setImportOk("Loaded bundled Workday Current Classes demo export onto the map.");
-    } catch (e) {
-      setImportError(e instanceof Error ? e.message : "Could not load demo export");
-    }
-  }
-
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-cardinal">
-            {isDemo ? "Demo · registered Fall 2026 · Beyer Loop" : "Imported · Workday Current Classes"}
+            {isImport
+              ? "Imported · Workday Current Classes"
+              : isDemoY1
+                ? "Optional · Y1 Beyer Loop demo seed"
+                : "Current Classes · Fall 2026 registered"}
           </p>
           <h1 className="text-2xl font-semibold tracking-tight">Map my registered classes</h1>
           <p className="max-w-2xl text-sm text-ink-muted">
-            Primary view: meetings you already registered for, on a day-checkbox campus map from Friley / 212 Beyer Ct.
+            Registered meetings on a day-checkbox campus map from Friley / 212 Beyer Ct.
             {major ? ` ${major.name}` : ""}
             {state.yearLevel ? ` · ${YEAR_LABELS[state.yearLevel]}` : ""}.
-            {isDemo
-              ? " Seed is simulated registered sections until live Workday SSO reads My Classes."
-              : " Buildings mapped from Workday codes (CARVER → carver, etc.)."}
+            {isCurrent
+              ? " Default seed is Workday Current Classes (SCIENCE, PEARSON, CARVER, COOVER, FOODSCI). Online / empty-day meetings stay in the list only."
+              : isDemoY1
+                ? " Optional Y1 demo — not the primary registered schedule."
+                : " Buildings mapped from Workday codes."}
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -115,23 +108,44 @@ function PlannerInner() {
           />
           <button
             type="button"
-            onClick={resetSeed}
+            onClick={() => {
+              loadCurrentClasses();
+              setImportOk("Restored Fall 2026 Current Classes on the map.");
+              setImportError(null);
+            }}
             className="inline-flex items-center gap-1.5 rounded-xl border border-stone-200 bg-white px-3 py-2 text-sm font-medium text-ink hover:bg-stone-50"
           >
+            <RefreshCw className="h-4 w-4" />
+            Reload Current Classes
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              loadY1DemoSeed();
+              setImportOk("Loaded optional Y1 Beyer Loop demo seed.");
+              setImportError(null);
+            }}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-dashed border-stone-300 bg-stone-50 px-3 py-2 text-sm font-medium text-ink-muted hover:bg-stone-100"
+          >
             <RotateCcw className="h-4 w-4" />
-            Reset Beyer Loop demo
+            Load Y1 demo seed
           </button>
         </div>
       </div>
 
-      {isDemo ? (
+      {isCurrent ? (
+        <div className="mb-4 rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm text-emerald-950">
+          <strong className="font-semibold">Workday Current Classes</strong> — COMS 3190 · COMS 3090 · CPRE 3100 · EE
+          2300. Empty-day / online sections (COMS 3090-A, CPRE 3100-A) stay on the schedule grid but skip map pins.
+        </div>
+      ) : null}
+      {isDemoY1 ? (
         <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-950">
-          <strong className="font-semibold">Demo registered schedule</strong> — not live Workday. Beyer Loop Fall Y1
-          sections are labeled as simulated Current Classes. You can also{" "}
-          <button type="button" className="font-semibold underline" onClick={loadBundledDemoExport}>
-            load the bundled Workday JSON shape
+          <strong className="font-semibold">Optional Y1 demo</strong> — Beyer Loop Fall Y1 seed. Use{" "}
+          <button type="button" className="font-semibold underline" onClick={loadCurrentClasses}>
+            Reload Current Classes
           </button>{" "}
-          or import your own export.
+          for the primary registered schedule.
         </div>
       ) : null}
 
@@ -206,19 +220,17 @@ function PlannerInner() {
             <CampusMap meetings={state.meetings} selectedDays={selectedDays} />
           </div>
           <p className="text-[11px] text-ink-muted">
-            Orange pin = 212 Beyer Ct / Friley Hall (42.02381, -93.65076). Check days to compose one Leaflet map —
-            single day is a numbered walk; multiple days merge with day-colored dashed routes. Online sections stay off
-            the map.
+            Orange pin = 212 Beyer Ct / Friley Hall. Online / empty-day meetings stay off the map. Buildings include
+            Science Hall and Food Sciences from the Current Classes export.
           </p>
         </div>
       </div>
 
       <div className="mt-6 rounded-2xl border border-stone-200 bg-paper-card p-4 sm:flex sm:items-center sm:justify-between sm:gap-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">Secondary</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">View my plan</p>
           <p className="mt-1 text-sm text-ink">
-            Remaining CPRE courses (2026–27 template) for future-term walk optimization — not the first screen after
-            login.
+            CPRE 2026–27 catalog roadmap with Current Classes highlighted as in-progress.
           </p>
         </div>
         <Link
@@ -226,7 +238,7 @@ function PlannerInner() {
           className="mt-3 inline-flex items-center gap-2 rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm font-semibold text-ink hover:bg-stone-50 sm:mt-0"
         >
           <Route className="h-4 w-4 text-cardinal" />
-          View remaining roadmap
+          View my plan
         </Link>
       </div>
 

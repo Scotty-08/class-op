@@ -26,11 +26,18 @@ export type WorkdayCurrentExport = {
   academicPeriodId?: string;
   term?: string;
   exportedAt?: string;
-  homeBase?: {
-    address?: string;
-    lat?: number;
-    lon?: number;
-  };
+  homeBase?:
+    | string
+    | {
+        address?: string;
+        lat?: number;
+        lon?: number;
+      };
+  student?: string;
+  program?: string;
+  enrolledCredits?: number;
+  loadStatus?: string;
+  workdayPath?: string;
   classes: WorkdayCurrentClass[];
 };
 
@@ -69,6 +76,11 @@ const BUILDING_CODE_ALIASES: Record<string, string> = {
   ROSS: "ross",
   FRILEY: "friley",
   BEYER: "friley",
+  SCIENCE: "science",
+  SCI: "science",
+  FOODSCI: "foodsci",
+  FOODSC: "foodsci",
+  FOOD: "foodsci",
   ONLINE: "online",
   WEB: "online",
   ARR: "online",
