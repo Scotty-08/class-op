@@ -5,8 +5,9 @@ import { Home, Loader2 } from "lucide-react";
 import {
   COMMUTER_LOTS,
   DEFAULT_HOME,
-  HOME_QUICK_PICKS,
+  DORM_QUICK_PICKS,
   geocodeHomeQuery,
+  homeLocationFromBase,
   isHomeOnCampus,
   needsCommuterLot,
   resolveWalkStart,
@@ -69,13 +70,10 @@ export function HomeBaseCard() {
     }
   }
 
-  function pickBuilding(id: string) {
-    const b = HOME_QUICK_PICKS.find((x) => x.id === id);
-    if (!b) return;
-    const next: HomeLocation =
-      b.id === "friley"
-        ? { ...DEFAULT_HOME }
-        : { label: b.name, lat: b.lat, lon: b.lon };
+  function pickDorm(id: string) {
+    const d = DORM_QUICK_PICKS.find((x) => x.id === id);
+    if (!d) return;
+    const next: HomeLocation = homeLocationFromBase(d);
     setHome(next);
     setDraft(next.label);
     setCommuteOffCampus(false);
@@ -130,22 +128,23 @@ export function HomeBaseCard() {
       </form>
 
       <div className="mt-2 flex flex-wrap gap-1.5">
-        {HOME_QUICK_PICKS.map((b) => {
+        {DORM_QUICK_PICKS.map((d) => {
           const active =
-            Math.abs(home.lat - b.lat) < 1e-5 && Math.abs(home.lon - b.lon) < 1e-5;
+            Math.abs(home.lat - d.lat) < 1e-5 && Math.abs(home.lon - d.lon) < 1e-5;
           return (
             <button
-              key={b.id}
+              key={d.id}
               type="button"
-              onClick={() => pickBuilding(b.id)}
+              onClick={() => pickDorm(d.id)}
               disabled={busy}
               className={`rounded-full border px-2.5 py-1 text-[11px] font-medium transition ${
                 active
                   ? "border-ink bg-ink text-white"
                   : "border-stone-200 bg-stone-50 text-ink-muted hover:bg-stone-100"
               }`}
+              title={d.notes ?? d.address ?? d.name}
             >
-              {b.id === "friley" ? "Friley" : b.short}
+              {d.short}
             </button>
           );
         })}

@@ -1,0 +1,11 @@
+{
+  "count": 35,
+  "dorms": 23,
+  "commuter_lots": 12,
+  "sources": [
+    "https://www.housing.iastate.edu/halls-and-apartments/",
+    "https://www.parking.iastate.edu/commuter",
+    "https://www.fpm.iastate.edu/maps/"
+  ],
+  "notes": "Dorm lat/lon from ISU FPM campus map projection. Commuter lot coords landmark-anchored from Parking Services descriptions; ISC bay positions approximate within the Center lot complex."
+}

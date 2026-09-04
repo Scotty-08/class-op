@@ -54,6 +54,19 @@ export type HomeLocation = {
   lon: number;
 };
 
+/** Official ISU residence hall or commuter lot from home-bases.json. */
+export type HomeBaseKind = "dorm" | "commuter_lot";
+
+export type HomeBase = {
+  id: string;
+  name: string;
+  kind: HomeBaseKind;
+  address?: string;
+  lat: number;
+  lon: number;
+  notes?: string;
+};
+
 /** ISU commuter lot used as walk-start when home is off-campus. */
 export type CommuterLot = {
   id: string;
@@ -63,6 +76,9 @@ export type CommuterLot = {
   lon: number;
   /** Short campus-edge hint for the picker. */
   edge: string;
+  kind?: "commuter_lot";
+  address?: string;
+  notes?: string;
 };
 
 /** How the student continues after viewing the catalog plan. */

@@ -8,24 +8,16 @@ import { useApp } from "@/lib/context";
 import {
   COMMUTER_LOTS,
   DEFAULT_HOME,
+  DORM_QUICK_PICKS,
   HOME_QUICK_PICKS,
   geocodeHomeQuery,
+  homeLocationFromBase,
   isHomeOnCampus,
   needsCommuterLot,
   resolveWalkStart,
 } from "@/lib/buildings";
 import { getMajor } from "@/lib/majors";
 import type { HomeLocation } from "@/lib/types";
-
-/** On-campus dorm / residence quick picks (official dorm list may arrive later). */
-const DORM_PICKS = [
-  {
-    id: "friley",
-    name: "Friley Hall",
-    hint: "212 Beyer Ct · default demo home",
-    home: { ...DEFAULT_HOME } as HomeLocation,
-  },
-];
 
 export default function LivingPage() {
   return (
@@ -63,11 +55,12 @@ function LivingInner() {
   const [draft, setDraft] = useState(home.label);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
-  const [pickedDorm, setPickedDorm] = useState<string | null>(
-    Math.abs(home.lat - DEFAULT_HOME.lat) < 1e-5 && Math.abs(home.lon - DEFAULT_HOME.lon) < 1e-5
-      ? "friley"
-      : null,
-  );
+  const [pickedDorm, setPickedDorm] = useState<string | null>(() => {
+    const hit = DORM_QUICK_PICKS.find(
+      (d) => Math.abs(home.lat - d.lat) < 1e-5 && Math.abs(home.lon - d.lon) < 1e-5,
+    );
+    return hit?.id ?? null;
+  });
 
   useEffect(() => {
     setDraft(home.label);
@@ -104,10 +97,11 @@ function LivingInner() {
   }
 
   function chooseDorm(id: string) {
-    const d = DORM_PICKS.find((x) => x.id === id);
+    const d = DORM_QUICK_PICKS.find((x) => x.id === id);
     if (!d) return;
-    setHome(d.home);
-    setDraft(d.home.label);
+    const next = homeLocationFromBase(d);
+    setHome(next);
+    setDraft(next.label);
     setPickedDorm(id);
     setCommuteOffCampus(false);
     setMode("on");
@@ -215,11 +209,12 @@ function LivingInner() {
         <section className="mt-6">
           <h2 className="text-sm font-semibold text-ink">Dorm quick picks</h2>
           <p className="mt-1 text-xs text-ink-muted">
-            Official ISU residence hall list may arrive later — Friley is the demo default for now.
+            {DORM_QUICK_PICKS.length} ISU residence halls &amp; apartments — Friley is the demo default.
           </p>
-          <div className="mt-3 grid gap-2">
-            {DORM_PICKS.map((d) => {
+          <div className="mt-3 grid max-h-[22rem] gap-2 overflow-y-auto pr-1 sm:grid-cols-2">
+            {DORM_QUICK_PICKS.map((d) => {
               const on = pickedDorm === d.id;
+              const hint = [d.notes, d.address].filter(Boolean).join(" · ") || "On campus";
               return (
                 <button
                   key={d.id}
@@ -240,7 +235,7 @@ function LivingInner() {
                   </span>
                   <span>
                     <span className="font-medium text-ink">{d.name}</span>
-                    <span className="mt-0.5 block text-[11px] text-ink-muted">{d.hint}</span>
+                    <span className="mt-0.5 block text-[11px] text-ink-muted">{hint}</span>
                   </span>
                 </button>
               );
@@ -276,7 +271,7 @@ function LivingInner() {
             ISU commuter lot (walk-start)
           </h2>
           <p className="mt-1 text-xs text-ink-muted">
-            Home can stay off campus; the map re-anchors walks from the lot you park in.
+            {COMMUTER_LOTS.length} official ISU commuter lots — map re-anchors walks from the lot you park in.
           </p>
           <div className="mt-3 grid gap-2 sm:grid-cols-2">
             {COMMUTER_LOTS.map((lot) => {

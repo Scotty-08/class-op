@@ -1,4 +1,5 @@
-import type { CommuterLot, HomeLocation } from "./types";
+import homeBasesJson from "../../data/isu/home-bases.json";
+import type { CommuterLot, HomeBase, HomeLocation } from "./types";
 export type Building = {
   id: string;
   name: string;
@@ -9,13 +10,16 @@ export type Building = {
   color: string;
 };
 
+/** Friley coords from official home-bases.json (kept as demo default). */
+const FRILEY_BASE = (homeBasesJson as HomeBase[]).find((h) => h.id === "friley")!;
+
 export const HOME = {
   id: "friley",
   name: "Friley Hall",
   short: "Friley / home",
-  address: "212 Beyer Ct, Ames IA 50012",
-  lat: 42.02381,
-  lon: -93.65076,
+  address: FRILEY_BASE.address ?? "212 Beyer Ct, Ames, IA 50012",
+  lat: FRILEY_BASE.lat,
+  lon: FRILEY_BASE.lon,
   walkMin: 0,
   color: "#f97316",
 };
@@ -25,8 +29,8 @@ export const BUILDINGS: Building[] = [
     id: "friley",
     name: "Friley Hall",
     short: "Friley / home",
-    lat: 42.02381,
-    lon: -93.65076,
+    lat: HOME.lat,
+    lon: HOME.lon,
     walkMin: 0,
     color: "#f97316",
   },
@@ -381,6 +385,31 @@ export const DEFAULT_HOME: HomeLocation = {
   lon: HOME.lon,
 };
 
+/** Official ISU home bases (dorms + commuter lots). */
+export const HOME_BASES: HomeBase[] = homeBasesJson as HomeBase[];
+
+export const DORMS: HomeBase[] = HOME_BASES.filter((h) => h.kind === "dorm");
+
+/** Dorm quick picks for home / living UI (includes Friley). */
+export const DORM_QUICK_PICKS = DORMS.map((d) => ({
+  id: d.id,
+  name: d.name,
+  short: d.name,
+  lat: d.lat,
+  lon: d.lon,
+  address: d.address,
+  notes: d.notes,
+  kind: "dorm" as const,
+}));
+
+export function homeLocationFromBase(base: Pick<HomeBase, "id" | "name" | "address" | "lat" | "lon">): HomeLocation {
+  if (base.id === "friley") return { ...DEFAULT_HOME };
+  const street = base.address?.split(",")[0]?.trim();
+  const label = street ? `${street} · ${base.name}` : base.name;
+  return { label, lat: base.lat, lon: base.lon };
+}
+
+/** Academic / campus-building chips (not dorms). Friley kept for legacy pickers. */
 export const HOME_QUICK_PICKS = BUILDINGS.filter((b) =>
   [
     "friley",
@@ -446,6 +475,22 @@ export function matchHomeQuery(query: string): HomeLocation | null {
     q.includes("212 beyer")
   ) {
     return { ...DEFAULT_HOME };
+  }
+
+  for (const d of DORMS) {
+    const name = d.name.toLowerCase();
+    const id = d.id.toLowerCase();
+    const addr = (d.address ?? "").toLowerCase();
+    if (
+      q === id ||
+      q === name ||
+      name.includes(q) ||
+      q.includes(name) ||
+      q.includes(id) ||
+      (addr && (addr.includes(q) || q.includes(addr.split(",")[0] ?? "")))
+    ) {
+      return homeLocationFromBase(d);
+    }
   }
 
   for (const b of BUILDINGS) {
@@ -535,43 +580,21 @@ export function isHomeOnCampus(home: HomeLocation): boolean {
 }
 
 /**
- * Real-ish ISU commuter lots near the campus edge.
- * Coords approximate lot centroids for walk-start routing (not survey-grade).
+ * Official ISU commuter lots from home-bases.json (kind === "commuter_lot").
  */
-export const COMMUTER_LOTS: CommuterLot[] = [
-  {
-    id: "lot29",
-    name: "Lot 29 (Commuter)",
-    short: "Lot 29",
-    lat: 42.02555,
-    lon: -93.65575,
-    edge: "West · near Union Dr / Memorial Union",
-  },
-  {
-    id: "lot50",
-    name: "Lot 50 (Commuter)",
-    short: "Lot 50",
-    lat: 42.02115,
-    lon: -93.64955,
-    edge: "South · near Hilton Coliseum",
-  },
-  {
-    id: "lot67",
-    name: "Lot 67 (Commuter)",
-    short: "Lot 67",
-    lat: 42.03105,
-    lon: -93.6564,
-    edge: "Northwest campus edge",
-  },
-  {
-    id: "lot1a",
-    name: "Lot 1A (Commuter)",
-    short: "Lot 1A",
-    lat: 42.02405,
-    lon: -93.6412,
-    edge: "Southeast · near Lincoln Way",
-  },
-];
+export const COMMUTER_LOTS: CommuterLot[] = HOME_BASES.filter(
+  (h) => h.kind === "commuter_lot",
+).map((h) => ({
+  id: h.id,
+  name: h.name,
+  short: h.name,
+  lat: h.lat,
+  lon: h.lon,
+  edge: h.notes ?? h.address ?? "",
+  kind: "commuter_lot" as const,
+  address: h.address,
+  notes: h.notes,
+}));
 
 export const COMMUTER_LOT_BY_ID = Object.fromEntries(
   COMMUTER_LOTS.map((l) => [l.id, l]),
