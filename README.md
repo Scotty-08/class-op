@@ -1,5 +1,7 @@
 # Class OP
 
+**Live:** https://scotty-08.github.io/class-op/
+
 Iowa State University class schedule optimizer preview. Plan a walkable week from Friley Hall / 212 Beyer Ct, Ames.
 
 Not an official ISU app. Does not call live Workday. Demo Workday simulates SSO and loads the Beyer Loop Fall Y1 seed.
@@ -16,7 +18,7 @@ From /workspace/class-op-app: install dependencies, then the dev script (port 30
 
 ## Stack
 
-Next.js 15 App Router, TypeScript, Tailwind CSS, Leaflet (OSM / CARTO). Session stored in localStorage key class-op-v1.
+Next.js 15 App Router, TypeScript, Tailwind CSS, Leaflet (OpenStreetMap). Session stored in localStorage key class-op-v1.
 
 ## Data
 

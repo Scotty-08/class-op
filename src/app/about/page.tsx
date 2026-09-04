@@ -29,15 +29,15 @@ export default function AboutPage() {
       </p>
       <div className="mt-4 grid gap-4 sm:grid-cols-3">
         <Fig
-          src="/refs/3d585e1ec92b0734ff4f44a39cc41e7ad0d5c9b07e50c115e0a9ef0aa6ea6b37.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/refs/3d585e1ec92b0734ff4f44a39cc41e7ad0d5c9b07e50c115e0a9ef0aa6ea6b37.png`}
           cap="Overview"
         />
         <Fig
-          src="/refs/0d379d74e4fd61a9578aaaea02d7405235d499a1561603cf0db5777f49f356bd.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/refs/0d379d74e4fd61a9578aaaea02d7405235d499a1561603cf0db5777f49f356bd.png`}
           cap="MWF"
         />
         <Fig
-          src="/refs/8838955f90e5d32071ed610047aff61daa237a14c652cf4c53db4693c91e83df.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/refs/8838955f90e5d32071ed610047aff61daa237a14c652cf4c53db4693c91e83df.png`}
           cap="TR"
         />
       </div>

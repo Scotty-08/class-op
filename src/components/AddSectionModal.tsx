@@ -5,6 +5,7 @@ import { Search, X } from "lucide-react";
 import type { CatalogSection, Meeting } from "@/lib/types";
 import { formatDays, formatRange, uid } from "@/lib/time";
 import { BUILDING_BY_ID, walkLabel } from "@/lib/buildings";
+import catalog from "@/data/catalog.json";
 
 export function AddSectionModal({
   onClose,
@@ -18,18 +19,11 @@ export function AddSectionModal({
   const [err, setErr] = useState<string | null>(null);
 
   useEffect(() => {
-    let alive = true;
-    fetch("/api/catalog")
-      .then((r) => r.json())
-      .then((data: { sections: CatalogSection[] }) => {
-        if (alive) setRows(data.sections);
-      })
-      .catch(() => {
-        if (alive) setErr("Could not load the Fall 2026 section catalog.");
-      });
-    return () => {
-      alive = false;
-    };
+    try {
+      setRows((catalog as { sections: CatalogSection[] }).sections);
+    } catch {
+      setErr("Could not load the Fall 2026 section catalog.");
+    }
   }, []);
 
   const filtered = useMemo(() => {
