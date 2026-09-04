@@ -1,0 +1,368 @@
+{
+  "major": "Computer Engineering",
+  "option": null,
+  "degree": "B.S.",
+  "college": "College of Engineering",
+  "catalogYear": "2026-27",
+  "planYears": 4,
+  "totalCredits": 127,
+  "sourceUrl": "https://catalog.iastate.edu/collegeofengineering/computerengineering/#fouryearplantext",
+  "gridHeading": "Transfer Credit Requirements",
+  "displayName": "Computer Engineering, B.S.",
+  "semesters": [
+    {
+      "termLabel": "First Year Fall",
+      "yearLabel": "First Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CHEM 1670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 1850",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 1500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "ENGR 1010",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "LIB 1600",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1650",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "First Year Spring",
+      "yearLabel": "First Year",
+      "term": "Spring",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "COMS 2270",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 1660",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "MATH 1660",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 2500",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "PHYS 2310L",
+          "title": null,
+          "credits": 1,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Fall",
+      "yearLabel": "Second Year",
+      "term": "Fall",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CPRE 2810",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 2280",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "EE 2010",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2670",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        }
+      ]
+    },
+    {
+      "termLabel": "Second Year Spring",
+      "yearLabel": "Second Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CPRE 2880",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "EE 2300",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "MATH 2070",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 3090",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Fall",
+      "yearLabel": "Third Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CPRE 2320",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 3100",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 3810",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Third Year Spring",
+      "yearLabel": "Third Year",
+      "term": "Spring",
+      "credits": 17,
+      "courses": [
+        {
+          "code": "CPRE 3080",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 3250",
+          "title": null,
+          "credits": 4,
+          "kind": "required"
+        },
+        {
+          "code": "ENGL 3140",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "COMS 3110",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Fall",
+      "yearLabel": "Fourth Year",
+      "term": "Fall",
+      "credits": 16,
+      "courses": [
+        {
+          "code": "CPRE 4910",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": "CPRE 4940",
+          "title": null,
+          "credits": "R",
+          "kind": "required"
+        },
+        {
+          "code": "STAT 3030",
+          "title": null,
+          "credits": 3,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 7,
+          "kind": "elective",
+          "electiveBucket": "CPRE Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    },
+    {
+      "termLabel": "Fourth Year Spring",
+      "yearLabel": "Fourth Year",
+      "term": "Spring",
+      "credits": 15,
+      "courses": [
+        {
+          "code": "CPRE 4920",
+          "title": null,
+          "credits": 2,
+          "kind": "required"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 7,
+          "kind": "elective",
+          "electiveBucket": "CPRE Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "Technical Elective"
+        },
+        {
+          "code": null,
+          "title": null,
+          "credits": 3,
+          "kind": "elective",
+          "electiveBucket": "General Education Elective"
+        }
+      ]
+    }
+  ],
+  "electiveBuckets": [
+    {
+      "name": "General Education Elective",
+      "credits": 15,
+      "courses": [],
+      "notes": "Remaining gen eds after ENGL 2500+3140 count toward 21-cr gen-ed total; must cover US Cultures and Communities (3) and International Perspectives (3); \u22653 cr at 3000+.",
+      "approvedListUrl": "https://www.ece.iastate.edu/undergraduate-degree-programs/ecpe-student-services/ecpe-general-education-course-list/"
+    },
+    {
+      "name": "CPRE Elective",
+      "credits": 14,
+      "courses": [],
+      "notes": "From ECpE approved Computer Engineering technical elective list.",
+      "approvedListUrl": "https://www.ece.iastate.edu/undergraduate-degree-programs/ecpe-student-services/4-year-degree-plans-flowcharts-and-technical-electives/"
+    },
+    {
+      "name": "Technical Elective",
+      "credits": 6,
+      "courses": [],
+      "notes": "From ECpE approved technical elective list (non-CPRE/EE options allowed per dept list).",
+      "approvedListUrl": "https://www.ece.iastate.edu/undergraduate-degree-programs/ecpe-student-services/4-year-degree-plans-flowcharts-and-technical-electives/"
+    },
+    {
+      "name": "International Perspectives",
+      "credits": 3,
+      "courses": [],
+      "notes": "Usually satisfied inside gen eds.",
+      "approvedListUrl": null
+    },
+    {
+      "name": "US Cultures and Communities",
+      "credits": 3,
+      "courses": [],
+      "notes": "Usually satisfied inside gen eds.",
+      "approvedListUrl": null
+    }
+  ],
+  "notes": [
+    "Validated against https://catalog.iastate.edu/collegeofengineering/computerengineering/ (2026-27).",
+    "Elective bucket names normalized for Class OP."
+  ]
+}

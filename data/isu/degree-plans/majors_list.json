@@ -1,0 +1,824 @@
+[
+  {
+    "name": "Accounting, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/accounting/#undergraduatetext",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/accounting/#undergraduatetext"
+  },
+  {
+    "name": "Actuarial Science, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/actuarialscience/#undergraduatemajortext",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/actuarialscience/#undergraduatemajortext"
+  },
+  {
+    "name": "Advertising, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/advertising/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/advertising/"
+  },
+  {
+    "name": "Aerospace Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/aerospaceengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/aerospaceengineering/"
+  },
+  {
+    "name": "Agricultural and Life Sciences Education, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agriculturaleducationandstudies/#curriculuminagriculturalandlifescienceseducation",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agriculturaleducationandstudies/#curriculuminagriculturalandlifescienceseducation"
+  },
+  {
+    "name": "Agricultural and Rural Policy Studies, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agriculturalandruralpolicystudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agriculturalandruralpolicystudies/"
+  },
+  {
+    "name": "Agricultural Business, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agriculturalbusiness/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agriculturalbusiness/"
+  },
+  {
+    "name": "Agricultural Communication, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agricultural-communication",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agricultural-communication"
+  },
+  {
+    "name": "Agricultural Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/agriculturalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/agriculturalengineering/"
+  },
+  {
+    "name": "Agricultural Studies, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agricultural_studies/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agricultural_studies/"
+  },
+  {
+    "name": "Agricultural Systems Technology, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/systemstechnology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/systemstechnology/"
+  },
+  {
+    "name": "Agronomy, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/agronomy/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/agronomy/"
+  },
+  {
+    "name": "Animal Science, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/animalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/animalscience/"
+  },
+  {
+    "name": "Animal Enterprise and Innovation, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/animalenterpriseandinnovation/#overviewtext",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/animalenterpriseandinnovation/#overviewtext"
+  },
+  {
+    "name": "Anthropology, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/anthropology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/anthropology/"
+  },
+  {
+    "name": "Architecture, B.Arch.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/architecture/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/architecture/"
+  },
+  {
+    "name": "Art, B.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/artanddesign/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/artanddesign/"
+  },
+  {
+    "name": "Art, B.F.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/integratedstudioarts/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/integratedstudioarts/"
+  },
+  {
+    "name": "Art History, B.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/arthistory/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/arthistory/"
+  },
+  {
+    "name": "Athletic Training",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/athletictraining/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/athletictraining/"
+  },
+  {
+    "name": "Biochemistry, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/biochemistry_biophysics_andmolecularbiology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/biochemistry_biophysics_andmolecularbiology/"
+  },
+  {
+    "name": "(College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/biochemistry_biophysics_andmolecularbiology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/biochemistry_biophysics_andmolecularbiology/"
+  },
+  {
+    "name": "Biochemistry, B.S. (College of Liberal Arts and Sciences",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/biochemistry_biophysics_andmolecularbiology/#biochemistryorbiophysicsmajorsinthecollegeofliberalartsandsciences",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/biochemistry_biophysics_andmolecularbiology/#biochemistryorbiophysicsmajorsinthecollegeofliberalartsandsciences"
+  },
+  {
+    "name": ")",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/biology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/biology/"
+  },
+  {
+    "name": "Bioinformatics and Computational Biology, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/bioinformaticsandcomputationalbiology_undergraduate/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/bioinformaticsandcomputationalbiology_undergraduate/"
+  },
+  {
+    "name": "Biological Systems Engineering, B.S",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/biologicalsystemsengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/biologicalsystemsengineering/"
+  },
+  {
+    "name": "Biology, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/biology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/biology/"
+  },
+  {
+    "name": "Biology, B.S. (College of Liberal Arts and Sciences",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/biology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/biology/"
+  },
+  {
+    "name": "Biomedical Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/biomedicalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/biomedicalengineering/"
+  },
+  {
+    "name": "Business Administration, B.B.A.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/businessadministration/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/businessadministration/"
+  },
+  {
+    "name": "Business Analytics, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/businessanalytics/#undergraduatemajortext",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/businessanalytics/#undergraduatemajortext"
+  },
+  {
+    "name": "Business Economics, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/businesseconomics/#departmentstext",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/businesseconomics/#departmentstext"
+  },
+  {
+    "name": "Chemical Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/chemicalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/chemicalengineering/"
+  },
+  {
+    "name": "Chemistry, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/chemistry/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/chemistry/"
+  },
+  {
+    "name": "Civil Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/civilengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/civilengineering/"
+  },
+  {
+    "name": "Climate Science, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/climatescience/#text",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/climatescience/#text"
+  },
+  {
+    "name": "Communication Studies, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/communicationstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/communicationstudies/"
+  },
+  {
+    "name": "Computer Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/computerengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/computerengineering/"
+  },
+  {
+    "name": "Computer Science, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/computerscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/computerscience/"
+  },
+  {
+    "name": "Construction Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/constructionengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/constructionengineering/"
+  },
+  {
+    "name": "Criminal Justice, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/criminaljustice",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/criminaljustice"
+  },
+  {
+    "name": "Culinary Food Science, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/culinaryscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/culinaryscience/"
+  },
+  {
+    "name": "Culinary Food Science, B.S. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/culinaryscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/culinaryscience/"
+  },
+  {
+    "name": "Cyber Security Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/cybersecurityengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/cybersecurityengineering/"
+  },
+  {
+    "name": "Dairy Science, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/dairyscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/dairyscience/"
+  },
+  {
+    "name": "Data Science, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/datascience/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/datascience/"
+  },
+  {
+    "name": "Diet and Exercise, B.S./M.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/dietandexercise/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/dietandexercise/"
+  },
+  {
+    "name": "Diet and Exercise, B.S./M.S. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/dietandexercise/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/dietandexercise/"
+  },
+  {
+    "name": "Dietetics, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/dietetics/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/dietetics/"
+  },
+  {
+    "name": "Dietetics, B.S. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/dietetics/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/dietetics/"
+  },
+  {
+    "name": "Digital Storytelling, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/digitalstorytelling/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/digitalstorytelling/"
+  },
+  {
+    "name": "Digital and Precision Agriculture, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/digitalandprecisionagriculture/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/digitalandprecisionagriculture/"
+  },
+  {
+    "name": "Early Childcare Education and Programming, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/early_childcare_educationandprogramming/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/early_childcare_educationandprogramming/"
+  },
+  {
+    "name": "Early Childhood Education, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/earlychildhood_education/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/earlychildhood_education/"
+  },
+  {
+    "name": "Earth Science Education and Studies, B.A., Earth Science, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/earthscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/earthscience/"
+  },
+  {
+    "name": "Economics, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/economics/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/economics/"
+  },
+  {
+    "name": "See Undergraduate Secondary Majors",
+    "college": null,
+    "href": "/collegescurricula/#undergraduatesecondarymajorstext",
+    "source_url": "https://catalog.iastate.edu/collegescurricula/#undergraduatesecondarymajorstext"
+  },
+  {
+    "name": "Education Studies, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/educationstudies/#text",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/educationstudies/#text"
+  },
+  {
+    "name": "Electrical Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/electricalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/electricalengineering/"
+  },
+  {
+    "name": "Elementary Education, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/elementaryeducation/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/elementaryeducation/"
+  },
+  {
+    "name": "English, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/english/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/english/"
+  },
+  {
+    "name": "Entrepreneurship, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/entrepreneurship/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/entrepreneurship/"
+  },
+  {
+    "name": "Environmental Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/environmentalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/environmentalengineering/"
+  },
+  {
+    "name": "Environmental Science, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/environmentalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/environmentalscience/"
+  },
+  {
+    "name": "Environmental Science, B.S. (College of Liberal Arts and Sciences)",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/environmentalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/environmentalscience/"
+  },
+  {
+    "name": "Event Management, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/eventmanagement/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/eventmanagement/"
+  },
+  {
+    "name": "Family and Consumer Sciences Education and Studies, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/familyandconsumerscienceseducationandstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/familyandconsumerscienceseducationandstudies/"
+  },
+  {
+    "name": "Fashion Design and Merchandising, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/apparelmerchandisinganddesign/#undergraduatestudytext",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/apparelmerchandisinganddesign/#undergraduatestudytext"
+  },
+  {
+    "name": "Finance, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/finance/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/finance/"
+  },
+  {
+    "name": "Financial Counseling and Planning, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/financial_counseling_planning/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/financial_counseling_planning/"
+  },
+  {
+    "name": "Food Science, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/foodscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/foodscience/"
+  },
+  {
+    "name": "Food Science, B.S. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/foodscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/foodscience/"
+  },
+  {
+    "name": "Forestry, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/forestry/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/forestry/"
+  },
+  {
+    "name": "Game Design, B.S.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/gamedesign/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/gamedesign/"
+  },
+  {
+    "name": "Genetics, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/genetics/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/genetics/"
+  },
+  {
+    "name": "(College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/genetics/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/genetics/"
+  },
+  {
+    "name": "Genetics, B.S. (College of Liberal Arts and Sciences)",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/genetics/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/genetics/"
+  },
+  {
+    "name": "Geology, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/geology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/geology/"
+  },
+  {
+    "name": "Global Resource Systems, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/globalresourcesystems/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/globalresourcesystems/"
+  },
+  {
+    "name": "Graphic Design, B.F.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/graphicdesign/#curriculumtext",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/graphicdesign/#curriculumtext"
+  },
+  {
+    "name": "Healthcare Management, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/healthcaremanagement/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/healthcaremanagement/"
+  },
+  {
+    "name": "History, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/history/#undergraduatetext",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/history/#undergraduatetext"
+  },
+  {
+    "name": "Horticulture, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/horticulture/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/horticulture/"
+  },
+  {
+    "name": "Hospitality Management, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/hospitalitymanagement/#undergraduatetext",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/hospitalitymanagement/#undergraduatetext"
+  },
+  {
+    "name": "Human Development and Family Studies, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/humandevelopment_familystudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/humandevelopment_familystudies/"
+  },
+  {
+    "name": "Human Resource Management, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/humanresourcemanagement/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/humanresourcemanagement/"
+  },
+  {
+    "name": "Illustration, B.F.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/illustration/index.html#overviewtext",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/illustration/index.html#overviewtext"
+  },
+  {
+    "name": "Industrial Design, B.I.D.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/industrialdesign/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/industrialdesign/"
+  },
+  {
+    "name": "Industrial Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/industrialengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/industrialengineering/"
+  },
+  {
+    "name": "Industrial Technology, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/industrialtechnology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/industrialtechnology/"
+  },
+  {
+    "name": "Integrated Health Sciences, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/integrated-health-sciences/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/integrated-health-sciences/"
+  },
+  {
+    "name": "Interdisciplinary Studies, B.A., B.S.",
+    "college": "Interdisciplinary Programs",
+    "href": "/interdisciplinaryprograms/interdisciplinarystudies/",
+    "source_url": "https://catalog.iastate.edu/interdisciplinaryprograms/interdisciplinarystudies/"
+  },
+  {
+    "name": "Classical Studies",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/classicalstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/classicalstudies/"
+  },
+  {
+    "name": "U.S. Latino/a Studies",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/uslatino-a-studies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/uslatino-a-studies/"
+  },
+  {
+    "name": "Interior Design, B.F.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/interiordesign/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/interiordesign/"
+  },
+  {
+    "name": "Journalism and Mass Communication, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/journalism_and_mass_communication/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/journalism_and_mass_communication/"
+  },
+  {
+    "name": "Kinesiology and Health, B.S.",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/kinesiology/#text",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/kinesiology/#text"
+  },
+  {
+    "name": "Landscape Architecture, B.L.A.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/landscapearchitecture/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/landscapearchitecture/"
+  },
+  {
+    "name": "Liberal Studies, B.L.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/liberalstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/liberalstudies/"
+  },
+  {
+    "name": "Linguistics, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/linguistics/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/linguistics/"
+  },
+  {
+    "name": "Management, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/management/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/management/"
+  },
+  {
+    "name": "Management Information Systems, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/managementinformationsystems/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/managementinformationsystems/"
+  },
+  {
+    "name": "Marketing, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/marketing/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/marketing/"
+  },
+  {
+    "name": "Materials Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/materialsengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/materialsengineering/"
+  },
+  {
+    "name": "Mathematics, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/mathematics/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/mathematics/"
+  },
+  {
+    "name": "Mechanical Engineering, B.S.",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/mechanicalengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/mechanicalengineering/"
+  },
+  {
+    "name": "Meteorology, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/meteorology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/meteorology/"
+  },
+  {
+    "name": "Microbiology, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/microbiology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/microbiology/"
+  },
+  {
+    "name": "Music, B.A., B.Mus.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/music/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/music/"
+  },
+  {
+    "name": "Nursing, B.S.N., Accelerated",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/acceleratednursing/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/acceleratednursing/"
+  },
+  {
+    "name": "Nursing, B.S.N. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/nursing/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/nursing/"
+  },
+  {
+    "name": "Nursing, B.S.N. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/nursing/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/nursing/"
+  },
+  {
+    "name": "Nutritional Science, B.S. (College of Agriculture and Life Sciences)",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/nutritionalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/nutritionalscience/"
+  },
+  {
+    "name": "Nutritional Science, B.S. (College of Health and Human Sciences)",
+    "college": "College of Health and Human Sciences",
+    "href": "/collegeofhumansciences/nutritionalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofhumansciences/nutritionalscience/"
+  },
+  {
+    "name": "Philosophy, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/philosophy/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/philosophy/"
+  },
+  {
+    "name": "Physics, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/physicsandastronomy/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/physicsandastronomy/"
+  },
+  {
+    "name": "Political Science, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/politicalscience/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/politicalscience/"
+  },
+  {
+    "name": "Professional Studies, B.L.S",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/liberalstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/liberalstudies/"
+  },
+  {
+    "name": "Psychology, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/psychology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/psychology/"
+  },
+  {
+    "name": "Public Relations, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/publicrelations/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/publicrelations/"
+  },
+  {
+    "name": "Religious Studies, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/religious_studies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/religious_studies/"
+  },
+  {
+    "name": "Scientific Illustration and Visualization, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/scientificillustrationandvisualization/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/scientificillustrationandvisualization/"
+  },
+  {
+    "name": "Sociology, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/sociology/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/sociology/"
+  },
+  {
+    "name": "Software Engineering, B.S. (College of Engineering)",
+    "college": "College of Engineering",
+    "href": "/collegeofengineering/softwareengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofengineering/softwareengineering/"
+  },
+  {
+    "name": "Software Engineering, B.S. (College of Liberal Arts and Sciences)",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/softwareengineering/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/softwareengineering/"
+  },
+  {
+    "name": "Sports Media and Communication, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/sportsmediacommunication/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/sportsmediacommunication/"
+  },
+  {
+    "name": "Statistics, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/statistics/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/statistics/"
+  },
+  {
+    "name": "Supply Chain Management, B.S.",
+    "college": "Ivy College of Business",
+    "href": "/collegeofbusiness/supplychainmanagement/",
+    "source_url": "https://catalog.iastate.edu/collegeofbusiness/supplychainmanagement/"
+  },
+  {
+    "name": "Technical Communication, B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/technicalcommunication/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/technicalcommunication/"
+  },
+  {
+    "name": "Theatre, B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/theatreandperformingarts/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/theatreandperformingarts/"
+  },
+  {
+    "name": "Urban and Regional Planning, B.S.",
+    "college": "College of Design",
+    "href": "/collegeofdesign/urbanandregionalplanning/",
+    "source_url": "https://catalog.iastate.edu/collegeofdesign/urbanandregionalplanning/"
+  },
+  {
+    "name": "Wildlife and Fisheries Conservation and Ecology, B.S.",
+    "college": "College of Agriculture and Life Sciences",
+    "href": "/collegeofagricultureandlifesciences/wildlifeand_fisheriesconservation_andecology/",
+    "source_url": "https://catalog.iastate.edu/collegeofagricultureandlifesciences/wildlifeand_fisheriesconservation_andecology/"
+  },
+  {
+    "name": "Women\u2019s and Gender Studies, B.A., B.S.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/womensandgenderstudies/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/womensandgenderstudies/"
+  },
+  {
+    "name": "World Languages and Cultures B.A.",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/worldlanguagesandcultures/",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/worldlanguagesandcultures/"
+  },
+  {
+    "name": "French",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/worldlanguagesandcultures/#frenchtext",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/worldlanguagesandcultures/#frenchtext"
+  },
+  {
+    "name": "German",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/worldlanguagesandcultures/#germantext",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/worldlanguagesandcultures/#germantext"
+  },
+  {
+    "name": "Spanish",
+    "college": "College of Liberal Arts and Sciences",
+    "href": "/collegeofliberalartsandsciences/worldlanguagesandcultures/#spanishtext",
+    "source_url": "https://catalog.iastate.edu/collegeofliberalartsandsciences/worldlanguagesandcultures/#spanishtext"
+  }
+]
