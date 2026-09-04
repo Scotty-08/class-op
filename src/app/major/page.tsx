@@ -67,7 +67,10 @@ function MajorInner() {
   }, [selected, planSlug]);
 
   useEffect(() => {
-    if (dest && state.majorId) router.push(dest === "roadmap" ? "/roadmap" : "/planner");
+    if (dest && state.majorId) {
+      // Home/living comes after major, before plan/map.
+      router.push(`/home/?next=${dest}`);
+    }
   }, [dest, state.majorId, router]);
 
   function chooseMajor(id: string) {

@@ -16,10 +16,16 @@ export default function HomePage() {
 
   useEffect(() => {
     if (!ready) return;
-    if (state.email && state.workdayDemo && profileReady) router.replace("/planner");
-    else if (state.email && state.workdayDemo) router.replace("/major");
-    else if (state.email) router.replace("/connect");
-  }, [ready, state.email, state.workdayDemo, profileReady, router]);
+    if (state.email && state.workdayDemo && profileReady && state.homeSetupDone) {
+      router.replace("/planner");
+    } else if (state.email && state.workdayDemo && profileReady) {
+      router.replace("/home");
+    } else if (state.email && state.workdayDemo) {
+      router.replace("/major");
+    } else if (state.email) {
+      router.replace("/connect");
+    }
+  }, [ready, state.email, state.workdayDemo, profileReady, state.homeSetupDone, router]);
 
   function submit(e: FormEvent) {
     e.preventDefault();
@@ -50,7 +56,7 @@ export default function HomePage() {
         </h1>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-muted">
           Class OP puts your registered sections on a real campus map, starting from Friley / 212 Beyer Ct. Pick your
-          major — we&apos;ll load the catalog plan and map what&apos;s on Workday.
+          major, set home / walk-start, then we&apos;ll load the catalog plan and map what&apos;s on Workday.
         </p>
         <ul className="mt-8 space-y-3 text-sm text-ink">
           <li className="flex gap-3">

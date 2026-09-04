@@ -30,7 +30,7 @@ import type { YearLevel } from "@/lib/types";
 
 export default function RoadmapPage() {
   return (
-    <Guard need="major">
+    <Guard need="home">
       <RoadmapInner />
     </Guard>
   );
@@ -161,7 +161,7 @@ function RoadmapInner() {
     return (
       <div className="mx-auto max-w-3xl px-4 py-10">
         <p className="text-xs font-semibold uppercase tracking-wide text-cardinal">View my plan</p>
-        <h1 className="mt-1 text-3xl font-semibold tracking-tight">Plan coming soon</h1>
+        <h1 className="mt-1 text-3xl font-semibold tracking-tight">No catalog plan yet</h1>
         <p className="mt-3 text-sm text-ink-muted">
           {major ? (
             <>

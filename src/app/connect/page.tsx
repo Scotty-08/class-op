@@ -23,12 +23,14 @@ function ConnectInner() {
 
   useEffect(() => {
     if (!state.workdayDemo) return;
-    router.push(profileReady ? "/planner" : "/major");
-  }, [state.workdayDemo, profileReady, router]);
+    if (profileReady && state.homeSetupDone) router.push("/planner");
+    else if (profileReady) router.push("/home");
+    else router.push("/major");
+  }, [state.workdayDemo, profileReady, state.homeSetupDone, router]);
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <p className="text-xs font-semibold uppercase tracking-wide text-cardinal">Step 2 of 3</p>
+      <p className="text-xs font-semibold uppercase tracking-wide text-cardinal">Step 2 · Workday</p>
       <h1 className="mt-1 text-3xl font-semibold tracking-tight">Your registered schedule</h1>
       <p className="mt-2 text-sm leading-relaxed text-ink-muted">
         Class OP puts the classes you already registered for on a campus map. Iowa State registration lives in Workday.

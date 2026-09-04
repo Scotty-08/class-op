@@ -88,7 +88,7 @@ export const MAJOR_ID_TO_PLAN_SLUG: Record<string, string> = {
   coms: "computer-science-b-a-b-s",
 };
 
-/** Short legacy major ids → default plan slug (same map, exported for majors.ts). */
+/** Alias for majors.ts default-option hints. */
 export const LEGACY_MAJOR_HINTS = MAJOR_ID_TO_PLAN_SLUG;
 
 const MANIFEST_BY_SLUG = new Map(PLANS_MANIFEST.map((e) => [e.slug, e]));
@@ -132,16 +132,19 @@ export function resolvePlanSlugForMajorName(name: string, majorId?: string): str
     .replace(/,\s*B\.A\.,\s*B\.S\.\s*$/i, "")
     .replace(/,\s*B\.S\.\s*$/i, "")
     .replace(/,\s*B\.A\.\s*$/i, "")
+    .replace(/,\s*B\.B\.A\.\s*$/i, "")
+    .replace(/,\s*B\.F\.A\.\s*$/i, "")
+    .replace(/,\s*B\.Arch\.?\s*$/i, "")
+    .replace(/,\s*B\.L\.A\.?\s*$/i, "")
+    .replace(/,\s*B\.Mus\.?\s*$/i, "")
     .trim();
   const hits = MANIFEST_BY_MAJOR.get(normKey(stripped)) ?? [];
   if (!hits.length) {
-    // displayName exact-ish
     const n = normKey(name);
     const byDisplay = PLANS_MANIFEST.find((e) => normKey(e.displayName || "") === n);
     if (byDisplay) return byDisplay.slug;
     return null;
   }
-  // Prefer option-less B.S., else first hit
   const preferred =
     hits.find((h) => !h.option && (h.degree === "B.S." || !h.degree)) ||
     hits.find((h) => !h.option) ||
@@ -160,8 +163,13 @@ export function getManifestEntry(slug: string | null | undefined): PlanManifestE
   return MANIFEST_BY_SLUG.get(slug);
 }
 
+export function optionLabel(entry: PlanManifestEntry): string {
+  if (entry.option) return entry.option;
+  if (entry.degree) return entry.degree;
+  return "Standard plan";
+}
 
-/** Sync access when slug is known (static bundle only; else null — use loadDegreePlanBySlug). */
+/** Sync access when slug is known (static bundle only). */
 export function getStaticDegreePlan(slug: string | null | undefined): DegreePlan | null {
   if (!slug) return null;
   if ((STATIC_PLAN_SLUGS as readonly string[]).includes(slug)) {
@@ -173,29 +181,12 @@ export function getStaticDegreePlan(slug: string | null | undefined): DegreePlan
 /** Sync access for statically bundled plans (CPRE preferred path). */
 export function getDegreePlan(majorId: string | null | undefined): DegreePlan | null {
   const slug = planSlugForMajorId(majorId);
-  if (!slug) return null;
-  if ((STATIC_PLAN_SLUGS as readonly string[]).includes(slug)) {
-    return STATIC_PLANS[slug as StaticPlanSlug];
-  }
-  return null;
+  return getStaticDegreePlan(slug);
 }
 
 const fetchCache = new Map<string, Promise<DegreePlan | null>>();
 
-/** Load plan JSON: static import for CPRE/Aerospace, else fetch from public/. */
-export async function loadDegreePlan(majorId: string | null | undefined, majorName?: string): Promise<{
-  plan: DegreePlan | null;
-  slug: string | null;
-}> {
-  const slug =
-    planSlugForMajorId(majorId) ||
-    (majorName ? resolvePlanSlugForMajorName(majorName, majorId ?? undefined) : null);
-  if (!slug) return { plan: null, slug: null };
-
-  if ((STATIC_PLAN_SLUGS as readonly string[]).includes(slug)) {
-    return { plan: STATIC_PLANS[slug as StaticPlanSlug], slug };
-  }
-
+async function fetchPlanJson(slug: string): Promise<DegreePlan | null> {
   let pending = fetchCache.get(slug);
   if (!pending) {
     pending = (async () => {
@@ -209,7 +200,27 @@ export async function loadDegreePlan(majorId: string | null | undefined, majorNa
     })();
     fetchCache.set(slug, pending);
   }
-  return { plan: await pending, slug };
+  return pending;
+}
+
+/** Load a plan by explicit slug (preferred when profile stores planSlug). */
+export async function loadDegreePlanBySlug(slug: string | null | undefined): Promise<DegreePlan | null> {
+  if (!slug) return null;
+  const staticPlan = getStaticDegreePlan(slug);
+  if (staticPlan) return staticPlan;
+  return fetchPlanJson(slug);
+}
+
+/** Load plan JSON: static import for CPRE/Aerospace, else fetch from public/. */
+export async function loadDegreePlan(
+  majorId: string | null | undefined,
+  majorName?: string,
+): Promise<{ plan: DegreePlan | null; slug: string | null }> {
+  const slug =
+    planSlugForMajorId(majorId) ||
+    (majorName ? resolvePlanSlugForMajorName(majorName, majorId ?? undefined) : null);
+  if (!slug) return { plan: null, slug: null };
+  return { plan: await loadDegreePlanBySlug(slug), slug };
 }
 
 const CPRE_TITLE_BY_CODE = (() => {
@@ -249,7 +260,9 @@ function courseId(code: string | null, electiveBucket: string | null | undefined
 
 /** Convert a Class OP degree-plan JSON into roadmap semester cards. */
 export function degreePlanToRoadmap(plan: DegreePlan, majorId?: string | null): RoadmapSemester[] {
-  const enrichCpre = majorId === "cpre" || plan.major.toLowerCase().includes("computer engineering");
+  const enrichCpre =
+    majorId === "cpre" || plan.major.toLowerCase().includes("computer engineering");
+  const usedIds = new Map<string, number>();
   return plan.semesters.map((sem, i) => {
     const year = parseYear(sem.yearLabel, sem.termLabel, i);
     const term = parseTerm(sem.term, sem.termLabel);
@@ -262,9 +275,13 @@ export function degreePlanToRoadmap(plan: DegreePlan, majorId?: string | null): 
       if (c.credits === "R") credits = "R";
       else if (typeof c.credits === "number") credits = c.credits;
       else credits = 0;
+      let rid = courseId(c.code, c.electiveBucket, id, j);
+      const n = usedIds.get(rid) ?? 0;
+      usedIds.set(rid, n + 1);
+      if (n > 0) rid = `${rid}__${n}`;
       const rawNotes = Array.isArray(c.notes) ? c.notes.join(" ") : c.notes || undefined;
       return {
-        id: courseId(c.code, c.electiveBucket, id, j),
+        id: rid,
         code,
         title: c.title || enrich?.title || (elective ? c.electiveBucket || "Elective" : code),
         credits,
@@ -286,29 +303,6 @@ export function degreePlanToRoadmap(plan: DegreePlan, majorId?: string | null): 
       courses,
     };
   });
-}
-
-
-/** Load a plan by explicit slug (preferred when profile stores planSlug). */
-export async function loadDegreePlanBySlug(slug: string | null | undefined): Promise<DegreePlan | null> {
-  if (!slug) return null;
-  if ((STATIC_PLAN_SLUGS as readonly string[]).includes(slug)) {
-    return STATIC_PLANS[slug as StaticPlanSlug];
-  }
-  let pending = fetchCache.get(slug);
-  if (!pending) {
-    pending = (async () => {
-      try {
-        const res = await fetch(publicPlanUrl(slug));
-        if (!res.ok) return null;
-        return (await res.json()) as DegreePlan;
-      } catch {
-        return null;
-      }
-    })();
-    fetchCache.set(slug, pending);
-  }
-  return pending;
 }
 
 /** Course ids in semesters strictly before the chosen year (for forward planning). */
@@ -336,12 +330,6 @@ export function remainingFromYear(
     .filter((s): s is RoadmapSemester => s !== null);
 }
 
-export function optionLabel(entry: PlanManifestEntry): string {
-  if (entry.option) return entry.option;
-  if (entry.degree) return entry.degree;
-  return "Standard plan";
-}
-
 export function formatCatalogYear(raw: string | null | undefined): string {
   if (!raw) return "";
   return raw.replace(/(\d{4})-(\d{2})/, "$1–$2");
@@ -361,6 +349,3 @@ export function electivesNoteFromPlan(plan: DegreePlan): string | null {
     })
     .join(" ");
 }
-
-/** Alias used by roadmap page. */
-export const fetchDegreePlan = loadDegreePlanBySlug;

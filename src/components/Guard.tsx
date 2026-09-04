@@ -8,12 +8,13 @@ export function Guard({
   need,
   children,
 }: {
-  need: "email" | "workday" | "major";
+  need: "email" | "workday" | "major" | "home";
   children: React.ReactNode;
 }) {
   const { ready, state } = useApp();
   const router = useRouter();
   const profileReady = Boolean(state.majorId);
+  const homeReady = Boolean(state.homeSetupDone);
 
   useEffect(() => {
     if (!ready) return;
@@ -21,14 +22,18 @@ export function Guard({
       router.replace("/");
       return;
     }
-    if ((need === "workday" || need === "major") && !state.workdayDemo) {
+    if ((need === "workday" || need === "major" || need === "home") && !state.workdayDemo) {
       router.replace("/connect");
       return;
     }
-    if (need === "major" && !profileReady) {
+    if ((need === "major" || need === "home") && !profileReady) {
       router.replace("/major");
+      return;
     }
-  }, [ready, state.email, state.workdayDemo, profileReady, need, router]);
+    if (need === "home" && !homeReady) {
+      router.replace("/home");
+    }
+  }, [ready, state.email, state.workdayDemo, profileReady, homeReady, need, router]);
 
   if (!ready) {
     return (
@@ -39,8 +44,9 @@ export function Guard({
   }
 
   if (!state.email) return null;
-  if ((need === "workday" || need === "major") && !state.workdayDemo) return null;
-  if (need === "major" && !profileReady) return null;
+  if ((need === "workday" || need === "major" || need === "home") && !state.workdayDemo) return null;
+  if ((need === "major" || need === "home") && !profileReady) return null;
+  if (need === "home" && !homeReady) return null;
 
   return <>{children}</>;
 }

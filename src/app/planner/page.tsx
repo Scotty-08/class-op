@@ -21,7 +21,7 @@ const ALL_DAYS: DayCode[] = [...DAY_ORDER];
 
 export default function PlannerPage() {
   return (
-    <Guard need="major">
+    <Guard need="home">
       <PlannerInner />
     </Guard>
   );
