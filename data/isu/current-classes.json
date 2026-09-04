@@ -1,0 +1,149 @@
+{
+  "source": "workday",
+  "academicPeriodId": "ACADEMIC_PERIOD-2026Fall",
+  "term": "2026 Fall Semester",
+  "exportedAt": "2026-09-04T00:58:18Z",
+  "homeBase": "212 Beyer Ct, Ames 50012",
+  "student": "Scott Juan Antonio Gray",
+  "program": "Computer Engineering, B.S.",
+  "enrolledCredits": 13,
+  "loadStatus": "Full-time",
+  "workdayPath": "Academics > Planning and Registration > Current Classes (View My Courses)",
+  "classes": [
+    {
+      "course": "COMS 3190",
+      "section": "02",
+      "title": "Construction of User Interfaces",
+      "format": "Lecture",
+      "delivery": "In-Person",
+      "credits": 3,
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "11:00",
+      "end": "12:15",
+      "building": "SCIENCE",
+      "buildingName": "Science Hall",
+      "room": "0102",
+      "instructor": "Sarfaraz Ahmed Mohammed",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "COMS 3090",
+      "section": "A",
+      "title": "Software Development Practices",
+      "format": "Discussion",
+      "delivery": "In-Person",
+      "credits": 3,
+      "days": [],
+      "start": null,
+      "end": null,
+      "building": null,
+      "buildingName": null,
+      "room": null,
+      "instructor": "Simanta Mitra",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "COMS 3090",
+      "section": "02",
+      "title": "Software Development Practices",
+      "format": "Lecture",
+      "delivery": "In-Person",
+      "credits": 3,
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "11:00",
+      "end": "11:50",
+      "building": "PEARSON",
+      "buildingName": "Pearson Hall",
+      "room": "1115",
+      "instructor": "Ashwin K J",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "CPRE 3100",
+      "section": "A",
+      "title": "Theoretical Foundations of Computer Engineering",
+      "format": "Discussion",
+      "delivery": "Online",
+      "credits": 3,
+      "days": [],
+      "start": null,
+      "end": null,
+      "building": null,
+      "buildingName": null,
+      "room": null,
+      "instructor": "Julie A Dickerson",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "CPRE 3100",
+      "section": "01",
+      "title": "Theoretical Foundations of Computer Engineering",
+      "format": "Lecture",
+      "delivery": "In-Person",
+      "credits": 3,
+      "days": [
+        "T",
+        "R"
+      ],
+      "start": "14:10",
+      "end": "15:25",
+      "building": "CARVER",
+      "buildingName": "Carver Hall",
+      "room": "0101",
+      "instructor": "Julie A Dickerson",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "EE 2300",
+      "section": "E",
+      "title": "Electronic Circuits and Systems",
+      "format": "Laboratory",
+      "delivery": "In-Person",
+      "credits": 4,
+      "days": [
+        "F"
+      ],
+      "start": "07:45",
+      "end": "10:45",
+      "building": "COOVER",
+      "buildingName": "Coover Hall",
+      "room": "2014",
+      "instructor": "Nathan Neihart",
+      "sectionId": null,
+      "status": "registered"
+    },
+    {
+      "course": "EE 2300",
+      "section": "01",
+      "title": "Electronic Circuits and Systems",
+      "format": "Lecture",
+      "delivery": "In-Person",
+      "credits": 4,
+      "days": [
+        "M",
+        "W",
+        "F"
+      ],
+      "start": "14:15",
+      "end": "15:05",
+      "building": "FOODSCI",
+      "buildingName": "Food Sciences Building",
+      "room": "2432",
+      "instructor": "Nathan Neihart",
+      "sectionId": null,
+      "status": "registered"
+    }
+  ]
+}
