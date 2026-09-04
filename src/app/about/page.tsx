@@ -3,9 +3,28 @@ export default function AboutPage() {
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="text-3xl font-semibold tracking-tight">About Class OP</h1>
       <p className="mt-3 text-sm leading-relaxed text-ink-muted">
-        Class OP is a student-facing preview for clustering Iowa State classes around a dorm walk. It is not Workday,
-        not AccessPlus, and not an official university product. Demo Workday simulates a successful sign-in and seeds a
-        Computer Engineering Fall Y1 week from Friley Hall.
+        Class OP helps Iowa State students see classes they already registered for on a campus map and walk less from
+        Friley / 212 Beyer Ct. It is not Workday, not AccessPlus, and not an official university product.
+      </p>
+
+      <h2 className="mt-8 text-lg font-semibold">Product flow</h2>
+      <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-ink-muted">
+        <li>Sign in with @iastate.edu</li>
+        <li>Pick year (1–4) and major (Computer Engineering first)</li>
+        <li>
+          <strong className="font-semibold text-ink">Map my registered classes</strong> — Demo Workday loads a
+          simulated Fall 2026 Beyer Loop schedule until live SSO can read Current Classes / My Classes
+        </li>
+        <li>Optional: remaining CPRE roadmap (2026–27) for future-term optimization</li>
+      </ol>
+
+      <h2 className="mt-8 text-lg font-semibold">Workday Current Classes</h2>
+      <p className="mt-2 text-sm text-ink-muted">
+        The planner accepts a JSON export shaped like Workday Current Classes (
+        <code className="rounded bg-stone-100 px-1 text-[11px]">classes[]</code> with building codes such as CARVER,
+        COOVER, TROXEL). Import via the planner or use{" "}
+        <code className="rounded bg-stone-100 px-1 text-[11px]">data/isu/workday-current-classes-demo.json</code>. Demo
+        path still uses the Beyer Loop seed labeled as simulated registered.
       </p>
 
       <h2 className="mt-8 text-lg font-semibold">Optimization rules</h2>
@@ -18,9 +37,9 @@ export default function AboutPage() {
 
       <h2 className="mt-8 text-lg font-semibold">Data</h2>
       <p className="mt-2 text-sm text-ink-muted">
-        Section times come from the public ISU Schedule of Classes (api.classes.iastate.edu, Fall 2026). Buildings and
-        rooms are not in that API — map pins use the coordinates supplied with this preview. Degree context is the
-        2026–27 Computer Engineering catalog (127 credits).
+        Section times come from the public ISU Schedule of Classes (api.classes.iastate.edu, Fall 2026) and/or a Workday
+        Current Classes export. Degree roadmap context is the 2026–27 Computer Engineering catalog (127 credits). Demo
+        Workday ≠ live Academic Progress.
       </p>
 
       <h2 className="mt-8 text-lg font-semibold">Schematic map references</h2>

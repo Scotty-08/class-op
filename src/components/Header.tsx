@@ -11,6 +11,7 @@ export function Header() {
   const router = useRouter();
   const pathname = usePathname();
   const major = MAJORS.find((m) => m.id === state.majorId);
+  const profileReady = Boolean(state.workdayDemo && state.majorId && state.yearLevel);
 
   function handleSignOut() {
     signOut();
@@ -20,7 +21,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-stone-200/80 bg-paper-card/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
-        <Link href={state.workdayDemo && state.majorId ? "/planner" : "/"} className="flex items-center gap-2.5">
+        <Link href={profileReady ? "/planner" : "/"} className="flex items-center gap-2.5">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-cardinal text-sm font-bold text-white shadow-sm">
             OP
           </span>
@@ -30,16 +31,24 @@ export function Header() {
           </span>
         </Link>
         <nav className="flex items-center gap-1 text-sm">
-          <NavLink href="/planner" active={pathname === "/planner"}>
-            Planner
+          <NavLink href="/planner" active={pathname === "/planner" || pathname === "/planner/"}>
+            Map
           </NavLink>
-          <NavLink href="/about" active={pathname === "/about"}>
+          <NavLink href="/roadmap" active={pathname === "/roadmap" || pathname === "/roadmap/"}>
+            Roadmap
+          </NavLink>
+          <NavLink href="/about" active={pathname === "/about" || pathname === "/about/"}>
             About
           </NavLink>
         </nav>
         <div className="flex items-center gap-2">
           {ready && state.email ? (
             <div className="hidden items-center gap-2 md:flex">
+              {state.yearLevel ? (
+                <span className="rounded-full bg-stone-100 px-2.5 py-1 text-[11px] font-medium text-ink-muted">
+                  Y{state.yearLevel}
+                </span>
+              ) : null}
               {major ? (
                 <span className="rounded-full bg-gold-soft px-2.5 py-1 text-[11px] font-medium text-ink">
                   {major.name.replace(" B.S.", "")}

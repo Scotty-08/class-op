@@ -42,11 +42,22 @@ export type CatalogSection = {
   color: string;
 };
 
+export type YearLevel = 1 | 2 | 3 | 4;
+
+/** Where the primary map meetings came from. */
+export type ScheduleSource = "demo" | "import";
+
 export type AppState = {
   email: string | null;
   workdayDemo: boolean;
   majorId: string | null;
+  /** Class standing used for demo remaining-roadmap (not live Workday Academic Progress). */
+  yearLevel: YearLevel | null;
+  /** Explicit completed course ids; when empty, derived from yearLevel. */
+  completedCourseIds: string[];
   meetings: Meeting[];
+  /** demo = Beyer Loop seed; import = Workday Current Classes JSON. */
+  scheduleSource: ScheduleSource;
 };
 
 /** @deprecated Prefer selectedDays: DayCode[] on CampusMap. */

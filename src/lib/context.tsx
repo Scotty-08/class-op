@@ -8,9 +8,16 @@ import {
   useMemo,
   useState,
 } from "react";
+import { completedIdsForYear } from "./cpre-roadmap";
 import { EMPTY_STATE, loadState, saveState, signOut as clearStorage } from "./storage";
 import { beyerLoopSeed } from "./seed-schedule";
-import type { AppState, Meeting } from "./types";
+import {
+  clearWorkdayImport,
+  meetingsFromWorkdayExport,
+  saveWorkdayImport,
+  type WorkdayCurrentExport,
+} from "./workday-current";
+import type { AppState, Meeting, YearLevel } from "./types";
 
 type Ctx = {
   ready: boolean;
@@ -18,9 +25,15 @@ type Ctx = {
   setEmail: (email: string) => void;
   connectDemo: () => void;
   setMajor: (majorId: string) => void;
+  setYearLevel: (year: YearLevel) => void;
+  setProfile: (majorId: string, yearLevel: YearLevel) => void;
+  setCompletedCourseIds: (ids: string[]) => void;
   setMeetings: (meetings: Meeting[] | ((prev: Meeting[]) => Meeting[])) => void;
+  importWorkdayExport: (data: WorkdayCurrentExport) => void;
   resetSeed: () => void;
   signOut: () => void;
+  /** Demo completed ids: explicit checklist, else inferred from year. */
+  effectiveCompletedIds: string[];
 };
 
 const AppCtx = createContext<Ctx | null>(null);
@@ -48,13 +61,45 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       commit({
         ...s,
         workdayDemo: true,
-        meetings: beyerLoopSeed(),
+        // Simulated registered Fall 2026 sections (Beyer Loop) until live Workday SSO.
+        meetings: s.scheduleSource === "import" && s.meetings.length ? s.meetings : beyerLoopSeed(),
+        scheduleSource: s.scheduleSource === "import" && s.meetings.length ? "import" : "demo",
       }),
     );
   }, []);
 
   const setMajor = useCallback((majorId: string) => {
     setState((s) => commit({ ...s, majorId }));
+  }, []);
+
+  const setYearLevel = useCallback((yearLevel: YearLevel) => {
+    setState((s) =>
+      commit({
+        ...s,
+        yearLevel,
+        completedCourseIds: completedIdsForYear(yearLevel),
+      }),
+    );
+  }, []);
+
+  const setProfile = useCallback((majorId: string, yearLevel: YearLevel) => {
+    setState((s) =>
+      commit({
+        ...s,
+        majorId,
+        yearLevel,
+        completedCourseIds:
+          s.completedCourseIds.length && s.yearLevel === yearLevel
+            ? s.completedCourseIds
+            : completedIdsForYear(yearLevel),
+        meetings: s.meetings.length ? s.meetings : beyerLoopSeed(),
+        scheduleSource: s.meetings.length ? s.scheduleSource : "demo",
+      }),
+    );
+  }, []);
+
+  const setCompletedCourseIds = useCallback((completedCourseIds: string[]) => {
+    setState((s) => commit({ ...s, completedCourseIds }));
   }, []);
 
   const setMeetings = useCallback(
@@ -69,14 +114,41 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const importWorkdayExport = useCallback((data: WorkdayCurrentExport) => {
+    const meetings = meetingsFromWorkdayExport(data);
+    saveWorkdayImport(data);
+    setState((s) =>
+      commit({
+        ...s,
+        workdayDemo: true,
+        meetings,
+        scheduleSource: "import",
+      }),
+    );
+  }, []);
+
   const resetSeed = useCallback(() => {
-    setState((s) => commit({ ...s, meetings: beyerLoopSeed() }));
+    clearWorkdayImport();
+    setState((s) =>
+      commit({
+        ...s,
+        meetings: beyerLoopSeed(),
+        scheduleSource: "demo",
+      }),
+    );
   }, []);
 
   const signOut = useCallback(() => {
     clearStorage();
+    clearWorkdayImport();
     setState(EMPTY_STATE);
   }, []);
+
+  const effectiveCompletedIds = useMemo(() => {
+    if (state.completedCourseIds.length) return state.completedCourseIds;
+    if (state.yearLevel) return completedIdsForYear(state.yearLevel);
+    return [];
+  }, [state.completedCourseIds, state.yearLevel]);
 
   const value = useMemo(
     () => ({
@@ -85,11 +157,30 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setEmail,
       connectDemo,
       setMajor,
+      setYearLevel,
+      setProfile,
+      setCompletedCourseIds,
       setMeetings,
+      importWorkdayExport,
       resetSeed,
       signOut,
+      effectiveCompletedIds,
     }),
-    [ready, state, setEmail, connectDemo, setMajor, setMeetings, resetSeed, signOut],
+    [
+      ready,
+      state,
+      setEmail,
+      connectDemo,
+      setMajor,
+      setYearLevel,
+      setProfile,
+      setCompletedCourseIds,
+      setMeetings,
+      importWorkdayExport,
+      resetSeed,
+      signOut,
+      effectiveCompletedIds,
+    ],
   );
 
   return <AppCtx.Provider value={value}>{children}</AppCtx.Provider>;

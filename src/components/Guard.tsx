@@ -13,6 +13,7 @@ export function Guard({
 }) {
   const { ready, state } = useApp();
   const router = useRouter();
+  const profileReady = Boolean(state.majorId && state.yearLevel);
 
   useEffect(() => {
     if (!ready) return;
@@ -24,10 +25,10 @@ export function Guard({
       router.replace("/connect");
       return;
     }
-    if (need === "major" && !state.majorId) {
+    if (need === "major" && !profileReady) {
       router.replace("/major");
     }
-  }, [ready, state.email, state.workdayDemo, state.majorId, need, router]);
+  }, [ready, state.email, state.workdayDemo, profileReady, need, router]);
 
   if (!ready) {
     return (
@@ -39,7 +40,7 @@ export function Guard({
 
   if (!state.email) return null;
   if ((need === "workday" || need === "major") && !state.workdayDemo) return null;
-  if (need === "major" && !state.majorId) return null;
+  if (need === "major" && !profileReady) return null;
 
   return <>{children}</>;
 }

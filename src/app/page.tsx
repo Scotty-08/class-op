@@ -12,13 +12,14 @@ export default function HomePage() {
   const router = useRouter();
   const [email, setLocal] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const profileReady = Boolean(state.majorId && state.yearLevel);
 
   useEffect(() => {
     if (!ready) return;
-    if (state.email && state.workdayDemo && state.majorId) router.replace("/planner");
+    if (state.email && state.workdayDemo && profileReady) router.replace("/planner");
     else if (state.email && state.workdayDemo) router.replace("/major");
     else if (state.email) router.replace("/connect");
-  }, [ready, state.email, state.workdayDemo, state.majorId, router]);
+  }, [ready, state.email, state.workdayDemo, profileReady, router]);
 
   function submit(e: FormEvent) {
     e.preventDefault();
@@ -44,12 +45,12 @@ export default function HomePage() {
           Preview · not an official ISU app
         </p>
         <h1 className="text-4xl font-semibold tracking-tight text-ink sm:text-5xl">
-          Walk less. Cluster more.
-          <span className="block text-cardinal">Class OP for Iowa State.</span>
+          Map what you registered.
+          <span className="block text-cardinal">Walk less at Iowa State.</span>
         </h1>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-muted">
-          Build a weekly schedule from Friley / 212 Beyer Ct, then see morning and afternoon walks on a real campus map.
-          Seeded with the Computer Engineering Fall Y1 Beyer Loop.
+          Class OP puts your registered sections on a real campus map, starting from Friley / 212 Beyer Ct. Demo Workday
+          loads a simulated Fall 2026 week (Beyer Loop). Remaining degree roadmap is secondary — after the map.
         </p>
         <ul className="mt-8 space-y-3 text-sm text-ink">
           <li className="flex gap-3">
@@ -58,11 +59,11 @@ export default function HomePage() {
           </li>
           <li className="flex gap-3">
             <CalendarRange className="mt-0.5 h-5 w-5 text-cardinal" />
-            Demo Workday loads MATH 1650, CPRE 1850, ENGL 1500, CHEM 1670, ENGR 1010, LIB 1600
+            Year + major, then Demo registered schedule (MATH 1650, CPRE 1850, ENGL 1500, CHEM 1670, ENGR 1010, LIB 1600)
           </li>
           <li className="flex gap-3">
             <MapPin className="mt-0.5 h-5 w-5 text-cardinal" />
-            Interactive map: orange home pin, dashed morning (blue) and CHEM (red) routes
+            Day-checkbox map of registered meetings; optional CPRE remaining roadmap for future terms
           </li>
         </ul>
       </section>
