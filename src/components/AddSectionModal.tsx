@@ -5,6 +5,7 @@ import { Search, X } from "lucide-react";
 import type { CatalogSection, Meeting } from "@/lib/types";
 import { formatDays, formatRange, uid } from "@/lib/time";
 import { BUILDING_BY_ID, walkLabel } from "@/lib/buildings";
+import { resolveSectionLocation } from "@/lib/workday-rooms";
 import catalog from "@/data/catalog.json";
 
 export function AddSectionModal({
@@ -41,15 +42,32 @@ export function AddSectionModal({
     return list.slice(0, 80);
   }, [rows, q]);
 
+  function locationFor(row: CatalogSection) {
+    return resolveSectionLocation({
+      course: row.course,
+      section: row.section,
+      catalogBuildingId: row.buildingId,
+      online: row.online,
+      delivery: row.delivery,
+    });
+  }
+
   function add(row: CatalogSection) {
+    const loc = locationFor(row);
+    const online = loc.buildingId === "online" || Boolean(row.online);
     const format =
       row.format === "Lecture" ||
       row.format === "Discussion" ||
       row.format === "Laboratory"
         ? row.format
-        : row.online
+        : online
           ? "Online"
           : "Other";
+    const buildingNote = loc.fromWorkdayRooms
+      ? loc.workdayBuilding
+        ? `Workday ${loc.workdayBuilding}${loc.room ? ` ${loc.room}` : ""}`
+        : "Workday (no building / online)"
+      : "Building inferred (no Workday room row)";
     onAdd({
       id: uid("cat"),
       course: row.course,
@@ -59,11 +77,12 @@ export function AddSectionModal({
       days: row.days,
       start: row.start,
       end: row.end,
-      buildingId: row.buildingId,
+      buildingId: loc.buildingId,
+      room: loc.room,
       color: row.color,
       credits: row.credits,
-      online: row.online,
-      notes: `${row.days_times} · ${row.status} · ${row.openSeats} open (classes.iastate.edu). Building inferred.`,
+      online: online || undefined,
+      notes: `${row.days_times} · ${row.status} · ${row.openSeats} open (classes.iastate.edu). ${buildingNote}.`,
     });
   }
 
@@ -74,7 +93,8 @@ export function AddSectionModal({
           <div>
             <h2 className="text-lg font-semibold text-ink">Add a Fall 2026 section</h2>
             <p className="text-xs text-ink-muted">
-              Trimmed catalog from api.classes.iastate.edu. Rooms are not in the public API — buildings are inferred.
+              Trimmed catalog from api.classes.iastate.edu. Buildings/rooms resolved from Workday
+              rooms dump when available.
             </p>
           </div>
           <button type="button" onClick={onClose} className="rounded-lg p-1 hover:bg-stone-100">
@@ -99,7 +119,14 @@ export function AddSectionModal({
           {rows ? (
             <ul className="divide-y divide-stone-100 rounded-xl border border-stone-200">
               {filtered.map((r, i) => {
-                const b = BUILDING_BY_ID[r.buildingId];
+                const loc = locationFor(r);
+                const b = BUILDING_BY_ID[loc.buildingId];
+                const place =
+                  loc.buildingId === "online"
+                    ? "Online / arranged"
+                    : b
+                      ? `${b.short}${loc.room ? ` ${loc.room}` : ""} (${walkLabel(loc.buildingId)})`
+                      : loc.workdayBuilding || loc.buildingId;
                 return (
                   <li key={`${r.course}-${r.section}-${r.format}-${i}`} className="flex items-center gap-3 px-3 py-2">
                     <div className="h-8 w-1 rounded-full" style={{ background: r.color }} />
@@ -109,8 +136,10 @@ export function AddSectionModal({
                         <span className="font-normal text-ink-muted">{r.format}</span>
                       </div>
                       <div className="truncate text-xs text-ink-muted">
-                        {r.online ? "Online / arranged" : `${formatDays(r.days)} ${formatRange(r.start, r.end)}`}
-                        {b ? ` · ${b.short} (${walkLabel(r.buildingId)})` : ""}
+                        {r.online && loc.buildingId === "online"
+                          ? "Online / arranged"
+                          : `${formatDays(r.days)} ${formatRange(r.start, r.end)}`}
+                        {` · ${place}`}
                         {" · "}
                         {r.status}
                         {typeof r.openSeats === "number" ? ` · ${r.openSeats} open` : ""}
