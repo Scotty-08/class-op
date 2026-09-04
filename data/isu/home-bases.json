@@ -1,0 +1,317 @@
+[
+  {
+    "id": "barton",
+    "name": "Barton",
+    "kind": "dorm",
+    "address": "285 Richardson Ct, Ames, IA 50013",
+    "lat": 42.024236,
+    "lon": -93.641797,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "birch",
+    "name": "Birch",
+    "kind": "dorm",
+    "address": "245 Richardson Ct, Ames, IA 50013",
+    "lat": 42.023631,
+    "lon": -93.641735,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "buchanan",
+    "name": "Buchanan",
+    "kind": "dorm",
+    "address": "2160 Lincoln Way, Ames, IA 50013",
+    "lat": 42.022183,
+    "lon": -93.643978,
+    "notes": "South Campus suite"
+  },
+  {
+    "id": "eaton",
+    "name": "Eaton",
+    "kind": "dorm",
+    "address": "135 Beyer Ct, Ames, IA 50012",
+    "lat": 42.024649,
+    "lon": -93.653023,
+    "notes": "Union Drive suite"
+  },
+  {
+    "id": "elm",
+    "name": "Elm",
+    "kind": "dorm",
+    "address": "455 Richardson Ct, Ames, IA 50013",
+    "lat": 42.025181,
+    "lon": -93.640484,
+    "notes": "Richardson Court / Oak-Elm"
+  },
+  {
+    "id": "freeman",
+    "name": "Freeman",
+    "kind": "dorm",
+    "address": "315 Richardson Ct, Ames, IA 50013",
+    "lat": 42.024842,
+    "lon": -93.641822,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "friley",
+    "name": "Friley",
+    "kind": "dorm",
+    "address": "212 Beyer Ct, Ames, IA 50012",
+    "lat": 42.024181,
+    "lon": -93.650644,
+    "notes": "Union Drive"
+  },
+  {
+    "id": "geoffroy",
+    "name": "Geoffroy",
+    "kind": "dorm",
+    "address": "2152 Lincoln Way, Ames, IA 50013",
+    "lat": 42.0221,
+    "lon": -93.642603,
+    "notes": "South Campus suite"
+  },
+  {
+    "id": "helser",
+    "name": "Helser",
+    "kind": "dorm",
+    "address": "221 Beyer Ct, Ames, IA 50012",
+    "lat": 42.024236,
+    "lon": -93.652007,
+    "notes": "Union Drive"
+  },
+  {
+    "id": "larch",
+    "name": "Larch",
+    "kind": "dorm",
+    "address": "140 Beach Rd, Ames, IA 50013",
+    "lat": 42.023274,
+    "lon": -93.638179,
+    "notes": "Maple-Willow-Larch"
+  },
+  {
+    "id": "linden",
+    "name": "Linden",
+    "kind": "dorm",
+    "address": "218 Richardson Ct, Ames, IA 50013",
+    "lat": 42.023091,
+    "lon": -93.640496,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "lyon",
+    "name": "Lyon",
+    "kind": "dorm",
+    "address": "305 Richardson Ct, Ames, IA 50013",
+    "lat": 42.024566,
+    "lon": -93.642578,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "maple",
+    "name": "Maple",
+    "kind": "dorm",
+    "address": "204 Beach Rd, Ames, IA 50013",
+    "lat": 42.023668,
+    "lon": -93.638873,
+    "notes": "Maple-Willow-Larch"
+  },
+  {
+    "id": "martin",
+    "name": "Martin",
+    "kind": "dorm",
+    "address": "131 Beyer Ct, Ames, IA 50012",
+    "lat": 42.02398,
+    "lon": -93.653197,
+    "notes": "Union Drive suite"
+  },
+  {
+    "id": "oak",
+    "name": "Oak",
+    "kind": "dorm",
+    "address": "455 Richardson Ct, Ames, IA 50013",
+    "lat": 42.025181,
+    "lon": -93.640484,
+    "notes": "Richardson Court / Oak-Elm"
+  },
+  {
+    "id": "roberts",
+    "name": "Roberts",
+    "kind": "dorm",
+    "address": "275 Richardson Ct, Ames, IA 50013",
+    "lat": 42.023943,
+    "lon": -93.642677,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "wallace",
+    "name": "Wallace",
+    "kind": "dorm",
+    "address": "917 Welch Rd, Ames, IA 50013",
+    "lat": 42.014253,
+    "lon": -93.650099,
+    "notes": "Towers"
+  },
+  {
+    "id": "welch",
+    "name": "Welch",
+    "kind": "dorm",
+    "address": "255 Richardson Ct, Ames, IA 50013",
+    "lat": 42.023622,
+    "lon": -93.642231,
+    "notes": "Richardson Court"
+  },
+  {
+    "id": "willow",
+    "name": "Willow",
+    "kind": "dorm",
+    "address": "236 Beach Rd, Ames, IA 50013",
+    "lat": 42.023961,
+    "lon": -93.637907,
+    "notes": "Maple-Willow-Larch"
+  },
+  {
+    "id": "wilson",
+    "name": "Wilson",
+    "kind": "dorm",
+    "address": "926 Hayward Ave, Ames, IA 50014",
+    "lat": 42.01384,
+    "lon": -93.651227,
+    "notes": "Towers"
+  },
+  {
+    "id": "frederiksen-court",
+    "name": "Frederiksen Court",
+    "kind": "dorm",
+    "address": "2129 Hawthorn Court Drive, Ames, IA 50010",
+    "lat": 42.033899,
+    "lon": -93.641327,
+    "notes": "North campus apartments (centroid)"
+  },
+  {
+    "id": "university-village",
+    "name": "University Village",
+    "kind": "dorm",
+    "address": "University Village, Ames, IA 50010",
+    "lat": 42.042654,
+    "lon": -93.642293,
+    "notes": "SUV apartments"
+  },
+  {
+    "id": "schilletter-village",
+    "name": "Schilletter Village",
+    "kind": "dorm",
+    "address": "Schilletter Village, Ames, IA 50010",
+    "lat": 42.042975,
+    "lon": -93.644399,
+    "notes": "Family housing (SUV)"
+  },
+  {
+    "id": "lot-29",
+    "name": "Lot 29",
+    "kind": "commuter_lot",
+    "address": "North of Molecular Biology Building, Ames, IA",
+    "lat": 42.03181,
+    "lon": -93.64971,
+    "notes": "Campus commuter permit \u00b7 north of Molecular Biology (2437 Pammel Dr)"
+  },
+  {
+    "id": "lot-68",
+    "name": "Lot 68",
+    "kind": "commuter_lot",
+    "address": "Near Haber Road / University Boulevard, Ames, IA",
+    "lat": 42.03014,
+    "lon": -93.63916,
+    "notes": "Campus commuter permit \u00b7 east/south campus access"
+  },
+  {
+    "id": "lot-119",
+    "name": "Lot 119",
+    "kind": "commuter_lot",
+    "address": "Wanda Daley Drive & Stange Road, Ames, IA",
+    "lat": 42.03384,
+    "lon": -93.64713,
+    "notes": "Campus commuter permit \u00b7 tunnel toward Printing & Publications"
+  },
+  {
+    "id": "lot-93",
+    "name": "Lots 93/94A/94B (Vet Med)",
+    "kind": "commuter_lot",
+    "address": "Lloyd Veterinary Medical Center, Ames, IA",
+    "lat": 42.00539,
+    "lon": -93.63127,
+    "notes": "Vet Med college students only"
+  },
+  {
+    "id": "isc-b3",
+    "name": "Iowa State Center B3",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0195,
+    "lon": -93.6355,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-c3",
+    "name": "Iowa State Center C3",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0202,
+    "lon": -93.6348,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-c4",
+    "name": "Iowa State Center C4",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0208,
+    "lon": -93.6342,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-c5",
+    "name": "Iowa State Center C5",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0214,
+    "lon": -93.6336,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-d3",
+    "name": "Iowa State Center D3",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.019,
+    "lon": -93.6365,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-d4",
+    "name": "Iowa State Center D4",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0196,
+    "lon": -93.6372,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "isc-d5",
+    "name": "Iowa State Center D5",
+    "kind": "commuter_lot",
+    "address": "Iowa State Center, Ames, IA",
+    "lat": 42.0202,
+    "lon": -93.6378,
+    "notes": "Free designated ISC lot \u00b7 CyRide Orange \u00b7 no overnight"
+  },
+  {
+    "id": "aif",
+    "name": "Ames Intermodal Facility",
+    "kind": "commuter_lot",
+    "address": "Hayward Ave, Ames, IA",
+    "lat": 42.021165,
+    "lon": -93.65254,
+    "notes": "West campus \u00b7 separate AIF permit/lottery"
+  }
+]
