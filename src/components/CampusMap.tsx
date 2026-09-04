@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { MapMode, Meeting } from "@/lib/types";
+import type { DayCode, Meeting } from "@/lib/types";
 
 const Inner = dynamic(() => import("./MapInner"), {
   ssr: false,
@@ -12,6 +12,6 @@ const Inner = dynamic(() => import("./MapInner"), {
   ),
 });
 
-export function CampusMap(props: { meetings: Meeting[]; mode: MapMode }) {
+export function CampusMap(props: { meetings: Meeting[]; selectedDays: DayCode[] }) {
   return <Inner {...props} />;
 }

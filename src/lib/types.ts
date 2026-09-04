@@ -49,4 +49,5 @@ export type AppState = {
   meetings: Meeting[];
 };
 
+/** @deprecated Prefer selectedDays: DayCode[] on CampusMap. */
 export type MapMode = "overview" | "mwf" | "tr";

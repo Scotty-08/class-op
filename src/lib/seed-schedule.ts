@@ -117,15 +117,15 @@ export function beyerLoopSeed(): Meeting[] {
       id: uid("engr"),
       course: "ENGR 1010",
       title: "Engineering Orientation",
-      section: "03",
+      section: "07",
       format: "Lecture",
       days: ["W"],
-      start: "08:50",
-      end: "09:40",
+      start: "09:55",
+      end: "10:45",
       buildingId: "hoover",
       color: "#0d9488",
       credits: "R",
-      notes: "ECpE section. Overlaps MATH 1650 Lec 01 on Wednesday — flag in grid.",
+      notes: "§07 so it does not clash with MATH 8:50. ECpE section at Hoover.",
     },
     {
       id: uid("lib"),
@@ -140,7 +140,8 @@ export function beyerLoopSeed(): Meeting[] {
       color: "#64748b",
       credits: "1",
       online: true,
-      notes: "Online / arranged. Final exam in the ISU Test Center.",
+      notes:
+        "Online / arranged (§10). §04 W 12:05 Parks conflicts Lab A — prefer online. Final exam in the ISU Test Center.",
     },
   ];
 }

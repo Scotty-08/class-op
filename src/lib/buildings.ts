@@ -133,6 +133,43 @@ export function walkLabel(buildingId: string): string {
   return `~${b.walkMin} min walk`;
 }
 
+
+export const DAY_ROUTE_COLORS: Record<"M" | "T" | "W" | "R" | "F", string> = {
+  M: "#2563eb",
+  T: "#16a34a",
+  W: "#0d9488",
+  R: "#6366f1",
+  F: "#7c3aed",
+};
+
+/** Doglegged walk between two lat/lon points so routes read as campus walks. */
+export function walkPath(
+  a: [number, number],
+  b: [number, number],
+  bend = 0.35,
+): [number, number][] {
+  const midLat = (a[0] + b[0]) / 2;
+  const midLon = (a[1] + b[1]) / 2;
+  const dLat = b[0] - a[0];
+  const dLon = b[1] - a[1];
+  // Perpendicular nudge
+  const nudgeLat = -dLon * bend * 0.35;
+  const nudgeLon = dLat * bend * 0.35;
+  return [a, [midLat + nudgeLat, midLon + nudgeLon], b];
+}
+
+export function chainWalk(
+  points: [number, number][],
+): [number, number][] {
+  if (points.length < 2) return points;
+  const out: [number, number][] = [points[0]];
+  for (let i = 0; i < points.length - 1; i++) {
+    const seg = walkPath(points[i], points[i + 1], 0.28 + (i % 3) * 0.08);
+    out.push(...seg.slice(1));
+  }
+  return out;
+}
+
 /** Slightly doglegged paths so routes read as campus walks, not air-lines. */
 export const ROUTES = {
   morningMwf: [
